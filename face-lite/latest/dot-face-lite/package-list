@@ -1,8 +1,43 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
+$dokka.location:com.innovatrics.dot.camera////PointingToDeclaration/dot-face-lite/com.innovatrics.dot.camera/index.html
+$dokka.location:com.innovatrics.dot.camera/CameraFacing.BACK///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-face-lite/com.innovatrics.dot.camera/-camera-facing/-b-a-c-k/index.html
+$dokka.location:com.innovatrics.dot.camera/CameraFacing.FRONT///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-face-lite/com.innovatrics.dot.camera/-camera-facing/-f-r-o-n-t/index.html
+$dokka.location:com.innovatrics.dot.camera/CameraFacing///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.camera/-camera-facing/index.html
+$dokka.location:com.innovatrics.dot.camera/CameraFacing/valueOf/#java.lang.String/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.camera/-camera-facing/value-of.html
+$dokka.location:com.innovatrics.dot.camera/CameraFacing/values/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.camera/-camera-facing/values.html
+$dokka.location:com.innovatrics.dot.camera/CameraPreviewScaleType.FILL///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-face-lite/com.innovatrics.dot.camera/-camera-preview-scale-type/-f-i-l-l/index.html
+$dokka.location:com.innovatrics.dot.camera/CameraPreviewScaleType.FIT///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-face-lite/com.innovatrics.dot.camera/-camera-preview-scale-type/-f-i-t/index.html
+$dokka.location:com.innovatrics.dot.camera/CameraPreviewScaleType///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.camera/-camera-preview-scale-type/index.html
+$dokka.location:com.innovatrics.dot.camera/CameraPreviewScaleType/cameraXScaleType/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.camera/-camera-preview-scale-type/camera-x-scale-type.html
+$dokka.location:com.innovatrics.dot.camera/CameraPreviewScaleType/valueOf/#java.lang.String/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.camera/-camera-preview-scale-type/value-of.html
+$dokka.location:com.innovatrics.dot.camera/CameraPreviewScaleType/values/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.camera/-camera-preview-scale-type/values.html
+$dokka.location:com.innovatrics.dot.core.geometry////PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.geometry/index.html
+$dokka.location:com.innovatrics.dot.core.geometry/PointDouble///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.geometry/-point-double/index.html
+$dokka.location:com.innovatrics.dot.core.geometry/PointDouble/createPoint/#VectorDouble/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.geometry/-point-double/create-point.html
+$dokka.location:com.innovatrics.dot.core.geometry/PointDouble/flipHorizontally/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.geometry/-point-double/flip-horizontally.html
+$dokka.location:com.innovatrics.dot.core.geometry/PointDouble/of/#double#double/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.geometry/-point-double/of.html
+$dokka.location:com.innovatrics.dot.core.geometry/PointDouble/rebaseTo/#com.innovatrics.dot.core.geometry.RectangleDouble/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.geometry/-point-double/rebase-to.html
+$dokka.location:com.innovatrics.dot.core.geometry/PointDouble/toString/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.geometry/-point-double/to-string.html
+$dokka.location:com.innovatrics.dot.core.geometry/PointDouble/x/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.geometry/-point-double/x.html
+$dokka.location:com.innovatrics.dot.core.geometry/PointDouble/y/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.geometry/-point-double/y.html
+$dokka.location:com.innovatrics.dot.core.geometry/RectangleDouble///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.geometry/-rectangle-double/index.html
+$dokka.location:com.innovatrics.dot.core.geometry/RectangleDouble/bottom/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.geometry/-rectangle-double/bottom.html
+$dokka.location:com.innovatrics.dot.core.geometry/RectangleDouble/calculateHeight/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.geometry/-rectangle-double/calculate-height.html
+$dokka.location:com.innovatrics.dot.core.geometry/RectangleDouble/calculateWidth/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.geometry/-rectangle-double/calculate-width.html
+$dokka.location:com.innovatrics.dot.core.geometry/RectangleDouble/left/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.geometry/-rectangle-double/left.html
+$dokka.location:com.innovatrics.dot.core.geometry/RectangleDouble/of/#double#double#double#double/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.geometry/-rectangle-double/of.html
+$dokka.location:com.innovatrics.dot.core.geometry/RectangleDouble/right/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.geometry/-rectangle-double/right.html
+$dokka.location:com.innovatrics.dot.core.geometry/RectangleDouble/toString/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.geometry/-rectangle-double/to-string.html
+$dokka.location:com.innovatrics.dot.core.geometry/RectangleDouble/top/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.geometry/-rectangle-double/top.html
+$dokka.location:com.innovatrics.dot.core.validation////PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.validation/index.html
+$dokka.location:com.innovatrics.dot.core.validation/IntervalDouble///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.validation/-interval-double/index.html
+$dokka.location:com.innovatrics.dot.core.validation/IntervalDouble/max/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.validation/-interval-double/max.html
+$dokka.location:com.innovatrics.dot.core.validation/IntervalDouble/min/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.validation/-interval-double/min.html
+$dokka.location:com.innovatrics.dot.core.validation/IntervalDouble/of/#double#double/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.validation/-interval-double/of.html
 $dokka.location:com.innovatrics.dot.face.commons.autocapture////PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.commons.autocapture/index.html
 $dokka.location:com.innovatrics.dot.face.commons.autocapture/DetectionPosition///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.commons.autocapture/-detection-position/index.html
-$dokka.location:com.innovatrics.dot.face.commons.autocapture/DetectionPosition/DetectionPosition/#[Error type: Unresolved type for PointDouble]#kotlin.Double/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.commons.autocapture/-detection-position/-detection-position.html
+$dokka.location:com.innovatrics.dot.face.commons.autocapture/DetectionPosition/DetectionPosition/#com.innovatrics.dot.core.geometry.PointDouble#kotlin.Double/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.commons.autocapture/-detection-position/-detection-position.html
 $dokka.location:com.innovatrics.dot.face.commons.autocapture/DetectionPosition/center/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.commons.autocapture/-detection-position/center.html
 $dokka.location:com.innovatrics.dot.face.commons.autocapture/DetectionPosition/sizeToImageShorterSideRatio/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.commons.autocapture/-detection-position/size-to-image-shorter-side-ratio.html
 $dokka.location:com.innovatrics.dot.face.commons.autocapture/DetectionPosition/toString/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.commons.autocapture/-detection-position/to-string.html
@@ -62,8 +97,8 @@ $dokka.location:com.innovatrics.dot.face.lite.autocapture////PointingToDeclarati
 $dokka.location:com.innovatrics.dot.face.lite.autocapture/FaceAutoCaptureConfiguration.Builder///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.autocapture/-face-auto-capture-configuration/-builder/index.html
 $dokka.location:com.innovatrics.dot.face.lite.autocapture/FaceAutoCaptureConfiguration.Builder/Builder/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.autocapture/-face-auto-capture-configuration/-builder/-builder.html
 $dokka.location:com.innovatrics.dot.face.lite.autocapture/FaceAutoCaptureConfiguration.Builder/build/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.autocapture/-face-auto-capture-configuration/-builder/build.html
-$dokka.location:com.innovatrics.dot.face.lite.autocapture/FaceAutoCaptureConfiguration.Builder/cameraFacing/#[Error type: Unresolved type for CameraFacing]/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.autocapture/-face-auto-capture-configuration/-builder/camera-facing.html
-$dokka.location:com.innovatrics.dot.face.lite.autocapture/FaceAutoCaptureConfiguration.Builder/cameraPreviewScaleType/#[Error type: Unresolved type for CameraPreviewScaleType]/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.autocapture/-face-auto-capture-configuration/-builder/camera-preview-scale-type.html
+$dokka.location:com.innovatrics.dot.face.lite.autocapture/FaceAutoCaptureConfiguration.Builder/cameraFacing/#com.innovatrics.dot.camera.CameraFacing/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.autocapture/-face-auto-capture-configuration/-builder/camera-facing.html
+$dokka.location:com.innovatrics.dot.face.lite.autocapture/FaceAutoCaptureConfiguration.Builder/cameraPreviewScaleType/#com.innovatrics.dot.camera.CameraPreviewScaleType/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.autocapture/-face-auto-capture-configuration/-builder/camera-preview-scale-type.html
 $dokka.location:com.innovatrics.dot.face.lite.autocapture/FaceAutoCaptureConfiguration.Builder/detectionLayerVisible/#kotlin.Boolean/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.autocapture/-face-auto-capture-configuration/-builder/detection-layer-visible.html
 $dokka.location:com.innovatrics.dot.face.lite.autocapture/FaceAutoCaptureConfiguration.Builder/startQualityAttributeThresholds/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.autocapture/-face-auto-capture-configuration/-builder/start-quality-attribute-thresholds.html
 $dokka.location:com.innovatrics.dot.face.lite.autocapture/FaceAutoCaptureConfiguration///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.autocapture/-face-auto-capture-configuration/index.html
@@ -81,7 +116,7 @@ $dokka.location:com.innovatrics.dot.face.lite.autocapture/FaceAutoCaptureControl
 $dokka.location:com.innovatrics.dot.face.lite.autocapture/FaceAutoCaptureControllerConfiguration.Builder/Builder/#kotlin.collections.List[com.innovatrics.dot.face.lite.autocapture.evaluate.FaceAutoCaptureDetectionValidator]/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.autocapture/-face-auto-capture-controller-configuration/-builder/-builder.html
 $dokka.location:com.innovatrics.dot.face.lite.autocapture/FaceAutoCaptureControllerConfiguration.Builder/build/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.autocapture/-face-auto-capture-controller-configuration/-builder/build.html
 $dokka.location:com.innovatrics.dot.face.lite.autocapture/FaceAutoCaptureControllerConfiguration.Builder/candidateSelectionDurationMillis/#kotlin.Int/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.autocapture/-face-auto-capture-controller-configuration/-builder/candidate-selection-duration-millis.html
-$dokka.location:com.innovatrics.dot.face.lite.autocapture/FaceAutoCaptureControllerConfiguration.Builder/detectionNormalizedRectangle/#[Error type: Unresolved type for RectangleDouble]/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.autocapture/-face-auto-capture-controller-configuration/-builder/detection-normalized-rectangle.html
+$dokka.location:com.innovatrics.dot.face.lite.autocapture/FaceAutoCaptureControllerConfiguration.Builder/detectionNormalizedRectangle/#com.innovatrics.dot.core.geometry.RectangleDouble/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.autocapture/-face-auto-capture-controller-configuration/-builder/detection-normalized-rectangle.html
 $dokka.location:com.innovatrics.dot.face.lite.autocapture/FaceAutoCaptureControllerConfiguration.Builder/minValidFramesInRowToStartCandidateSelection/#kotlin.Int/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.autocapture/-face-auto-capture-controller-configuration/-builder/min-valid-frames-in-row-to-start-candidate-selection.html
 $dokka.location:com.innovatrics.dot.face.lite.autocapture/FaceAutoCaptureControllerConfiguration///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.autocapture/-face-auto-capture-controller-configuration/index.html
 $dokka.location:com.innovatrics.dot.face.lite.autocapture/FaceAutoCaptureControllerFactory///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.autocapture/-face-auto-capture-controller-factory/index.html
@@ -108,10 +143,9 @@ $dokka.location:com.innovatrics.dot.face.lite.autocapture/FaceAutoCaptureResult/
 $dokka.location:com.innovatrics.dot.face.lite.autocapture/FaceAutoCaptureResult/bgraRawImage/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.autocapture/-face-auto-capture-result/bgra-raw-image.html
 $dokka.location:com.innovatrics.dot.face.lite.autocapture/FaceAutoCaptureResult/faceDetectorResult/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.autocapture/-face-auto-capture-result/face-detector-result.html
 $dokka.location:com.innovatrics.dot.face.lite.autocapture/QualityAttributeThresholds.Builder///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.autocapture/-quality-attribute-thresholds/-builder/index.html
-$dokka.location:com.innovatrics.dot.face.lite.autocapture/QualityAttributeThresholds.Builder/Builder/#TypeParam(bounds=[kotlin.Any?])#[Error type: Unresolved type for Consumer<QualityAttributeThresholds>][com.innovatrics.dot.face.lite.autocapture.QualityAttributeThresholds]/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.autocapture/-quality-attribute-thresholds/-builder/-builder.html
 $dokka.location:com.innovatrics.dot.face.lite.autocapture/QualityAttributeThresholds.Builder/end/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.autocapture/-quality-attribute-thresholds/-builder/end.html
 $dokka.location:com.innovatrics.dot.face.lite.autocapture/QualityAttributeThresholds.Builder/minConfidence/#kotlin.Double/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.autocapture/-quality-attribute-thresholds/-builder/min-confidence.html
-$dokka.location:com.innovatrics.dot.face.lite.autocapture/QualityAttributeThresholds.Builder/sizeInterval/#[Error type: Unresolved type for IntervalDouble]/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.autocapture/-quality-attribute-thresholds/-builder/size-interval.html
+$dokka.location:com.innovatrics.dot.face.lite.autocapture/QualityAttributeThresholds.Builder/sizeInterval/#com.innovatrics.dot.core.validation.IntervalDouble/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.autocapture/-quality-attribute-thresholds/-builder/size-interval.html
 $dokka.location:com.innovatrics.dot.face.lite.autocapture/QualityAttributeThresholds///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.autocapture/-quality-attribute-thresholds/index.html
 $dokka.location:com.innovatrics.dot.face.lite.autocapture/QualityAttributeThresholds/minConfidence/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.autocapture/-quality-attribute-thresholds/min-confidence.html
 $dokka.location:com.innovatrics.dot.face.lite.autocapture/QualityAttributeThresholds/sizeInterval/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.autocapture/-quality-attribute-thresholds/size-interval.html
@@ -128,7 +162,7 @@ $dokka.location:com.innovatrics.dot.face.lite.detection/FaceDetectorFactory/crea
 $dokka.location:com.innovatrics.dot.face.lite.image////PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.image/index.html
 $dokka.location:com.innovatrics.dot.face.lite.image/BgraRawImageFactory///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.image/-bgra-raw-image-factory/index.html
 $dokka.location:com.innovatrics.dot.face.lite.image/BgraRawImageFactory/create/#[Error type: Unresolved type for ImageProxy]/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.image/-bgra-raw-image-factory/create.html
-$dokka.location:com.innovatrics.dot.face.lite.image/BgraRawImageFactory/create/#[Error type: Unresolved type for Nv21Image]/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.image/-bgra-raw-image-factory/create.html
+$dokka.location:com.innovatrics.dot.face.lite.image/BgraRawImageFactory/create/#com.innovatrics.dot.image.Nv21Image/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.image/-bgra-raw-image-factory/create.html
 $dokka.location:com.innovatrics.dot.face.lite.image/ImageParameters///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.image/-image-parameters/index.html
 $dokka.location:com.innovatrics.dot.face.lite.image/ImageParameters/ImageParameters/#kotlin.Double#kotlin.Double/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.image/-image-parameters/-image-parameters.html
 $dokka.location:com.innovatrics.dot.face.lite.image/ImageParameters/brightness/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.image/-image-parameters/brightness.html
@@ -139,13 +173,33 @@ $dokka.location:com.innovatrics.dot.face.lite/DotFaceLiteLibrary///PointingToDec
 $dokka.location:com.innovatrics.dot.face.lite/DotFaceLiteLibrary/versionName/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite/-dot-face-lite-library/version-name.html
 $dokka.location:com.innovatrics.dot.image////PointingToDeclaration/dot-face-lite/com.innovatrics.dot.image/index.html
 $dokka.location:com.innovatrics.dot.image/BgraRawImage.Companion///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.image/-bgra-raw-image/-companion/index.html
-$dokka.location:com.innovatrics.dot.image/BgraRawImage.Companion/of/#[Error type: Unresolved type for ImageSize]#kotlin.ByteArray/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.image/-bgra-raw-image/-companion/of.html
+$dokka.location:com.innovatrics.dot.image/BgraRawImage.Companion/of/#com.innovatrics.dot.image.ImageSize#kotlin.ByteArray/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.image/-bgra-raw-image/-companion/of.html
 $dokka.location:com.innovatrics.dot.image/BgraRawImage///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.image/-bgra-raw-image/index.html
-$dokka.location:com.innovatrics.dot.image/BgraRawImage/BgraRawImage/#[Error type: Unresolved type for ImageSize]#kotlin.ByteArray/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.image/-bgra-raw-image/-bgra-raw-image.html
+$dokka.location:com.innovatrics.dot.image/BgraRawImage/BgraRawImage/#com.innovatrics.dot.image.ImageSize#kotlin.ByteArray/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.image/-bgra-raw-image/-bgra-raw-image.html
 $dokka.location:com.innovatrics.dot.image/BgraRawImage/bytes/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.image/-bgra-raw-image/bytes.html
 $dokka.location:com.innovatrics.dot.image/BgraRawImage/equals/#kotlin.Any?/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.image/-bgra-raw-image/equals.html
 $dokka.location:com.innovatrics.dot.image/BgraRawImage/hashCode/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.image/-bgra-raw-image/hash-code.html
 $dokka.location:com.innovatrics.dot.image/BgraRawImage/size/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.image/-bgra-raw-image/size.html
+$dokka.location:com.innovatrics.dot.image/ImageSize///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.image/-image-size/index.html
+$dokka.location:com.innovatrics.dot.image/ImageSize/calculatePixelCount/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.image/-image-size/calculate-pixel-count.html
+$dokka.location:com.innovatrics.dot.image/ImageSize/calculateWidthToHeightRatio/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.image/-image-size/calculate-width-to-height-ratio.html
+$dokka.location:com.innovatrics.dot.image/ImageSize/convertRatioToShorterSideToWidth/#double/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.image/-image-size/convert-ratio-to-shorter-side-to-width.html
+$dokka.location:com.innovatrics.dot.image/ImageSize/equals/#java.lang.Object/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.image/-image-size/equals.html
+$dokka.location:com.innovatrics.dot.image/ImageSize/hashCode/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.image/-image-size/hash-code.html
+$dokka.location:com.innovatrics.dot.image/ImageSize/height/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.image/-image-size/height.html
+$dokka.location:com.innovatrics.dot.image/ImageSize/of/#int#int/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.image/-image-size/of.html
+$dokka.location:com.innovatrics.dot.image/ImageSize/resolveShorterSide/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.image/-image-size/resolve-shorter-side.html
+$dokka.location:com.innovatrics.dot.image/ImageSize/toString/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.image/-image-size/to-string.html
+$dokka.location:com.innovatrics.dot.image/ImageSize/width/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.image/-image-size/width.html
+$dokka.location:com.innovatrics.dot.image/Nv21Image///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.image/-nv21-image/index.html
+$dokka.location:com.innovatrics.dot.image/Nv21Image/bytes/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.image/-nv21-image/bytes.html
+$dokka.location:com.innovatrics.dot.image/Nv21Image/calculateImageSizeInUprightPosition/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.image/-nv21-image/calculate-image-size-in-upright-position.html
+$dokka.location:com.innovatrics.dot.image/Nv21Image/of/#com.innovatrics.dot.image.ImageSize#ImageRotation#byte[]/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.image/-nv21-image/of.html
+$dokka.location:com.innovatrics.dot.image/Nv21Image/rotation/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.image/-nv21-image/rotation.html
+$dokka.location:com.innovatrics.dot.image/Nv21Image/size/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.image/-nv21-image/size.html
+com.innovatrics.dot.camera
+com.innovatrics.dot.core.geometry
+com.innovatrics.dot.core.validation
 com.innovatrics.dot.face.commons.autocapture
 com.innovatrics.dot.face.lite
 com.innovatrics.dot.face.lite.autocapture

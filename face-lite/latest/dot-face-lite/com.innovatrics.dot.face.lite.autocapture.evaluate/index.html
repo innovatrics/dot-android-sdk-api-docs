@@ -6,10 +6,18 @@
     <link href="../../images/logo-icon.svg" rel="icon" type="image/svg">
     <script>var pathToRoot = "../../";</script>
     <script>const storage = localStorage.getItem("dokka-dark-mode")
-const savedDarkMode = storage ? JSON.parse(storage) : false
-if(savedDarkMode === true){
-    document.getElementsByTagName("html")[0].classList.add("theme-dark")
-}</script>
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
 <script type="text/javascript" src="../../scripts/sourceset_dependencies.js" async="async"></script>
 <link href="../../styles/style.css" rel="Stylesheet">
 <link href="../../styles/jetbrains-mono.css" rel="Stylesheet">
@@ -21,6 +29,7 @@ if(savedDarkMode === true){
 <script type="text/javascript" src="../../scripts/platform-content-handler.js" async="async"></script>
 <script type="text/javascript" src="../../scripts/main.js" defer="defer"></script>
 <script type="text/javascript" src="../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
 </head>
 <body>
 <div class="navigation-wrapper" id="navigation-wrapper">
@@ -31,7 +40,7 @@ if(savedDarkMode === true){
             </a>
     </div>
     <div>
-1.1.2    </div>
+1.1.3    </div>
     <div class="pull-right d-flex">
         <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
         <div id="searchBar"></div>
@@ -43,9 +52,9 @@ if(savedDarkMode === true){
     </div>
     <div id="main">
 <div class="main-content" id="content" pageIds="dot-face-lite::com.innovatrics.dot.face.lite.autocapture.evaluate////PointingToDeclaration//-1232715435">
-  <div class="breadcrumbs"><a href="../../index.html">dot-face-lite</a><span class="delimiter">/</span><a href="index.html">com.innovatrics.dot.face.lite.autocapture.evaluate</a></div>
+  <div class="breadcrumbs"><a href="../../index.html">dot-face-lite</a><span class="delimiter">/</span><span class="current">com.innovatrics.dot.face.lite.autocapture.evaluate</span></div>
   <div class="cover ">
-    <h1 class="cover"><span><span>Package</span></span> <span>com.</span><wbr></wbr><span>innovatrics.</span><wbr></wbr><span>dot.</span><wbr></wbr><span>face.</span><wbr></wbr><span>lite.</span><wbr></wbr><span>autocapture.</span><wbr></wbr><span>evaluate</span></h1>
+    <h1 class="cover"><span><span>Package-level</span></span> <span><span>declarations</span></span></h1>
   </div>
   <div class="tabbedcontent">
     <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Types">Types</button></div>
@@ -61,7 +70,7 @@ if(savedDarkMode === true){
                 </span></span></div>
             <div>
               <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":dot-face-lite:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">class </span><a href="-brightness-too-high-validator/index.html">BrightnessTooHighValidator</a> : <a href="-face-auto-capture-detection-validator/index.html">FaceAutoCaptureDetectionValidator</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Too high brightness validation.</p></div></div></div>
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-lite:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">class </span><a href="-brightness-too-high-validator/index.html">BrightnessTooHighValidator</a> : <a href="-face-auto-capture-detection-validator/index.html">FaceAutoCaptureDetectionValidator</a></div><div class="brief "><p class="paragraph">Too high brightness validation.</p></div></div></div>
               </div>
             </div>
           </div>
@@ -76,7 +85,7 @@ if(savedDarkMode === true){
                 </span></span></div>
             <div>
               <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":dot-face-lite:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">class </span><a href="-brightness-too-low-validator/index.html">BrightnessTooLowValidator</a> : <a href="-face-auto-capture-detection-validator/index.html">FaceAutoCaptureDetectionValidator</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Too low brightness validation.</p></div></div></div>
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-lite:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">class </span><a href="-brightness-too-low-validator/index.html">BrightnessTooLowValidator</a> : <a href="-face-auto-capture-detection-validator/index.html">FaceAutoCaptureDetectionValidator</a></div><div class="brief "><p class="paragraph">Too low brightness validation.</p></div></div></div>
               </div>
             </div>
           </div>
@@ -91,7 +100,7 @@ if(savedDarkMode === true){
                 </span></span></div>
             <div>
               <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":dot-face-lite:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-face-auto-capture-detection-validator/index.html">FaceAutoCaptureDetectionValidator</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Validator of the Face Auto Capture detection data.</p></div></div></div>
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-lite:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-face-auto-capture-detection-validator/index.html">FaceAutoCaptureDetectionValidator</a></div><div class="brief "><p class="paragraph">Validator of the Face Auto Capture detection data.</p></div></div></div>
               </div>
             </div>
           </div>
@@ -106,7 +115,7 @@ if(savedDarkMode === true){
                 </span></span></div>
             <div>
               <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":dot-face-lite:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-face-auto-capture-frame-parameters/index.html">FaceAutoCaptureFrameParameters</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>faceDetectorResult<span class="token operator">: </span><a href="../com.innovatrics.dot.face.lite.detection/-face-detector/-result/index.html">FaceDetector.Result</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>detectionPosition<span class="token operator">: </span><a href="../com.innovatrics.dot.face.commons.autocapture/-detection-position/index.html">DetectionPosition</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Image frame parameters of the Face Auto Capture.</p></div></div></div>
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-lite:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-face-auto-capture-frame-parameters/index.html">FaceAutoCaptureFrameParameters</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>faceDetectorResult<span class="token operator">: </span><a href="../com.innovatrics.dot.face.lite.detection/-face-detector/-result/index.html">FaceDetector.Result</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>detectionPosition<span class="token operator">: </span><a href="../com.innovatrics.dot.face.commons.autocapture/-detection-position/index.html">DetectionPosition</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Image frame parameters of the Face Auto Capture.</p></div></div></div>
               </div>
             </div>
           </div>
@@ -121,7 +130,7 @@ if(savedDarkMode === true){
                 </span></span></div>
             <div>
               <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":dot-face-lite:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">class </span><a href="-face-not-detected-validator/index.html">FaceNotDetectedValidator</a> : <a href="-face-auto-capture-detection-validator/index.html">FaceAutoCaptureDetectionValidator</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Face presence validation.</p></div></div></div>
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-lite:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">class </span><a href="-face-not-detected-validator/index.html">FaceNotDetectedValidator</a> : <a href="-face-auto-capture-detection-validator/index.html">FaceAutoCaptureDetectionValidator</a></div><div class="brief "><p class="paragraph">Face presence validation.</p></div></div></div>
               </div>
             </div>
           </div>
@@ -136,7 +145,7 @@ if(savedDarkMode === true){
                 </span></span></div>
             <div>
               <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":dot-face-lite:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">class </span><a href="-face-out-of-bounds-validator/index.html">FaceOutOfBoundsValidator</a> : <a href="-face-auto-capture-detection-validator/index.html">FaceAutoCaptureDetectionValidator</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Face position validation.</p></div></div></div>
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-lite:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">class </span><a href="-face-out-of-bounds-validator/index.html">FaceOutOfBoundsValidator</a> : <a href="-face-auto-capture-detection-validator/index.html">FaceAutoCaptureDetectionValidator</a></div><div class="brief "><p class="paragraph">Face position validation.</p></div></div></div>
               </div>
             </div>
           </div>
@@ -151,7 +160,7 @@ if(savedDarkMode === true){
                 </span></span></div>
             <div>
               <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":dot-face-lite:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">class </span><a href="-sharpness-too-low-validator/index.html">SharpnessTooLowValidator</a> : <a href="-face-auto-capture-detection-validator/index.html">FaceAutoCaptureDetectionValidator</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Too low sharpness validation.</p></div></div></div>
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-lite:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">class </span><a href="-sharpness-too-low-validator/index.html">SharpnessTooLowValidator</a> : <a href="-face-auto-capture-detection-validator/index.html">FaceAutoCaptureDetectionValidator</a></div><div class="brief "><p class="paragraph">Too low sharpness validation.</p></div></div></div>
               </div>
             </div>
           </div>
@@ -166,7 +175,7 @@ if(savedDarkMode === true){
                 </span></span></div>
             <div>
               <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":dot-face-lite:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">class </span><a href="-size-too-large-validator/index.html">SizeTooLargeValidator</a> : <a href="-face-auto-capture-detection-validator/index.html">FaceAutoCaptureDetectionValidator</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Too large size validation.</p></div></div></div>
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-lite:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">class </span><a href="-size-too-large-validator/index.html">SizeTooLargeValidator</a> : <a href="-face-auto-capture-detection-validator/index.html">FaceAutoCaptureDetectionValidator</a></div><div class="brief "><p class="paragraph">Too large size validation.</p></div></div></div>
               </div>
             </div>
           </div>
@@ -181,7 +190,7 @@ if(savedDarkMode === true){
                 </span></span></div>
             <div>
               <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":dot-face-lite:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">class </span><a href="-size-too-small-validator/index.html">SizeTooSmallValidator</a> : <a href="-face-auto-capture-detection-validator/index.html">FaceAutoCaptureDetectionValidator</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Too small size validation.</p></div></div></div>
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-lite:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">class </span><a href="-size-too-small-validator/index.html">SizeTooSmallValidator</a> : <a href="-face-auto-capture-detection-validator/index.html">FaceAutoCaptureDetectionValidator</a></div><div class="brief "><p class="paragraph">Too small size validation.</p></div></div></div>
               </div>
             </div>
           </div>

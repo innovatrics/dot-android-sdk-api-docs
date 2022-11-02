@@ -31,10 +31,12 @@ $dokka.location:com.innovatrics.dot.core.geometry/RectangleDouble/right/#/Pointi
 $dokka.location:com.innovatrics.dot.core.geometry/RectangleDouble/toString/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.geometry/-rectangle-double/to-string.html
 $dokka.location:com.innovatrics.dot.core.geometry/RectangleDouble/top/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.geometry/-rectangle-double/top.html
 $dokka.location:com.innovatrics.dot.core.validation////PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.validation/index.html
+$dokka.location:com.innovatrics.dot.core.validation/IntervalDouble.Companion///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.validation/-interval-double/-companion/index.html
+$dokka.location:com.innovatrics.dot.core.validation/IntervalDouble.Companion/of/#kotlin.Double#kotlin.Double/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.validation/-interval-double/-companion/of.html
 $dokka.location:com.innovatrics.dot.core.validation/IntervalDouble///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.validation/-interval-double/index.html
+$dokka.location:com.innovatrics.dot.core.validation/IntervalDouble/IntervalDouble/#kotlin.Double#kotlin.Double/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.validation/-interval-double/-interval-double.html
 $dokka.location:com.innovatrics.dot.core.validation/IntervalDouble/max/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.validation/-interval-double/max.html
 $dokka.location:com.innovatrics.dot.core.validation/IntervalDouble/min/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.validation/-interval-double/min.html
-$dokka.location:com.innovatrics.dot.core.validation/IntervalDouble/of/#double#double/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.validation/-interval-double/of.html
 $dokka.location:com.innovatrics.dot.face.commons.autocapture////PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.commons.autocapture/index.html
 $dokka.location:com.innovatrics.dot.face.commons.autocapture/DetectionPosition///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.commons.autocapture/-detection-position/index.html
 $dokka.location:com.innovatrics.dot.face.commons.autocapture/DetectionPosition/DetectionPosition/#com.innovatrics.dot.core.geometry.PointDouble#kotlin.Double/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.commons.autocapture/-detection-position/-detection-position.html

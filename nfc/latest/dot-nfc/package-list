@@ -122,6 +122,8 @@ $dokka.location:com.innovatrics.dot.nfc/AdditionalPersonalDetails/title/#/Pointi
 $dokka.location:com.innovatrics.dot.nfc/DisplayedSignatureOrUsualMark///PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-displayed-signature-or-usual-mark/index.html
 $dokka.location:com.innovatrics.dot.nfc/DisplayedSignatureOrUsualMark/DisplayedSignatureOrUsualMark/#com.innovatrics.dot.image.Image?/PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-displayed-signature-or-usual-mark/-displayed-signature-or-usual-mark.html
 $dokka.location:com.innovatrics.dot.nfc/DisplayedSignatureOrUsualMark/displayedSignatureOrUsualMarkImage/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-displayed-signature-or-usual-mark/displayed-signature-or-usual-mark-image.html
+$dokka.location:com.innovatrics.dot.nfc/DotNfcLibrary///PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-dot-nfc-library/index.html
+$dokka.location:com.innovatrics.dot.nfc/DotNfcLibrary/versionName/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-dot-nfc-library/version-name.html
 $dokka.location:com.innovatrics.dot.nfc/EncodedIdentificationFeaturesFace///PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-encoded-identification-features-face/index.html
 $dokka.location:com.innovatrics.dot.nfc/EncodedIdentificationFeaturesFace/EncodedIdentificationFeaturesFace/#com.innovatrics.dot.image.Image?/PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-encoded-identification-features-face/-encoded-identification-features-face.html
 $dokka.location:com.innovatrics.dot.nfc/EncodedIdentificationFeaturesFace/faceImage/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-encoded-identification-features-face/face-image.html

@@ -6,6 +6,10 @@ $dokka.location:com.innovatrics.dot.camera/CameraFacing.FRONT///PointingToDeclar
 $dokka.location:com.innovatrics.dot.camera/CameraFacing///PointingToDeclaration/dot-document/com.innovatrics.dot.camera/-camera-facing/index.html
 $dokka.location:com.innovatrics.dot.camera/CameraFacing/valueOf/#kotlin.String/PointingToDeclaration/dot-document/com.innovatrics.dot.camera/-camera-facing/value-of.html
 $dokka.location:com.innovatrics.dot.camera/CameraFacing/values/#/PointingToDeclaration/dot-document/com.innovatrics.dot.camera/-camera-facing/values.html
+$dokka.location:com.innovatrics.dot.camera/CameraPreviewFragment.Companion///PointingToDeclaration/dot-document/com.innovatrics.dot.camera/-camera-preview-fragment/-companion/index.html
+$dokka.location:com.innovatrics.dot.camera/CameraPreviewFragment///PointingToDeclaration/dot-document/com.innovatrics.dot.camera/-camera-preview-fragment/index.html
+$dokka.location:com.innovatrics.dot.camera/CameraPreviewFragment/CameraPreviewFragment/#/PointingToDeclaration/dot-document/com.innovatrics.dot.camera/-camera-preview-fragment/-camera-preview-fragment.html
+$dokka.location:com.innovatrics.dot.camera/CameraPreviewFragment/onNoCameraPermission/#/PointingToDeclaration/dot-document/com.innovatrics.dot.camera/-camera-preview-fragment/on-no-camera-permission.html
 $dokka.location:com.innovatrics.dot.camera/CameraPreviewScaleType.FILL///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-document/com.innovatrics.dot.camera/-camera-preview-scale-type/-f-i-l-l/index.html
 $dokka.location:com.innovatrics.dot.camera/CameraPreviewScaleType.FIT///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-document/com.innovatrics.dot.camera/-camera-preview-scale-type/-f-i-t/index.html
 $dokka.location:com.innovatrics.dot.camera/CameraPreviewScaleType///PointingToDeclaration/dot-document/com.innovatrics.dot.camera/-camera-preview-scale-type/index.html
@@ -149,6 +153,11 @@ $dokka.location:com.innovatrics.dot.document.autocapture/DocumentAutoCaptureResu
 $dokka.location:com.innovatrics.dot.document.autocapture/DocumentAutoCaptureResult/documentDetectorResult/#/PointingToDeclaration/dot-document/com.innovatrics.dot.document.autocapture/-document-auto-capture-result/document-detector-result.html
 $dokka.location:com.innovatrics.dot.document.autocapture/DocumentAutoCaptureResult/machineReadableZone/#/PointingToDeclaration/dot-document/com.innovatrics.dot.document.autocapture/-document-auto-capture-result/machine-readable-zone.html
 $dokka.location:com.innovatrics.dot.document.autocapture/DocumentAutoCaptureResult/travelDocumentType/#/PointingToDeclaration/dot-document/com.innovatrics.dot.document.autocapture/-document-auto-capture-result/travel-document-type.html
+$dokka.location:com.innovatrics.dot.document.autocapture/Phase.CANDIDATE_SELECTION///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-document/com.innovatrics.dot.document.autocapture/-phase/-c-a-n-d-i-d-a-t-e_-s-e-l-e-c-t-i-o-n/index.html
+$dokka.location:com.innovatrics.dot.document.autocapture/Phase.PRE_CANDIDATE_SELECTION///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-document/com.innovatrics.dot.document.autocapture/-phase/-p-r-e_-c-a-n-d-i-d-a-t-e_-s-e-l-e-c-t-i-o-n/index.html
+$dokka.location:com.innovatrics.dot.document.autocapture/Phase///PointingToDeclaration/dot-document/com.innovatrics.dot.document.autocapture/-phase/index.html
+$dokka.location:com.innovatrics.dot.document.autocapture/Phase/valueOf/#kotlin.String/PointingToDeclaration/dot-document/com.innovatrics.dot.document.autocapture/-phase/value-of.html
+$dokka.location:com.innovatrics.dot.document.autocapture/Phase/values/#/PointingToDeclaration/dot-document/com.innovatrics.dot.document.autocapture/-phase/values.html
 $dokka.location:com.innovatrics.dot.document.autocapture/QualityAttributeThresholds.Builder///PointingToDeclaration/dot-document/com.innovatrics.dot.document.autocapture/-quality-attribute-thresholds/-builder/index.html
 $dokka.location:com.innovatrics.dot.document.autocapture/QualityAttributeThresholds.Builder/brightnessInterval/#com.innovatrics.dot.core.validation.IntervalDouble/PointingToDeclaration/dot-document/com.innovatrics.dot.document.autocapture/-quality-attribute-thresholds/-builder/brightness-interval.html
 $dokka.location:com.innovatrics.dot.document.autocapture/QualityAttributeThresholds.Builder/end/#/PointingToDeclaration/dot-document/com.innovatrics.dot.document.autocapture/-quality-attribute-thresholds/-builder/end.html
@@ -225,6 +234,9 @@ $dokka.location:com.innovatrics.dot.document.mrz/TravelDocumentType/countOfChara
 $dokka.location:com.innovatrics.dot.document.mrz/TravelDocumentType/countOfLines/#/PointingToDeclaration/dot-document/com.innovatrics.dot.document.mrz/-travel-document-type/count-of-lines.html
 $dokka.location:com.innovatrics.dot.document.mrz/TravelDocumentType/valueOf/#kotlin.String/PointingToDeclaration/dot-document/com.innovatrics.dot.document.mrz/-travel-document-type/value-of.html
 $dokka.location:com.innovatrics.dot.document.mrz/TravelDocumentType/values/#/PointingToDeclaration/dot-document/com.innovatrics.dot.document.mrz/-travel-document-type/values.html
+$dokka.location:com.innovatrics.dot.document////PointingToDeclaration/dot-document/com.innovatrics.dot.document/index.html
+$dokka.location:com.innovatrics.dot.document/DotDocumentLibrary///PointingToDeclaration/dot-document/com.innovatrics.dot.document/-dot-document-library/index.html
+$dokka.location:com.innovatrics.dot.document/DotDocumentLibrary/versionName/#/PointingToDeclaration/dot-document/com.innovatrics.dot.document/-dot-document-library/version-name.html
 $dokka.location:com.innovatrics.dot.image////PointingToDeclaration/dot-document/com.innovatrics.dot.image/index.html
 $dokka.location:com.innovatrics.dot.image/BgraRawImage.Companion///PointingToDeclaration/dot-document/com.innovatrics.dot.image/-bgra-raw-image/-companion/index.html
 $dokka.location:com.innovatrics.dot.image/BgraRawImage.Companion/of/#com.innovatrics.dot.image.ImageSize#kotlin.ByteArray/PointingToDeclaration/dot-document/com.innovatrics.dot.image/-bgra-raw-image/-companion/of.html
@@ -262,6 +274,7 @@ $dokka.location:com.innovatrics.dot.image/Nv21Image/size/#/PointingToDeclaration
 com.innovatrics.dot.camera
 com.innovatrics.dot.core.geometry
 com.innovatrics.dot.core.validation
+com.innovatrics.dot.document
 com.innovatrics.dot.document.autocapture
 com.innovatrics.dot.document.autocapture.evaluate
 com.innovatrics.dot.document.detection

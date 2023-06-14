@@ -23,7 +23,7 @@ $dokka.location:com.innovatrics.dot.image/ImageSize/height/#/PointingToDeclarati
 $dokka.location:com.innovatrics.dot.image/ImageSize/width/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.image/-image-size/width.html
 $dokka.location:com.innovatrics.dot.nfc.access////PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc.access/index.html
 $dokka.location:com.innovatrics.dot.nfc.access/AccessControlException///PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc.access/-access-control-exception/index.html
-$dokka.location:com.innovatrics.dot.nfc.access/AccessControlException/AccessControlException/#kotlin.String/PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc.access/-access-control-exception/-access-control-exception.html
+$dokka.location:com.innovatrics.dot.nfc.access/AccessControlException/AccessControlException/#kotlin.String#kotlin.Throwable/PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc.access/-access-control-exception/-access-control-exception.html
 $dokka.location:com.innovatrics.dot.nfc.access/AccessControlProtocol.BAC///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-nfc/com.innovatrics.dot.nfc.access/-access-control-protocol/-b-a-c/index.html
 $dokka.location:com.innovatrics.dot.nfc.access/AccessControlProtocol.PACE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-nfc/com.innovatrics.dot.nfc.access/-access-control-protocol/-p-a-c-e/index.html
 $dokka.location:com.innovatrics.dot.nfc.access/AccessControlProtocol///PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc.access/-access-control-protocol/index.html

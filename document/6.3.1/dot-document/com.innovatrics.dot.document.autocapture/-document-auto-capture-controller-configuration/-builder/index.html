@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>Builder</title>
+    <link href="../../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../../styles/style.css" rel="Stylesheet">
+<link href="../../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../../styles/main.css" rel="Stylesheet">
+<link href="../../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../../index.html">
+                    <span>dot-document</span>
+            </a>
+    </div>
+    <div>
+6.3.1    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="dot-document::com.innovatrics.dot.document.autocapture/DocumentAutoCaptureControllerConfiguration.Builder///PointingToDeclaration//-1161857762">
+  <div class="breadcrumbs"><a href="../../../../index.html">dot-document</a><span class="delimiter">/</span><a href="../../index.html">com.innovatrics.dot.document.autocapture</a><span class="delimiter">/</span><a href="../index.html">DocumentAutoCaptureControllerConfiguration</a><span class="delimiter">/</span><span class="current">Builder</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Builder</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">Builder</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a><span class="token punctuation">, </span></span><span class="parameter ">validators<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="../../../com.innovatrics.dot.document.autocapture.evaluate/-document-auto-capture-detection-validator/index.html">DocumentAutoCaptureDetectionValidator</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span></div><p class="paragraph">Configuration builder.</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Constructors">Constructors</button><button class="section-tab" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="Parameters">Parameters</button><button class="section-tab" data-togglable="Throws">Throws</button></div>
+    <div class="tabs-section-body">
+      <h4 class="">Parameters</h4>
+      <div data-togglable="Parameters">
+        <div class="platform-hinted WithExtraAttributes" data-platform-hinted="data-platform-hinted" data-togglable="Parameters"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><div data-togglable="Parameters"><div class="table" data-togglable="Parameters"><div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><u><span><span>context</span></span></u></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">Android context.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><u><span><span>validators</span></span></u></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">List of validators. Validations are applied in the same order in which they are stored in the list.</p></div></div></div></div></div></div></div></div></div>
+      </div>
+      <h4 class="">Throws</h4>
+      <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><div class="table" data-togglable="Throws"><div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-illegal-argument-exception/index.html"><span>Illegal</span><wbr></wbr><span>Argument</span><wbr></wbr><span><span>Exception</span></span></a></div></span></div><div><div class="title"><p class="paragraph">if any of the validators has a missing dependency.</p></div></div></div></div></div></div></div>
+      <h2 class="tabbedcontent">Constructors</h2>
+      <div class="table" data-togglable="Constructors"><a data-name="-1398938083%2FConstructors%2F-1161857762" anchor-label="Builder" id="-1398938083%2FConstructors%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue TabbedContent">
+            <div class=""><span class="inline-flex">
+                <div><a href="-builder.html"><span><span>Builder</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1398938083%2FConstructors%2F-1161857762"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="-builder.html"><span class="token function">Builder</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a><span class="token punctuation">, </span></span><span class="parameter ">validators<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="../../../com.innovatrics.dot.document.autocapture.evaluate/-document-auto-capture-detection-validator/index.html">DocumentAutoCaptureDetectionValidator</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Functions</h2>
+      <div class="table" data-togglable="Functions"><a data-name="477487870%2FFunctions%2F-1161857762" anchor-label="build" id="477487870%2FFunctions%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="build.html"><span><span>build</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="477487870%2FFunctions%2F-1161857762"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="build.html"><span class="token function">build</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../index.html">DocumentAutoCaptureControllerConfiguration</a></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-2001053431%2FFunctions%2F-1161857762" anchor-label="candidateSelectionDurationMillis" id="-2001053431%2FFunctions%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="candidate-selection-duration-millis.html"><span>candidate</span><wbr></wbr><span>Selection</span><wbr></wbr><span>Duration</span><wbr></wbr><span><span>Millis</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2001053431%2FFunctions%2F-1161857762"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="candidate-selection-duration-millis.html"><span class="token function">candidateSelectionDurationMillis</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">candidateSelectionDurationMillis<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">DocumentAutoCaptureControllerConfiguration.Builder</a></div><div class="brief "><p class="paragraph">Duration of candidate selection in milliseconds.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1070124874%2FFunctions%2F-1161857762" anchor-label="detectionNormalizedRectangle" id="1070124874%2FFunctions%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="detection-normalized-rectangle.html"><span>detection</span><wbr></wbr><span>Normalized</span><wbr></wbr><span><span>Rectangle</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1070124874%2FFunctions%2F-1161857762"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="detection-normalized-rectangle.html"><span class="token function">detectionNormalizedRectangle</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">detectionNormalizedRectangle<span class="token operator">: </span><span data-unresolved-link="com.innovatrics.dot.core.geometry/RectangleDouble///PointingToDeclaration/">RectangleDouble</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">DocumentAutoCaptureControllerConfiguration.Builder</a></div><div class="brief "><p class="paragraph">Rectangle of a submitted image (via the <a href="../../-document-auto-capture-controller/process.html">DocumentAutoCaptureController.process</a> method) where a document should be detected. The rectangle defines an area inside the image.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="983084266%2FFunctions%2F-1161857762" anchor-label="imageParametersNormalizedRectangle" id="983084266%2FFunctions%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="image-parameters-normalized-rectangle.html"><span>image</span><wbr></wbr><span>Parameters</span><wbr></wbr><span>Normalized</span><wbr></wbr><span><span>Rectangle</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="983084266%2FFunctions%2F-1161857762"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="image-parameters-normalized-rectangle.html"><span class="token function">imageParametersNormalizedRectangle</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">imageParametersNormalizedRectangle<span class="token operator">: </span><span data-unresolved-link="com.innovatrics.dot.core.geometry/RectangleDouble///PointingToDeclaration/">RectangleDouble</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">DocumentAutoCaptureControllerConfiguration.Builder</a></div><div class="brief "><p class="paragraph">Rectangle of a submitted image (via the <a href="../../-document-auto-capture-controller/process.html">DocumentAutoCaptureController.process</a> method) where image parameters should be calculated. The rectangle defines an area inside the image.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1400114081%2FFunctions%2F-1161857762" anchor-label="minValidFramesInRowToStartCandidateSelection" id="1400114081%2FFunctions%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="min-valid-frames-in-row-to-start-candidate-selection.html"><span>min</span><wbr></wbr><span>Valid</span><wbr></wbr><span>Frames</span><wbr></wbr><span>In</span><wbr></wbr><span>Row</span><wbr></wbr><span>To</span><wbr></wbr><span>Start</span><wbr></wbr><span>Candidate</span><wbr></wbr><span><span>Selection</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1400114081%2FFunctions%2F-1161857762"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="min-valid-frames-in-row-to-start-candidate-selection.html"><span class="token function">minValidFramesInRowToStartCandidateSelection</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">minValidFramesInRowToStartCandidateSelection<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">DocumentAutoCaptureControllerConfiguration.Builder</a></div><div class="brief "><p class="paragraph">Minimum number of valid frames in a row to start candidate selection.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1462622279%2FFunctions%2F-1161857762" anchor-label="mrzReadingEnabled" id="1462622279%2FFunctions%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="mrz-reading-enabled.html"><span>mrz</span><wbr></wbr><span>Reading</span><wbr></wbr><span><span>Enabled</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1462622279%2FFunctions%2F-1161857762"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="mrz-reading-enabled.html"><span class="token function">mrzReadingEnabled</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">mrzReadingEnabled<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">DocumentAutoCaptureControllerConfiguration.Builder</a></div><div class="brief "><p class="paragraph">If Machine Readable Zone reading is enabled.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="615777177%2FFunctions%2F-1161857762" anchor-label="sessionToken" id="615777177%2FFunctions%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="session-token.html"><span>session</span><wbr></wbr><span><span>Token</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="615777177%2FFunctions%2F-1161857762"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="session-token.html"><span class="token function">sessionToken</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">sessionToken<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">DocumentAutoCaptureControllerConfiguration.Builder</a></div><div class="brief "><p class="paragraph">Session token provided by DIS (Digital Identity Service). Set the session token if the result should be posted to DIS for evaluation.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2023 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>

@@ -38,6 +38,20 @@ $dokka.location:com.innovatrics.dot.core.validation/IntervalDouble///PointingToD
 $dokka.location:com.innovatrics.dot.core.validation/IntervalDouble/IntervalDouble/#kotlin.Double#kotlin.Double/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.validation/-interval-double/-interval-double.html
 $dokka.location:com.innovatrics.dot.core.validation/IntervalDouble/max/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.validation/-interval-double/max.html
 $dokka.location:com.innovatrics.dot.core.validation/IntervalDouble/min/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.validation/-interval-double/min.html
+$dokka.location:com.innovatrics.dot.core////PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core/index.html
+$dokka.location:com.innovatrics.dot.core/DotSdk///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core/-dot-sdk/index.html
+$dokka.location:com.innovatrics.dot.core/DotSdk/deinitialize/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core/-dot-sdk/deinitialize.html
+$dokka.location:com.innovatrics.dot.core/DotSdk/getApplicationId/#android.content.Context/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core/-dot-sdk/get-application-id.html
+$dokka.location:com.innovatrics.dot.core/DotSdk/initialize/#com.innovatrics.dot.core.DotSdkConfiguration/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core/-dot-sdk/initialize.html
+$dokka.location:com.innovatrics.dot.core/DotSdk/isInitialized/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core/-dot-sdk/is-initialized.html
+$dokka.location:com.innovatrics.dot.core/DotSdk/versionName/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core/-dot-sdk/version-name.html
+$dokka.location:com.innovatrics.dot.core/DotSdkConfiguration///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core/-dot-sdk-configuration/index.html
+$dokka.location:com.innovatrics.dot.core/DotSdkConfiguration/DotSdkConfiguration/#android.content.Context#kotlin.ByteArray#kotlin.collections.List[com.innovatrics.dot.core.DotLibrary]/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core/-dot-sdk-configuration/-dot-sdk-configuration.html
+$dokka.location:com.innovatrics.dot.core/DotSdkConfiguration/context/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core/-dot-sdk-configuration/context.html
+$dokka.location:com.innovatrics.dot.core/DotSdkConfiguration/equals/#kotlin.Any?/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core/-dot-sdk-configuration/equals.html
+$dokka.location:com.innovatrics.dot.core/DotSdkConfiguration/hashCode/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core/-dot-sdk-configuration/hash-code.html
+$dokka.location:com.innovatrics.dot.core/DotSdkConfiguration/libraries/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core/-dot-sdk-configuration/libraries.html
+$dokka.location:com.innovatrics.dot.core/DotSdkConfiguration/licenseBytes/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core/-dot-sdk-configuration/license-bytes.html
 $dokka.location:com.innovatrics.dot.face.commons.autocapture////PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.commons.autocapture/index.html
 $dokka.location:com.innovatrics.dot.face.commons.autocapture/DetectionPosition///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.commons.autocapture/-detection-position/index.html
 $dokka.location:com.innovatrics.dot.face.commons.autocapture/DetectionPosition/DetectionPosition/#com.innovatrics.dot.core.geometry.PointDouble#kotlin.Double/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.commons.autocapture/-detection-position/-detection-position.html
@@ -243,6 +257,7 @@ $dokka.location:com.innovatrics.dot.image/Nv21Image/hashCode/#/PointingToDeclara
 $dokka.location:com.innovatrics.dot.image/Nv21Image/rotation/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.image/-nv21-image/rotation.html
 $dokka.location:com.innovatrics.dot.image/Nv21Image/size/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.image/-nv21-image/size.html
 com.innovatrics.dot.camera
+com.innovatrics.dot.core
 com.innovatrics.dot.core.geometry
 com.innovatrics.dot.core.validation
 com.innovatrics.dot.face.commons.autocapture

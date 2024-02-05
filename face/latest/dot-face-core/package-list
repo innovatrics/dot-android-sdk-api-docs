@@ -30,6 +30,20 @@ $dokka.location:com.innovatrics.dot.core.validation/IntervalDouble///PointingToD
 $dokka.location:com.innovatrics.dot.core.validation/IntervalDouble/IntervalDouble/#kotlin.Double#kotlin.Double/PointingToDeclaration/dot-face-core/com.innovatrics.dot.core.validation/-interval-double/-interval-double.html
 $dokka.location:com.innovatrics.dot.core.validation/IntervalDouble/max/#/PointingToDeclaration/dot-face-core/com.innovatrics.dot.core.validation/-interval-double/max.html
 $dokka.location:com.innovatrics.dot.core.validation/IntervalDouble/min/#/PointingToDeclaration/dot-face-core/com.innovatrics.dot.core.validation/-interval-double/min.html
+$dokka.location:com.innovatrics.dot.core////PointingToDeclaration/dot-face-core/com.innovatrics.dot.core/index.html
+$dokka.location:com.innovatrics.dot.core/DotSdk///PointingToDeclaration/dot-face-core/com.innovatrics.dot.core/-dot-sdk/index.html
+$dokka.location:com.innovatrics.dot.core/DotSdk/deinitialize/#/PointingToDeclaration/dot-face-core/com.innovatrics.dot.core/-dot-sdk/deinitialize.html
+$dokka.location:com.innovatrics.dot.core/DotSdk/getApplicationId/#android.content.Context/PointingToDeclaration/dot-face-core/com.innovatrics.dot.core/-dot-sdk/get-application-id.html
+$dokka.location:com.innovatrics.dot.core/DotSdk/initialize/#com.innovatrics.dot.core.DotSdkConfiguration/PointingToDeclaration/dot-face-core/com.innovatrics.dot.core/-dot-sdk/initialize.html
+$dokka.location:com.innovatrics.dot.core/DotSdk/isInitialized/#/PointingToDeclaration/dot-face-core/com.innovatrics.dot.core/-dot-sdk/is-initialized.html
+$dokka.location:com.innovatrics.dot.core/DotSdk/versionName/#/PointingToDeclaration/dot-face-core/com.innovatrics.dot.core/-dot-sdk/version-name.html
+$dokka.location:com.innovatrics.dot.core/DotSdkConfiguration///PointingToDeclaration/dot-face-core/com.innovatrics.dot.core/-dot-sdk-configuration/index.html
+$dokka.location:com.innovatrics.dot.core/DotSdkConfiguration/DotSdkConfiguration/#android.content.Context#kotlin.ByteArray#kotlin.collections.List[com.innovatrics.dot.core.DotLibrary]/PointingToDeclaration/dot-face-core/com.innovatrics.dot.core/-dot-sdk-configuration/-dot-sdk-configuration.html
+$dokka.location:com.innovatrics.dot.core/DotSdkConfiguration/context/#/PointingToDeclaration/dot-face-core/com.innovatrics.dot.core/-dot-sdk-configuration/context.html
+$dokka.location:com.innovatrics.dot.core/DotSdkConfiguration/equals/#kotlin.Any?/PointingToDeclaration/dot-face-core/com.innovatrics.dot.core/-dot-sdk-configuration/equals.html
+$dokka.location:com.innovatrics.dot.core/DotSdkConfiguration/hashCode/#/PointingToDeclaration/dot-face-core/com.innovatrics.dot.core/-dot-sdk-configuration/hash-code.html
+$dokka.location:com.innovatrics.dot.core/DotSdkConfiguration/libraries/#/PointingToDeclaration/dot-face-core/com.innovatrics.dot.core/-dot-sdk-configuration/libraries.html
+$dokka.location:com.innovatrics.dot.core/DotSdkConfiguration/licenseBytes/#/PointingToDeclaration/dot-face-core/com.innovatrics.dot.core/-dot-sdk-configuration/license-bytes.html
 $dokka.location:com.innovatrics.dot.face.autocapture////PointingToDeclaration/dot-face-core/com.innovatrics.dot.face.autocapture/index.html
 $dokka.location:com.innovatrics.dot.face.autocapture/FaceAutoCaptureConfiguration.Builder///PointingToDeclaration/dot-face-core/com.innovatrics.dot.face.autocapture/-face-auto-capture-configuration/-builder/index.html
 $dokka.location:com.innovatrics.dot.face.autocapture/FaceAutoCaptureConfiguration.Builder/Builder/#/PointingToDeclaration/dot-face-core/com.innovatrics.dot.face.autocapture/-face-auto-capture-configuration/-builder/-builder.html
@@ -301,6 +315,7 @@ $dokka.location:com.innovatrics.dot.face.similarity/FaceMatcher.MatchException.E
 $dokka.location:com.innovatrics.dot.face.similarity/FaceMatcher.MatchException.Error.REFERENCE_FACE_NOT_DETECTED///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-face-core/com.innovatrics.dot.face.similarity/-face-matcher/-match-exception/-error/-r-e-f-e-r-e-n-c-e_-f-a-c-e_-n-o-t_-d-e-t-e-c-t-e-d/index.html
 $dokka.location:com.innovatrics.dot.face.similarity/FaceMatcher.MatchException.Error.TEMPLATE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-face-core/com.innovatrics.dot.face.similarity/-face-matcher/-match-exception/-error/-t-e-m-p-l-a-t-e/index.html
 $dokka.location:com.innovatrics.dot.face.similarity/FaceMatcher.MatchException.Error///PointingToDeclaration/dot-face-core/com.innovatrics.dot.face.similarity/-face-matcher/-match-exception/-error/index.html
+$dokka.location:com.innovatrics.dot.face.similarity/FaceMatcher.MatchException.Error/message/#/PointingToDeclaration/dot-face-core/com.innovatrics.dot.face.similarity/-face-matcher/-match-exception/-error/message.html
 $dokka.location:com.innovatrics.dot.face.similarity/FaceMatcher.MatchException.Error/valueOf/#kotlin.String/PointingToDeclaration/dot-face-core/com.innovatrics.dot.face.similarity/-face-matcher/-match-exception/-error/value-of.html
 $dokka.location:com.innovatrics.dot.face.similarity/FaceMatcher.MatchException.Error/values/#/PointingToDeclaration/dot-face-core/com.innovatrics.dot.face.similarity/-face-matcher/-match-exception/-error/values.html
 $dokka.location:com.innovatrics.dot.face.similarity/FaceMatcher.MatchException///PointingToDeclaration/dot-face-core/com.innovatrics.dot.face.similarity/-face-matcher/-match-exception/index.html
@@ -327,6 +342,7 @@ $dokka.location:com.innovatrics.dot.face.similarity/TemplateMatcher.MatchExcepti
 $dokka.location:com.innovatrics.dot.face.similarity/TemplateMatcher.MatchException.Error.OTHER///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-face-core/com.innovatrics.dot.face.similarity/-template-matcher/-match-exception/-error/-o-t-h-e-r/index.html
 $dokka.location:com.innovatrics.dot.face.similarity/TemplateMatcher.MatchException.Error.VERSION///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-face-core/com.innovatrics.dot.face.similarity/-template-matcher/-match-exception/-error/-v-e-r-s-i-o-n/index.html
 $dokka.location:com.innovatrics.dot.face.similarity/TemplateMatcher.MatchException.Error///PointingToDeclaration/dot-face-core/com.innovatrics.dot.face.similarity/-template-matcher/-match-exception/-error/index.html
+$dokka.location:com.innovatrics.dot.face.similarity/TemplateMatcher.MatchException.Error/message/#/PointingToDeclaration/dot-face-core/com.innovatrics.dot.face.similarity/-template-matcher/-match-exception/-error/message.html
 $dokka.location:com.innovatrics.dot.face.similarity/TemplateMatcher.MatchException.Error/valueOf/#kotlin.String/PointingToDeclaration/dot-face-core/com.innovatrics.dot.face.similarity/-template-matcher/-match-exception/-error/value-of.html
 $dokka.location:com.innovatrics.dot.face.similarity/TemplateMatcher.MatchException.Error/values/#/PointingToDeclaration/dot-face-core/com.innovatrics.dot.face.similarity/-template-matcher/-match-exception/-error/values.html
 $dokka.location:com.innovatrics.dot.face.similarity/TemplateMatcher.MatchException///PointingToDeclaration/dot-face-core/com.innovatrics.dot.face.similarity/-template-matcher/-match-exception/index.html
@@ -382,6 +398,7 @@ $dokka.location:com.innovatrics.dot.image/ImageSize/ImageSize/#kotlin.Int#kotlin
 $dokka.location:com.innovatrics.dot.image/ImageSize/height/#/PointingToDeclaration/dot-face-core/com.innovatrics.dot.image/-image-size/height.html
 $dokka.location:com.innovatrics.dot.image/ImageSize/width/#/PointingToDeclaration/dot-face-core/com.innovatrics.dot.image/-image-size/width.html
 com.innovatrics.dot.camera
+com.innovatrics.dot.core
 com.innovatrics.dot.core.geometry
 com.innovatrics.dot.core.validation
 com.innovatrics.dot.face

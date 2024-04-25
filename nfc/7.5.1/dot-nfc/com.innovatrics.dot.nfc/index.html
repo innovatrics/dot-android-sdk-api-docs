@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>com.innovatrics.dot.nfc</title>
+    <link href="../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../styles/style.css" rel="Stylesheet">
+<link href="../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../styles/main.css" rel="Stylesheet">
+<link href="../../styles/prism.css" rel="Stylesheet">
+<link href="../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../index.html">
+                    <span>dot-nfc</span>
+            </a>
+    </div>
+    <div>
+7.5.1    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="dot-nfc::com.innovatrics.dot.nfc////PointingToDeclaration//625561000">
+  <div class="breadcrumbs"><a href="../../index.html">dot-nfc</a><span class="delimiter">/</span><span class="current">com.innovatrics.dot.nfc</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Package-level</span></span> <span><span>declarations</span></span></h1>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Types">Types</button></div>
+    <div class="tabs-section-body">
+      <h2 class="">Types</h2>
+      <div class="table" data-togglable="Types"><a data-name="936866891%2FClasslikes%2F625561000" anchor-label="AdditionalDocumentDetails" id="936866891%2FClasslikes%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-additional-document-details/index.html"><span>Additional</span><wbr></wbr><span>Document</span><wbr></wbr><span><span>Details</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="936866891%2FClasslikes%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-additional-document-details/index.html">AdditionalDocumentDetails</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>issuingAuthority<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>dateOfIssue<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>otherPersonDetails<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>endorsementsOrObservations<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>taxOrExitRequirements<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>personalizationTime<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>personalizationDeviceSerialNumber<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Parsed Data Group 12 - Additional Document Detail(s).</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="2088695152%2FClasslikes%2F625561000" anchor-label="AdditionalPersonalDetails" id="2088695152%2FClasslikes%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-additional-personal-details/index.html"><span>Additional</span><wbr></wbr><span>Personal</span><wbr></wbr><span><span>Details</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2088695152%2FClasslikes%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-additional-personal-details/index.html">AdditionalPersonalDetails</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>nameOfHolder<span class="token operator">: </span><a href="-name-of-holder/index.html">NameOfHolder</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>otherNames<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>personalNumber<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>fullDateOfBirth<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>placeOfBirth<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>address<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>telephone<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>profession<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>title<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>personalSummary<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>otherValidTravelDocumentNumbers<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>custodyInformation<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Parsed Data Group 11 - Additional Personal Detail(s).</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="625090678%2FClasslikes%2F625561000" anchor-label="DisplayedSignatureOrUsualMark" id="625090678%2FClasslikes%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-displayed-signature-or-usual-mark/index.html"><span>Displayed</span><wbr></wbr><span>Signature</span><wbr></wbr><span>Or</span><wbr></wbr><span>Usual</span><wbr></wbr><span><span>Mark</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="625090678%2FClasslikes%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-displayed-signature-or-usual-mark/index.html">DisplayedSignatureOrUsualMark</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>displayedSignatureOrUsualMarkImage<span class="token operator">: </span><a href="../com.innovatrics.dot.image/-image/index.html">Image</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Parsed Data Group 7 - Displayed Signature or Usual Mark.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1111001138%2FClasslikes%2F625561000" anchor-label="DotNfcLibrary" id="1111001138%2FClasslikes%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-dot-nfc-library/index.html"><span>Dot</span><wbr></wbr><span>Nfc</span><wbr></wbr><span><span>Library</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1111001138%2FClasslikes%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">class </span><a href="-dot-nfc-library/index.html">DotNfcLibrary</a> : <span data-unresolved-link="com.innovatrics.dot.core/DotLibrary///PointingToDeclaration/">DotLibrary</span></div><div class="brief "><p class="paragraph">DOT NFC Library.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="252929813%2FClasslikes%2F625561000" anchor-label="EncodedIdentificationFeaturesFace" id="252929813%2FClasslikes%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-encoded-identification-features-face/index.html"><span>Encoded</span><wbr></wbr><span>Identification</span><wbr></wbr><span>Features</span><wbr></wbr><span><span>Face</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="252929813%2FClasslikes%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-encoded-identification-features-face/index.html">EncodedIdentificationFeaturesFace</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>faceImage<span class="token operator">: </span><a href="../com.innovatrics.dot.image/-image/index.html">Image</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Parsed Data Group 2 - Encoded Identification Features - Face.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1616378330%2FClasslikes%2F625561000" anchor-label="FlatTagStructureParser" id="-1616378330%2FClasslikes%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-flat-tag-structure-parser/index.html"><span>Flat</span><wbr></wbr><span>Tag</span><wbr></wbr><span>Structure</span><wbr></wbr><span><span>Parser</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1616378330%2FClasslikes%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-flat-tag-structure-parser/index.html">FlatTagStructureParser</a></div><div class="brief "><p class="paragraph">Flat Tag Structure Parser component.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1836258574%2FClasslikes%2F625561000" anchor-label="FlatTagStructureParserFactory" id="-1836258574%2FClasslikes%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-flat-tag-structure-parser-factory/index.html"><span>Flat</span><wbr></wbr><span>Tag</span><wbr></wbr><span>Structure</span><wbr></wbr><span>Parser</span><wbr></wbr><span><span>Factory</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1836258574%2FClasslikes%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">object </span><a href="-flat-tag-structure-parser-factory/index.html">FlatTagStructureParserFactory</a></div><div class="brief "><p class="paragraph">Factory for Flat Tag Structure Parser component.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="83952494%2FClasslikes%2F625561000" anchor-label="MachineReadableZoneInformation" id="83952494%2FClasslikes%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-machine-readable-zone-information/index.html"><span>Machine</span><wbr></wbr><span>Readable</span><wbr></wbr><span>Zone</span><wbr></wbr><span><span>Information</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="83952494%2FClasslikes%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-machine-readable-zone-information/index.html">MachineReadableZoneInformation</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>documentCode<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>issuingStateOrOrganization<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>nameOfHolder<span class="token operator">: </span><a href="-name-of-holder/index.html">NameOfHolder</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>nationality<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>documentNumber<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>dateOfBirth<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>sex<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>dateOfExpiry<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>optionalData<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Parsed Data Group 1 - Machine Readable Zone Information.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1371279881%2FClasslikes%2F625561000" anchor-label="NameOfHolder" id="1371279881%2FClasslikes%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-name-of-holder/index.html"><span>Name</span><wbr></wbr><span>Of</span><wbr></wbr><span><span>Holder</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1371279881%2FClasslikes%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-name-of-holder/index.html">NameOfHolder</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>primaryIdentifier<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>secondaryIdentifier<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Name of holder (in full).</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1466719581%2FClasslikes%2F625561000" anchor-label="NfcKey" id="-1466719581%2FClasslikes%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-nfc-key/index.html"><span>Nfc</span><wbr></wbr><span><span>Key</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1466719581%2FClasslikes%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-nfc-key/index.html">NfcKey</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>documentNumber<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>dateOfExpiry<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>dateOfBirth<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span> : <a href="https://developer.android.com/reference/kotlin/java/io/Serializable.html">Serializable</a></div><div class="brief "><p class="paragraph">Access key to the NFC chip.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="941092840%2FClasslikes%2F625561000" anchor-label="NfcTravelDocumentReader" id="941092840%2FClasslikes%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-nfc-travel-document-reader/index.html"><span>Nfc</span><wbr></wbr><span>Travel</span><wbr></wbr><span>Document</span><wbr></wbr><span><span>Reader</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="941092840%2FClasslikes%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-nfc-travel-document-reader/index.html">NfcTravelDocumentReader</a></div><div class="brief "><p class="paragraph">NFC Travel Document Reader component.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-230566460%2FClasslikes%2F625561000" anchor-label="NfcTravelDocumentReaderConfiguration" id="-230566460%2FClasslikes%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-nfc-travel-document-reader-configuration/index.html"><span>Nfc</span><wbr></wbr><span>Travel</span><wbr></wbr><span>Document</span><wbr></wbr><span>Reader</span><wbr></wbr><span><span>Configuration</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-230566460%2FClasslikes%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-nfc-travel-document-reader-configuration/index.html"><strike>NfcTravelDocumentReaderConfiguration</strike></a></div><div class="brief "><p class="paragraph">Configuration for the NFC Travel Document Reader component.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="431547120%2FClasslikes%2F625561000" anchor-label="NfcTravelDocumentReaderFactory" id="431547120%2FClasslikes%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-nfc-travel-document-reader-factory/index.html"><span>Nfc</span><wbr></wbr><span>Travel</span><wbr></wbr><span>Document</span><wbr></wbr><span>Reader</span><wbr></wbr><span><span>Factory</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="431547120%2FClasslikes%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">object </span><a href="-nfc-travel-document-reader-factory/index.html">NfcTravelDocumentReaderFactory</a></div><div class="brief "><p class="paragraph">Factory for NFC Travel Document Reader component.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1055459785%2FClasslikes%2F625561000" anchor-label="OptionalDetails" id="1055459785%2FClasslikes%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-optional-details/index.html"><span>Optional</span><wbr></wbr><span><span>Details</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1055459785%2FClasslikes%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-optional-details/index.html">OptionalDetails</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>content<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html">ByteArray</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Parsed Data Group 13 - Optional Details(s). Use <a href="-flat-tag-structure-parser/index.html">FlatTagStructureParser</a> in order to parse the content.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1047748062%2FClasslikes%2F625561000" anchor-label="TravelDocument" id="-1047748062%2FClasslikes%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-travel-document/index.html"><span>Travel</span><wbr></wbr><span><span>Document</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1047748062%2FClasslikes%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-travel-document/index.html">TravelDocument</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>ldsMasterFile<span class="token operator">: </span><a href="../com.innovatrics.dot.nfc.lds/-lds-master-file/index.html">LdsMasterFile</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>ldsVersion<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>accessControlProtocolUsed<span class="token operator">: </span><a href="../com.innovatrics.dot.nfc.access/-access-control-protocol/index.html">AccessControlProtocol</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>authenticationStatus<span class="token operator">: </span><a href="../com.innovatrics.dot.nfc.authentication/-authentication-status/index.html">AuthenticationStatus</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>machineReadableZoneInformation<span class="token operator">: </span><a href="-machine-readable-zone-information/index.html">MachineReadableZoneInformation</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>encodedIdentificationFeaturesFace<span class="token operator">: </span><a href="-encoded-identification-features-face/index.html">EncodedIdentificationFeaturesFace</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>displayedSignatureOrUsualMark<span class="token operator">: </span><a href="-displayed-signature-or-usual-mark/index.html">DisplayedSignatureOrUsualMark</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>additionalPersonalDetails<span class="token operator">: </span><a href="-additional-personal-details/index.html">AdditionalPersonalDetails</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>additionalDocumentDetails<span class="token operator">: </span><a href="-additional-document-details/index.html">AdditionalDocumentDetails</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>optionalDetails<span class="token operator">: </span><a href="-optional-details/index.html">OptionalDetails</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">debugInfo<span class="token operator">: </span><span data-unresolved-link="com.innovatrics.dot.nfc.debug/DebugInfo///PointingToDeclaration/">DebugInfo</span></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Machine Readable Travel Document (eMRTD).</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>

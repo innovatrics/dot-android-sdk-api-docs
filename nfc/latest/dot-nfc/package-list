@@ -1,22 +1,16 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
 $dokka.location:com.innovatrics.dot.image////PointingToDeclaration/dot-nfc/com.innovatrics.dot.image/index.html
-$dokka.location:com.innovatrics.dot.image/Image.Companion///PointingToDeclaration/dot-nfc/com.innovatrics.dot.image/-image/-companion/index.html
-$dokka.location:com.innovatrics.dot.image/Image.Companion/of/#com.innovatrics.dot.image.ImageFormat#com.innovatrics.dot.image.ImageSize#kotlin.ByteArray/PointingToDeclaration/dot-nfc/com.innovatrics.dot.image/-image/-companion/of.html
 $dokka.location:com.innovatrics.dot.image/Image///PointingToDeclaration/dot-nfc/com.innovatrics.dot.image/-image/index.html
 $dokka.location:com.innovatrics.dot.image/Image/Image/#com.innovatrics.dot.image.ImageFormat#com.innovatrics.dot.image.ImageSize#kotlin.ByteArray/PointingToDeclaration/dot-nfc/com.innovatrics.dot.image/-image/-image.html
 $dokka.location:com.innovatrics.dot.image/Image/bytes/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.image/-image/bytes.html
-$dokka.location:com.innovatrics.dot.image/Image/equals/#kotlin.Any?/PointingToDeclaration/dot-nfc/com.innovatrics.dot.image/-image/equals.html
 $dokka.location:com.innovatrics.dot.image/Image/format/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.image/-image/format.html
-$dokka.location:com.innovatrics.dot.image/Image/hashCode/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.image/-image/hash-code.html
 $dokka.location:com.innovatrics.dot.image/Image/size/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.image/-image/size.html
 $dokka.location:com.innovatrics.dot.image/ImageFormat.JPEG///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-nfc/com.innovatrics.dot.image/-image-format/-j-p-e-g/index.html
 $dokka.location:com.innovatrics.dot.image/ImageFormat.JPEG_2000///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-nfc/com.innovatrics.dot.image/-image-format/-j-p-e-g_2000/index.html
 $dokka.location:com.innovatrics.dot.image/ImageFormat///PointingToDeclaration/dot-nfc/com.innovatrics.dot.image/-image-format/index.html
 $dokka.location:com.innovatrics.dot.image/ImageFormat/valueOf/#kotlin.String/PointingToDeclaration/dot-nfc/com.innovatrics.dot.image/-image-format/value-of.html
 $dokka.location:com.innovatrics.dot.image/ImageFormat/values/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.image/-image-format/values.html
-$dokka.location:com.innovatrics.dot.image/ImageSize.Companion///PointingToDeclaration/dot-nfc/com.innovatrics.dot.image/-image-size/-companion/index.html
-$dokka.location:com.innovatrics.dot.image/ImageSize.Companion/of/#kotlin.Int#kotlin.Int/PointingToDeclaration/dot-nfc/com.innovatrics.dot.image/-image-size/-companion/of.html
 $dokka.location:com.innovatrics.dot.image/ImageSize///PointingToDeclaration/dot-nfc/com.innovatrics.dot.image/-image-size/index.html
 $dokka.location:com.innovatrics.dot.image/ImageSize/ImageSize/#kotlin.Int#kotlin.Int/PointingToDeclaration/dot-nfc/com.innovatrics.dot.image/-image-size/-image-size.html
 $dokka.location:com.innovatrics.dot.image/ImageSize/height/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.image/-image-size/height.html
@@ -176,22 +170,12 @@ $dokka.location:com.innovatrics.dot.nfc/FlatTagStructureParser/parse/#kotlin.Byt
 $dokka.location:com.innovatrics.dot.nfc/FlatTagStructureParserFactory///PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-flat-tag-structure-parser-factory/index.html
 $dokka.location:com.innovatrics.dot.nfc/FlatTagStructureParserFactory/create/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-flat-tag-structure-parser-factory/create.html
 $dokka.location:com.innovatrics.dot.nfc/MachineReadableZoneInformation///PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-machine-readable-zone-information/index.html
-$dokka.location:com.innovatrics.dot.nfc/MachineReadableZoneInformation/MachineReadableZoneInformation/#kotlin.String#kotlin.String#com.innovatrics.dot.nfc.NameOfHolder#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.collections.List[kotlin.String]/PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-machine-readable-zone-information/-machine-readable-zone-information.html
-$dokka.location:com.innovatrics.dot.nfc/MachineReadableZoneInformation/dateOfBirth/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-machine-readable-zone-information/date-of-birth.html
-$dokka.location:com.innovatrics.dot.nfc/MachineReadableZoneInformation/dateOfExpiry/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-machine-readable-zone-information/date-of-expiry.html
-$dokka.location:com.innovatrics.dot.nfc/MachineReadableZoneInformation/documentCode/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-machine-readable-zone-information/document-code.html
-$dokka.location:com.innovatrics.dot.nfc/MachineReadableZoneInformation/documentNumber/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-machine-readable-zone-information/document-number.html
-$dokka.location:com.innovatrics.dot.nfc/MachineReadableZoneInformation/issuingStateOrOrganization/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-machine-readable-zone-information/issuing-state-or-organization.html
-$dokka.location:com.innovatrics.dot.nfc/MachineReadableZoneInformation/nameOfHolder/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-machine-readable-zone-information/name-of-holder.html
-$dokka.location:com.innovatrics.dot.nfc/MachineReadableZoneInformation/nationality/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-machine-readable-zone-information/nationality.html
-$dokka.location:com.innovatrics.dot.nfc/MachineReadableZoneInformation/optionalData/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-machine-readable-zone-information/optional-data.html
-$dokka.location:com.innovatrics.dot.nfc/MachineReadableZoneInformation/sex/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-machine-readable-zone-information/sex.html
+$dokka.location:com.innovatrics.dot.nfc/MachineReadableZoneInformation/MachineReadableZoneInformation/#com.innovatrics.dot.mrz.MachineReadableZone/PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-machine-readable-zone-information/-machine-readable-zone-information.html
+$dokka.location:com.innovatrics.dot.nfc/MachineReadableZoneInformation/machineReadableZone/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-machine-readable-zone-information/machine-readable-zone.html
 $dokka.location:com.innovatrics.dot.nfc/NameOfHolder///PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-name-of-holder/index.html
 $dokka.location:com.innovatrics.dot.nfc/NameOfHolder/NameOfHolder/#kotlin.String?#kotlin.String?/PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-name-of-holder/-name-of-holder.html
 $dokka.location:com.innovatrics.dot.nfc/NameOfHolder/primaryIdentifier/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-name-of-holder/primary-identifier.html
 $dokka.location:com.innovatrics.dot.nfc/NameOfHolder/secondaryIdentifier/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-name-of-holder/secondary-identifier.html
-$dokka.location:com.innovatrics.dot.nfc/NfcKey.Companion///PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-nfc-key/-companion/index.html
-$dokka.location:com.innovatrics.dot.nfc/NfcKey.Companion/of/#kotlin.String#kotlin.String#kotlin.String/PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-nfc-key/-companion/of.html
 $dokka.location:com.innovatrics.dot.nfc/NfcKey///PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-nfc-key/index.html
 $dokka.location:com.innovatrics.dot.nfc/NfcKey/NfcKey/#kotlin.String#kotlin.String#kotlin.String/PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-nfc-key/-nfc-key.html
 $dokka.location:com.innovatrics.dot.nfc/NfcKey/dateOfBirth/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-nfc-key/date-of-birth.html

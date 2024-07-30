@@ -165,6 +165,10 @@ $dokka.location:com.innovatrics.dot.nfc/DotNfcLibrary/DotNfcLibrary/#/PointingTo
 $dokka.location:com.innovatrics.dot.nfc/EncodedIdentificationFeaturesFace///PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-encoded-identification-features-face/index.html
 $dokka.location:com.innovatrics.dot.nfc/EncodedIdentificationFeaturesFace/EncodedIdentificationFeaturesFace/#com.innovatrics.dot.image.Image?/PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-encoded-identification-features-face/-encoded-identification-features-face.html
 $dokka.location:com.innovatrics.dot.nfc/EncodedIdentificationFeaturesFace/faceImage/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-encoded-identification-features-face/face-image.html
+$dokka.location:com.innovatrics.dot.nfc/FlatTagStructureParser.ParsingException///PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-flat-tag-structure-parser/-parsing-exception/index.html
+$dokka.location:com.innovatrics.dot.nfc/FlatTagStructureParser.ParsingException/ParsingException/#kotlin.String#java.lang.Exception/PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-flat-tag-structure-parser/-parsing-exception/-parsing-exception.html
+$dokka.location:com.innovatrics.dot.nfc/FlatTagStructureParser.ParsingException/cause/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-flat-tag-structure-parser/-parsing-exception/cause.html
+$dokka.location:com.innovatrics.dot.nfc/FlatTagStructureParser.ParsingException/message/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-flat-tag-structure-parser/-parsing-exception/message.html
 $dokka.location:com.innovatrics.dot.nfc/FlatTagStructureParser///PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-flat-tag-structure-parser/index.html
 $dokka.location:com.innovatrics.dot.nfc/FlatTagStructureParser/parse/#kotlin.ByteArray/PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-flat-tag-structure-parser/parse.html
 $dokka.location:com.innovatrics.dot.nfc/FlatTagStructureParserFactory///PointingToDeclaration/dot-nfc/com.innovatrics.dot.nfc/-flat-tag-structure-parser-factory/index.html

@@ -266,6 +266,10 @@ $dokka.location:com.innovatrics.dot.document.mrz////PointingToDeclaration/dot-d
 $dokka.location:com.innovatrics.dot.document.mrz/MrzReader.Configuration///PointingToDeclaration/dot-document/com.innovatrics.dot.document.mrz/-mrz-reader/-configuration/index.html
 $dokka.location:com.innovatrics.dot.document.mrz/MrzReader.Configuration/Configuration/#android.content.Context/PointingToDeclaration/dot-document/com.innovatrics.dot.document.mrz/-mrz-reader/-configuration/-configuration.html
 $dokka.location:com.innovatrics.dot.document.mrz/MrzReader.Configuration/context/#/PointingToDeclaration/dot-document/com.innovatrics.dot.document.mrz/-mrz-reader/-configuration/context.html
+$dokka.location:com.innovatrics.dot.document.mrz/MrzReader.ReadingException///PointingToDeclaration/dot-document/com.innovatrics.dot.document.mrz/-mrz-reader/-reading-exception/index.html
+$dokka.location:com.innovatrics.dot.document.mrz/MrzReader.ReadingException/ReadingException/#kotlin.String#kotlin.Throwable/PointingToDeclaration/dot-document/com.innovatrics.dot.document.mrz/-mrz-reader/-reading-exception/-reading-exception.html
+$dokka.location:com.innovatrics.dot.document.mrz/MrzReader.ReadingException/cause/#/PointingToDeclaration/dot-document/com.innovatrics.dot.document.mrz/-mrz-reader/-reading-exception/cause.html
+$dokka.location:com.innovatrics.dot.document.mrz/MrzReader.ReadingException/message/#/PointingToDeclaration/dot-document/com.innovatrics.dot.document.mrz/-mrz-reader/-reading-exception/message.html
 $dokka.location:com.innovatrics.dot.document.mrz/MrzReader.Result///PointingToDeclaration/dot-document/com.innovatrics.dot.document.mrz/-mrz-reader/-result/index.html
 $dokka.location:com.innovatrics.dot.document.mrz/MrzReader.Result/exception/#/PointingToDeclaration/dot-document/com.innovatrics.dot.document.mrz/-mrz-reader/-result/exception.html
 $dokka.location:com.innovatrics.dot.document.mrz/MrzReader.Result/machineReadableZone/#/PointingToDeclaration/dot-document/com.innovatrics.dot.document.mrz/-mrz-reader/-result/machine-readable-zone.html

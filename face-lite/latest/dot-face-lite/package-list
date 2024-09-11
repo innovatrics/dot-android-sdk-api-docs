@@ -48,8 +48,6 @@ $dokka.location:com.innovatrics.dot.core/DotSdk/versionName/#/PointingToDeclarat
 $dokka.location:com.innovatrics.dot.core/DotSdkConfiguration///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core/-dot-sdk-configuration/index.html
 $dokka.location:com.innovatrics.dot.core/DotSdkConfiguration/DotSdkConfiguration/#android.content.Context#kotlin.ByteArray#kotlin.collections.List[com.innovatrics.dot.core.DotLibrary]/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core/-dot-sdk-configuration/-dot-sdk-configuration.html
 $dokka.location:com.innovatrics.dot.core/DotSdkConfiguration/context/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core/-dot-sdk-configuration/context.html
-$dokka.location:com.innovatrics.dot.core/DotSdkConfiguration/equals/#kotlin.Any?/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core/-dot-sdk-configuration/equals.html
-$dokka.location:com.innovatrics.dot.core/DotSdkConfiguration/hashCode/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core/-dot-sdk-configuration/hash-code.html
 $dokka.location:com.innovatrics.dot.core/DotSdkConfiguration/libraries/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core/-dot-sdk-configuration/libraries.html
 $dokka.location:com.innovatrics.dot.core/DotSdkConfiguration/licenseBytes/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core/-dot-sdk-configuration/license-bytes.html
 $dokka.location:com.innovatrics.dot.face.commons.autocapture////PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.commons.autocapture/index.html

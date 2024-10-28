@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>NfcTravelDocumentReaderFragment</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../index.html">
+                    <span>dot-nfc</span>
+            </a>
+    </div>
+    <div>
+8.5.0    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="dot-nfc::com.innovatrics.dot.nfc.reader.ui/NfcTravelDocumentReaderFragment///PointingToDeclaration//625561000">
+  <div class="breadcrumbs"><a href="../../../index.html">dot-nfc</a><span class="delimiter">/</span><a href="../index.html">com.innovatrics.dot.nfc.reader.ui</a><span class="delimiter">/</span><span class="current">NfcTravelDocumentReaderFragment</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Nfc</span><wbr></wbr><span>Travel</span><wbr></wbr><span>Document</span><wbr></wbr><span>Reader</span><wbr></wbr><span><span>Fragment</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">class </span><a href="index.html">NfcTravelDocumentReaderFragment</a> <span><span class="token annotation builtin">@</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-overloads/index.html"><span class="token annotation builtin">JvmOverloads</span></a> </span><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/LayoutRes.html"><span class="token annotation builtin">LayoutRes</span></a> </span>contentLayoutId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span>NfcTravelDocumentReaderViewLayer.LAYOUT_RESOURCE_ID</span></span><span class="token punctuation">)</span> : <a href="https://developer.android.com/reference/kotlin/androidx/fragment/app/Fragment.html">Fragment</a></div><p class="paragraph">UI NFC Travel Document Reader component.</p><p class="paragraph">A visual component for reading NFC Travel Documents.</p><p class="paragraph"><strong>Customization options:</strong></p><ol><li><p class="paragraph"><strong>Overwriting resources:</strong></p></li><ul><li><p class="paragraph">You can partially customize the UI by replacing the component's default resources with your own.</p></li><li><p class="paragraph">The following resources are expected by the component:</p><p class="paragraph"><strong>Drawables:</strong></p><ul><li><p class="paragraph"><code class="lang-kotlin">R.drawable.dot_nfc_nfc_travel_document_reader_searching</code></p></li><li><p class="paragraph"><code class="lang-kotlin">R.drawable.dot_nfc_nfc_travel_document_reader_reading</code> (must be of type <code class="lang-kotlin">AnimatedVectorDrawable</code>)</p></li></ul><p class="paragraph"><strong>Strings:</strong></p><ul><li><p class="paragraph"><code class="lang-kotlin">R.string.dot_nfc_nfc_travel_document_reader_searching_title</code></p></li><li><p class="paragraph"><code class="lang-kotlin">R.string.dot_nfc_nfc_travel_document_reader_searching_subhead</code></p></li><li><p class="paragraph"><code class="lang-kotlin">R.string.dot_nfc_nfc_travel_document_reader_reading_title</code></p></li><li><p class="paragraph"><code class="lang-kotlin">R.string.dot_nfc_nfc_travel_document_reader_reading_subhead</code></p></li></ul><p class="paragraph"><strong>Styles:</strong></p></li><ul><li><p class="paragraph"><code class="lang-kotlin">R.style.Dot_Title</code></p></li><li><p class="paragraph"><code class="lang-kotlin">R.style.Dot_Subhead</code></p></li></ul></ul><li><p class="paragraph"><strong>Providing a custom view:</strong></p></li><ul><li><p class="paragraph">For full customization, you can pass a custom layout via constructor or you can supply a custom view by overriding the <a href="on-create-view.html">onCreateView</a> method.</p></li><li><p class="paragraph">If you choose this option, you must also override the <span data-unresolved-link="com.innovatrics.dot.nfc.reader.ui/NfcTravelDocumentReaderFragment/onSearchingStarted/#/PointingToDeclaration/">onSearchingStarted</span> and <span data-unresolved-link="com.innovatrics.dot.nfc.reader.ui/NfcTravelDocumentReaderFragment/onReadingStarted/#kotlin.Int/PointingToDeclaration/">onReadingStarted</span> methods       to ensure your UI reflects the appropriate state during the document searching and reading processes.</p></li></ul></ol></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Types">Types</button><button class="section-tab" data-togglable="Constructors">Constructors</button><button class="section-tab" data-togglable="Functions">Functions</button></div>
+    <div class="tabs-section-body">
+      <h2 class="tabbedcontent">Constructors</h2>
+      <div class="table" data-togglable="Constructors"><a data-name="1211699853%2FConstructors%2F625561000" anchor-label="NfcTravelDocumentReaderFragment" id="1211699853%2FConstructors%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue TabbedContent">
+            <div class=""><span class="inline-flex">
+                <div><a href="-nfc-travel-document-reader-fragment.html"><span>Nfc</span><wbr></wbr><span>Travel</span><wbr></wbr><span>Document</span><wbr></wbr><span>Reader</span><wbr></wbr><span><span>Fragment</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1211699853%2FConstructors%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-overloads/index.html"><span class="token annotation builtin">JvmOverloads</span></a></div></div><span class="token keyword"></span><span class="token keyword">fun </span><a href="-nfc-travel-document-reader-fragment.html"><span class="token function">NfcTravelDocumentReaderFragment</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/LayoutRes.html"><span class="token annotation builtin">LayoutRes</span></a> </span>contentLayoutId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span>NfcTravelDocumentReaderViewLayer.LAYOUT_RESOURCE_ID</span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Types</h2>
+      <div class="table" data-togglable="Types"><a data-name="1711638633%2FClasslikes%2F625561000" anchor-label="Companion" id="1711638633%2FClasslikes%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-companion/index.html"><span><span>Companion</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1711638633%2FClasslikes%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">object </span><a href="-companion/index.html">Companion</a></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1203867583%2FClasslikes%2F625561000" anchor-label="Configuration" id="1203867583%2FClasslikes%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-configuration/index.html"><span><span>Configuration</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1203867583%2FClasslikes%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-configuration/index.html">Configuration</a> <span><span class="token annotation builtin">@</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-overloads/index.html"><span class="token annotation builtin">JvmOverloads</span></a> </span><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>password<span class="token operator">: </span><a href="../../com.innovatrics.dot.nfc.access/-password/index.html">Password</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>authorityCertificatesFilePath<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>activeAuthenticationChallenge<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html">ByteArray</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">isDebugInfoEnabled<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator"> = </span><span class="token boolean">false</span></span></span><span class="token punctuation">)</span> : <a href="https://developer.android.com/reference/kotlin/java/io/Serializable.html">Serializable</a></div><div class="brief "><p class="paragraph">Configuration of NFC reading for <a href="index.html">NfcTravelDocumentReaderFragment</a>.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Functions</h2>
+      <div class="table" data-togglable="Functions"><a data-name="49118827%2FFunctions%2F625561000" anchor-label="onCreate" id="49118827%2FFunctions%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="on-create.html"><span>on</span><wbr></wbr><span><span>Create</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="49118827%2FFunctions%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/CallSuper.html"><span class="token annotation builtin">CallSuper</span></a></div></div><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-create.html"><span class="token function">onCreate</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">savedInstanceState<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/os/Bundle.html">Bundle</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1876398770%2FFunctions%2F625561000" anchor-label="onCreateView" id="-1876398770%2FFunctions%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="on-create-view.html"><span>on</span><wbr></wbr><span>Create</span><wbr></wbr><span><span>View</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1876398770%2FFunctions%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-create-view.html"><span class="token function">onCreateView</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">inflater<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/view/LayoutInflater.html">LayoutInflater</a><span class="token punctuation">, </span></span><span class="parameter ">container<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/view/ViewGroup.html">ViewGroup</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">savedInstanceState<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/os/Bundle.html">Bundle</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/view/View.html">View</a><span class="token operator">?</span></div><div class="brief "><p class="paragraph">To customize the UI, you can override this method to return your own view. If you do so, must also override the <span data-unresolved-link="com.innovatrics.dot.nfc.reader.ui/NfcTravelDocumentReaderFragment/onSearchingStarted/#/PointingToDeclaration/">onSearchingStarted</span> and <span data-unresolved-link="com.innovatrics.dot.nfc.reader.ui/NfcTravelDocumentReaderFragment/onReadingStarted/#kotlin.Int/PointingToDeclaration/">onReadingStarted</span> methods to handle state changes appropriately in your custom view.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="775902763%2FFunctions%2F625561000" anchor-label="onFailed" id="775902763%2FFunctions%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="on-failed.html"><span>on</span><wbr></wbr><span><span>Failed</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="775902763%2FFunctions%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="on-failed.html"><span class="token function">onFailed</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">exception<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-exception/index.html">Exception</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Subclasses must override this function to handle NFC reading failure.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1682791118%2FFunctions%2F625561000" anchor-label="onSucceeded" id="-1682791118%2FFunctions%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="on-succeeded.html"><span>on</span><wbr></wbr><span><span>Succeeded</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1682791118%2FFunctions%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="on-succeeded.html"><span class="token function">onSucceeded</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">travelDocument<span class="token operator">: </span><a href="../../com.innovatrics.dot.nfc/-travel-document/index.html">TravelDocument</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Subclasses must override this function to handle successful NFC document reading.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-160619848%2FFunctions%2F625561000" anchor-label="onViewCreated" id="-160619848%2FFunctions%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="on-view-created.html"><span>on</span><wbr></wbr><span>View</span><wbr></wbr><span><span>Created</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-160619848%2FFunctions%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/CallSuper.html"><span class="token annotation builtin">CallSuper</span></a></div></div><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-view-created.html"><span class="token function">onViewCreated</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">view<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/view/View.html">View</a><span class="token punctuation">, </span></span><span class="parameter ">savedInstanceState<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/os/Bundle.html">Bundle</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1856181507%2FFunctions%2F625561000" anchor-label="provideConfiguration" id="1856181507%2FFunctions%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="provide-configuration.html"><span>provide</span><wbr></wbr><span><span>Configuration</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1856181507%2FFunctions%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="provide-configuration.html"><span class="token function">provideConfiguration</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-configuration/index.html">NfcTravelDocumentReaderFragment.Configuration</a></div><div class="brief "><p class="paragraph">Subclasses should override this method to provide <a href="-configuration/index.html">Configuration</a> for the NFC reader.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>

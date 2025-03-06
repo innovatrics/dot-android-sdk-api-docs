@@ -16,11 +16,33 @@ $dokka.location:com.innovatrics.dot.camera/CameraPreviewScaleType///PointingToDe
 $dokka.location:com.innovatrics.dot.camera/CameraPreviewScaleType/cameraXScaleType/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.camera/-camera-preview-scale-type/camera-x-scale-type.html
 $dokka.location:com.innovatrics.dot.camera/CameraPreviewScaleType/valueOf/#kotlin.String/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.camera/-camera-preview-scale-type/value-of.html
 $dokka.location:com.innovatrics.dot.camera/CameraPreviewScaleType/values/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.camera/-camera-preview-scale-type/values.html
+$dokka.location:com.innovatrics.dot.core.autocapture////PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.autocapture/index.html
+$dokka.location:com.innovatrics.dot.core.autocapture/CaptureMode.AUTO_CAPTURE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-palm-core/com.innovatrics.dot.core.autocapture/-capture-mode/-a-u-t-o_-c-a-p-t-u-r-e/index.html
+$dokka.location:com.innovatrics.dot.core.autocapture/CaptureMode.WAIT_FOR_REQUEST///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-palm-core/com.innovatrics.dot.core.autocapture/-capture-mode/-w-a-i-t_-f-o-r_-r-e-q-u-e-s-t/index.html
+$dokka.location:com.innovatrics.dot.core.autocapture/CaptureMode///PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.autocapture/-capture-mode/index.html
+$dokka.location:com.innovatrics.dot.core.autocapture/CaptureMode/valueOf/#kotlin.String/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.autocapture/-capture-mode/value-of.html
+$dokka.location:com.innovatrics.dot.core.autocapture/CaptureMode/values/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.autocapture/-capture-mode/values.html
 $dokka.location:com.innovatrics.dot.core.geometry////PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.geometry/index.html
 $dokka.location:com.innovatrics.dot.core.geometry/PointDouble///PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.geometry/-point-double/index.html
 $dokka.location:com.innovatrics.dot.core.geometry/PointDouble/PointDouble/#kotlin.Double#kotlin.Double/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.geometry/-point-double/-point-double.html
 $dokka.location:com.innovatrics.dot.core.geometry/PointDouble/x/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.geometry/-point-double/x.html
 $dokka.location:com.innovatrics.dot.core.geometry/PointDouble/y/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.geometry/-point-double/y.html
+$dokka.location:com.innovatrics.dot.core.geometry/PointInt///PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.geometry/-point-int/index.html
+$dokka.location:com.innovatrics.dot.core.geometry/PointInt/PointInt/#kotlin.Int#kotlin.Int/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.geometry/-point-int/-point-int.html
+$dokka.location:com.innovatrics.dot.core.geometry/PointInt/x/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.geometry/-point-int/x.html
+$dokka.location:com.innovatrics.dot.core.geometry/PointInt/y/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.geometry/-point-int/y.html
+$dokka.location:com.innovatrics.dot.core.geometry/RectangleDouble///PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.geometry/-rectangle-double/index.html
+$dokka.location:com.innovatrics.dot.core.geometry/RectangleDouble/RectangleDouble/#kotlin.Double#kotlin.Double#kotlin.Double#kotlin.Double/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.geometry/-rectangle-double/-rectangle-double.html
+$dokka.location:com.innovatrics.dot.core.geometry/RectangleDouble/bottom/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.geometry/-rectangle-double/bottom.html
+$dokka.location:com.innovatrics.dot.core.geometry/RectangleDouble/left/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.geometry/-rectangle-double/left.html
+$dokka.location:com.innovatrics.dot.core.geometry/RectangleDouble/right/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.geometry/-rectangle-double/right.html
+$dokka.location:com.innovatrics.dot.core.geometry/RectangleDouble/top/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.geometry/-rectangle-double/top.html
+$dokka.location:com.innovatrics.dot.core.geometry/RectangleInt///PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.geometry/-rectangle-int/index.html
+$dokka.location:com.innovatrics.dot.core.geometry/RectangleInt/RectangleInt/#kotlin.Int#kotlin.Int#kotlin.Int#kotlin.Int/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.geometry/-rectangle-int/-rectangle-int.html
+$dokka.location:com.innovatrics.dot.core.geometry/RectangleInt/bottom/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.geometry/-rectangle-int/bottom.html
+$dokka.location:com.innovatrics.dot.core.geometry/RectangleInt/left/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.geometry/-rectangle-int/left.html
+$dokka.location:com.innovatrics.dot.core.geometry/RectangleInt/right/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.geometry/-rectangle-int/right.html
+$dokka.location:com.innovatrics.dot.core.geometry/RectangleInt/top/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.geometry/-rectangle-int/top.html
 $dokka.location:com.innovatrics.dot.core.validation////PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.validation/index.html
 $dokka.location:com.innovatrics.dot.core.validation/IntervalDouble///PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.validation/-interval-double/index.html
 $dokka.location:com.innovatrics.dot.core.validation/IntervalDouble/IntervalDouble/#kotlin.Double#kotlin.Double/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.validation/-interval-double/-interval-double.html
@@ -39,10 +61,24 @@ $dokka.location:com.innovatrics.dot.core/DotSdkConfiguration/context/#/PointingT
 $dokka.location:com.innovatrics.dot.core/DotSdkConfiguration/libraries/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core/-dot-sdk-configuration/libraries.html
 $dokka.location:com.innovatrics.dot.core/DotSdkConfiguration/licenseBytes/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core/-dot-sdk-configuration/license-bytes.html
 $dokka.location:com.innovatrics.dot.image////PointingToDeclaration/dot-palm-core/com.innovatrics.dot.image/index.html
+$dokka.location:com.innovatrics.dot.image/BgrRawImage///PointingToDeclaration/dot-palm-core/com.innovatrics.dot.image/-bgr-raw-image/index.html
+$dokka.location:com.innovatrics.dot.image/BgrRawImage/BgrRawImage/#com.innovatrics.dot.image.ImageSize#kotlin.ByteArray/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.image/-bgr-raw-image/-bgr-raw-image.html
+$dokka.location:com.innovatrics.dot.image/BgrRawImage/bytes/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.image/-bgr-raw-image/bytes.html
+$dokka.location:com.innovatrics.dot.image/BgrRawImage/size/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.image/-bgr-raw-image/size.html
 $dokka.location:com.innovatrics.dot.image/BgraRawImage///PointingToDeclaration/dot-palm-core/com.innovatrics.dot.image/-bgra-raw-image/index.html
 $dokka.location:com.innovatrics.dot.image/BgraRawImage/BgraRawImage/#com.innovatrics.dot.image.ImageSize#kotlin.ByteArray/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.image/-bgra-raw-image/-bgra-raw-image.html
 $dokka.location:com.innovatrics.dot.image/BgraRawImage/bytes/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.image/-bgra-raw-image/bytes.html
 $dokka.location:com.innovatrics.dot.image/BgraRawImage/size/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.image/-bgra-raw-image/size.html
+$dokka.location:com.innovatrics.dot.image/Image///PointingToDeclaration/dot-palm-core/com.innovatrics.dot.image/-image/index.html
+$dokka.location:com.innovatrics.dot.image/Image/Image/#com.innovatrics.dot.image.ImageFormat#com.innovatrics.dot.image.ImageSize#kotlin.ByteArray/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.image/-image/-image.html
+$dokka.location:com.innovatrics.dot.image/Image/bytes/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.image/-image/bytes.html
+$dokka.location:com.innovatrics.dot.image/Image/format/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.image/-image/format.html
+$dokka.location:com.innovatrics.dot.image/Image/size/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.image/-image/size.html
+$dokka.location:com.innovatrics.dot.image/ImageFormat.JPEG///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-palm-core/com.innovatrics.dot.image/-image-format/-j-p-e-g/index.html
+$dokka.location:com.innovatrics.dot.image/ImageFormat.JPEG_2000///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-palm-core/com.innovatrics.dot.image/-image-format/-j-p-e-g_2000/index.html
+$dokka.location:com.innovatrics.dot.image/ImageFormat///PointingToDeclaration/dot-palm-core/com.innovatrics.dot.image/-image-format/index.html
+$dokka.location:com.innovatrics.dot.image/ImageFormat/valueOf/#kotlin.String/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.image/-image-format/value-of.html
+$dokka.location:com.innovatrics.dot.image/ImageFormat/values/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.image/-image-format/values.html
 $dokka.location:com.innovatrics.dot.image/ImageRotation.CLOCKWISE_180///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-palm-core/com.innovatrics.dot.image/-image-rotation/-c-l-o-c-k-w-i-s-e_180/index.html
 $dokka.location:com.innovatrics.dot.image/ImageRotation.CLOCKWISE_270///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-palm-core/com.innovatrics.dot.image/-image-rotation/-c-l-o-c-k-w-i-s-e_270/index.html
 $dokka.location:com.innovatrics.dot.image/ImageRotation.CLOCKWISE_90///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-palm-core/com.innovatrics.dot.image/-image-rotation/-c-l-o-c-k-w-i-s-e_90/index.html
@@ -202,6 +238,7 @@ $dokka.location:com.innovatrics.dot.palm/DotPalmLibraryConfiguration/DotPalmLibr
 $dokka.location:com.innovatrics.dot.palm/DotPalmLibraryConfiguration/modules/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm/-dot-palm-library-configuration/modules.html
 com.innovatrics.dot.camera
 com.innovatrics.dot.core
+com.innovatrics.dot.core.autocapture
 com.innovatrics.dot.core.geometry
 com.innovatrics.dot.core.validation
 com.innovatrics.dot.image

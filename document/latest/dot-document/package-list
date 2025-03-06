@@ -16,11 +16,33 @@ $dokka.location:com.innovatrics.dot.camera/CameraPreviewScaleType///PointingToDe
 $dokka.location:com.innovatrics.dot.camera/CameraPreviewScaleType/cameraXScaleType/#/PointingToDeclaration/dot-document/com.innovatrics.dot.camera/-camera-preview-scale-type/camera-x-scale-type.html
 $dokka.location:com.innovatrics.dot.camera/CameraPreviewScaleType/valueOf/#kotlin.String/PointingToDeclaration/dot-document/com.innovatrics.dot.camera/-camera-preview-scale-type/value-of.html
 $dokka.location:com.innovatrics.dot.camera/CameraPreviewScaleType/values/#/PointingToDeclaration/dot-document/com.innovatrics.dot.camera/-camera-preview-scale-type/values.html
+$dokka.location:com.innovatrics.dot.core.autocapture////PointingToDeclaration/dot-document/com.innovatrics.dot.core.autocapture/index.html
+$dokka.location:com.innovatrics.dot.core.autocapture/CaptureMode.AUTO_CAPTURE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-document/com.innovatrics.dot.core.autocapture/-capture-mode/-a-u-t-o_-c-a-p-t-u-r-e/index.html
+$dokka.location:com.innovatrics.dot.core.autocapture/CaptureMode.WAIT_FOR_REQUEST///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-document/com.innovatrics.dot.core.autocapture/-capture-mode/-w-a-i-t_-f-o-r_-r-e-q-u-e-s-t/index.html
+$dokka.location:com.innovatrics.dot.core.autocapture/CaptureMode///PointingToDeclaration/dot-document/com.innovatrics.dot.core.autocapture/-capture-mode/index.html
+$dokka.location:com.innovatrics.dot.core.autocapture/CaptureMode/valueOf/#kotlin.String/PointingToDeclaration/dot-document/com.innovatrics.dot.core.autocapture/-capture-mode/value-of.html
+$dokka.location:com.innovatrics.dot.core.autocapture/CaptureMode/values/#/PointingToDeclaration/dot-document/com.innovatrics.dot.core.autocapture/-capture-mode/values.html
 $dokka.location:com.innovatrics.dot.core.geometry////PointingToDeclaration/dot-document/com.innovatrics.dot.core.geometry/index.html
 $dokka.location:com.innovatrics.dot.core.geometry/PointDouble///PointingToDeclaration/dot-document/com.innovatrics.dot.core.geometry/-point-double/index.html
 $dokka.location:com.innovatrics.dot.core.geometry/PointDouble/PointDouble/#kotlin.Double#kotlin.Double/PointingToDeclaration/dot-document/com.innovatrics.dot.core.geometry/-point-double/-point-double.html
 $dokka.location:com.innovatrics.dot.core.geometry/PointDouble/x/#/PointingToDeclaration/dot-document/com.innovatrics.dot.core.geometry/-point-double/x.html
 $dokka.location:com.innovatrics.dot.core.geometry/PointDouble/y/#/PointingToDeclaration/dot-document/com.innovatrics.dot.core.geometry/-point-double/y.html
+$dokka.location:com.innovatrics.dot.core.geometry/PointInt///PointingToDeclaration/dot-document/com.innovatrics.dot.core.geometry/-point-int/index.html
+$dokka.location:com.innovatrics.dot.core.geometry/PointInt/PointInt/#kotlin.Int#kotlin.Int/PointingToDeclaration/dot-document/com.innovatrics.dot.core.geometry/-point-int/-point-int.html
+$dokka.location:com.innovatrics.dot.core.geometry/PointInt/x/#/PointingToDeclaration/dot-document/com.innovatrics.dot.core.geometry/-point-int/x.html
+$dokka.location:com.innovatrics.dot.core.geometry/PointInt/y/#/PointingToDeclaration/dot-document/com.innovatrics.dot.core.geometry/-point-int/y.html
+$dokka.location:com.innovatrics.dot.core.geometry/RectangleDouble///PointingToDeclaration/dot-document/com.innovatrics.dot.core.geometry/-rectangle-double/index.html
+$dokka.location:com.innovatrics.dot.core.geometry/RectangleDouble/RectangleDouble/#kotlin.Double#kotlin.Double#kotlin.Double#kotlin.Double/PointingToDeclaration/dot-document/com.innovatrics.dot.core.geometry/-rectangle-double/-rectangle-double.html
+$dokka.location:com.innovatrics.dot.core.geometry/RectangleDouble/bottom/#/PointingToDeclaration/dot-document/com.innovatrics.dot.core.geometry/-rectangle-double/bottom.html
+$dokka.location:com.innovatrics.dot.core.geometry/RectangleDouble/left/#/PointingToDeclaration/dot-document/com.innovatrics.dot.core.geometry/-rectangle-double/left.html
+$dokka.location:com.innovatrics.dot.core.geometry/RectangleDouble/right/#/PointingToDeclaration/dot-document/com.innovatrics.dot.core.geometry/-rectangle-double/right.html
+$dokka.location:com.innovatrics.dot.core.geometry/RectangleDouble/top/#/PointingToDeclaration/dot-document/com.innovatrics.dot.core.geometry/-rectangle-double/top.html
+$dokka.location:com.innovatrics.dot.core.geometry/RectangleInt///PointingToDeclaration/dot-document/com.innovatrics.dot.core.geometry/-rectangle-int/index.html
+$dokka.location:com.innovatrics.dot.core.geometry/RectangleInt/RectangleInt/#kotlin.Int#kotlin.Int#kotlin.Int#kotlin.Int/PointingToDeclaration/dot-document/com.innovatrics.dot.core.geometry/-rectangle-int/-rectangle-int.html
+$dokka.location:com.innovatrics.dot.core.geometry/RectangleInt/bottom/#/PointingToDeclaration/dot-document/com.innovatrics.dot.core.geometry/-rectangle-int/bottom.html
+$dokka.location:com.innovatrics.dot.core.geometry/RectangleInt/left/#/PointingToDeclaration/dot-document/com.innovatrics.dot.core.geometry/-rectangle-int/left.html
+$dokka.location:com.innovatrics.dot.core.geometry/RectangleInt/right/#/PointingToDeclaration/dot-document/com.innovatrics.dot.core.geometry/-rectangle-int/right.html
+$dokka.location:com.innovatrics.dot.core.geometry/RectangleInt/top/#/PointingToDeclaration/dot-document/com.innovatrics.dot.core.geometry/-rectangle-int/top.html
 $dokka.location:com.innovatrics.dot.core.validation////PointingToDeclaration/dot-document/com.innovatrics.dot.core.validation/index.html
 $dokka.location:com.innovatrics.dot.core.validation/IntervalDouble///PointingToDeclaration/dot-document/com.innovatrics.dot.core.validation/-interval-double/index.html
 $dokka.location:com.innovatrics.dot.core.validation/IntervalDouble/IntervalDouble/#kotlin.Double#kotlin.Double/PointingToDeclaration/dot-document/com.innovatrics.dot.core.validation/-interval-double/-interval-double.html
@@ -280,10 +302,24 @@ $dokka.location:com.innovatrics.dot.document////PointingToDeclaration/dot-docum
 $dokka.location:com.innovatrics.dot.document/DotDocumentLibrary///PointingToDeclaration/dot-document/com.innovatrics.dot.document/-dot-document-library/index.html
 $dokka.location:com.innovatrics.dot.document/DotDocumentLibrary/DotDocumentLibrary/#/PointingToDeclaration/dot-document/com.innovatrics.dot.document/-dot-document-library/-dot-document-library.html
 $dokka.location:com.innovatrics.dot.image////PointingToDeclaration/dot-document/com.innovatrics.dot.image/index.html
+$dokka.location:com.innovatrics.dot.image/BgrRawImage///PointingToDeclaration/dot-document/com.innovatrics.dot.image/-bgr-raw-image/index.html
+$dokka.location:com.innovatrics.dot.image/BgrRawImage/BgrRawImage/#com.innovatrics.dot.image.ImageSize#kotlin.ByteArray/PointingToDeclaration/dot-document/com.innovatrics.dot.image/-bgr-raw-image/-bgr-raw-image.html
+$dokka.location:com.innovatrics.dot.image/BgrRawImage/bytes/#/PointingToDeclaration/dot-document/com.innovatrics.dot.image/-bgr-raw-image/bytes.html
+$dokka.location:com.innovatrics.dot.image/BgrRawImage/size/#/PointingToDeclaration/dot-document/com.innovatrics.dot.image/-bgr-raw-image/size.html
 $dokka.location:com.innovatrics.dot.image/BgraRawImage///PointingToDeclaration/dot-document/com.innovatrics.dot.image/-bgra-raw-image/index.html
 $dokka.location:com.innovatrics.dot.image/BgraRawImage/BgraRawImage/#com.innovatrics.dot.image.ImageSize#kotlin.ByteArray/PointingToDeclaration/dot-document/com.innovatrics.dot.image/-bgra-raw-image/-bgra-raw-image.html
 $dokka.location:com.innovatrics.dot.image/BgraRawImage/bytes/#/PointingToDeclaration/dot-document/com.innovatrics.dot.image/-bgra-raw-image/bytes.html
 $dokka.location:com.innovatrics.dot.image/BgraRawImage/size/#/PointingToDeclaration/dot-document/com.innovatrics.dot.image/-bgra-raw-image/size.html
+$dokka.location:com.innovatrics.dot.image/Image///PointingToDeclaration/dot-document/com.innovatrics.dot.image/-image/index.html
+$dokka.location:com.innovatrics.dot.image/Image/Image/#com.innovatrics.dot.image.ImageFormat#com.innovatrics.dot.image.ImageSize#kotlin.ByteArray/PointingToDeclaration/dot-document/com.innovatrics.dot.image/-image/-image.html
+$dokka.location:com.innovatrics.dot.image/Image/bytes/#/PointingToDeclaration/dot-document/com.innovatrics.dot.image/-image/bytes.html
+$dokka.location:com.innovatrics.dot.image/Image/format/#/PointingToDeclaration/dot-document/com.innovatrics.dot.image/-image/format.html
+$dokka.location:com.innovatrics.dot.image/Image/size/#/PointingToDeclaration/dot-document/com.innovatrics.dot.image/-image/size.html
+$dokka.location:com.innovatrics.dot.image/ImageFormat.JPEG///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-document/com.innovatrics.dot.image/-image-format/-j-p-e-g/index.html
+$dokka.location:com.innovatrics.dot.image/ImageFormat.JPEG_2000///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-document/com.innovatrics.dot.image/-image-format/-j-p-e-g_2000/index.html
+$dokka.location:com.innovatrics.dot.image/ImageFormat///PointingToDeclaration/dot-document/com.innovatrics.dot.image/-image-format/index.html
+$dokka.location:com.innovatrics.dot.image/ImageFormat/valueOf/#kotlin.String/PointingToDeclaration/dot-document/com.innovatrics.dot.image/-image-format/value-of.html
+$dokka.location:com.innovatrics.dot.image/ImageFormat/values/#/PointingToDeclaration/dot-document/com.innovatrics.dot.image/-image-format/values.html
 $dokka.location:com.innovatrics.dot.image/ImageRotation.CLOCKWISE_180///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-document/com.innovatrics.dot.image/-image-rotation/-c-l-o-c-k-w-i-s-e_180/index.html
 $dokka.location:com.innovatrics.dot.image/ImageRotation.CLOCKWISE_270///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-document/com.innovatrics.dot.image/-image-rotation/-c-l-o-c-k-w-i-s-e_270/index.html
 $dokka.location:com.innovatrics.dot.image/ImageRotation.CLOCKWISE_90///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-document/com.innovatrics.dot.image/-image-rotation/-c-l-o-c-k-w-i-s-e_90/index.html
@@ -303,8 +339,94 @@ $dokka.location:com.innovatrics.dot.image/Nv21Image/Nv21Image/#com.innovatrics.d
 $dokka.location:com.innovatrics.dot.image/Nv21Image/bytes/#/PointingToDeclaration/dot-document/com.innovatrics.dot.image/-nv21-image/bytes.html
 $dokka.location:com.innovatrics.dot.image/Nv21Image/rotation/#/PointingToDeclaration/dot-document/com.innovatrics.dot.image/-nv21-image/rotation.html
 $dokka.location:com.innovatrics.dot.image/Nv21Image/size/#/PointingToDeclaration/dot-document/com.innovatrics.dot.image/-nv21-image/size.html
+$dokka.location:com.innovatrics.dot.mrz.element////PointingToDeclaration/dot-document/com.innovatrics.dot.mrz.element/index.html
+$dokka.location:com.innovatrics.dot.mrz.element/DateElementWithCheckDigit///PointingToDeclaration/dot-document/com.innovatrics.dot.mrz.element/-date-element-with-check-digit/index.html
+$dokka.location:com.innovatrics.dot.mrz.element/DateElementWithCheckDigit/DateElementWithCheckDigit/#com.innovatrics.dot.mrz.Date#kotlin.String#kotlin.collections.List[com.innovatrics.dot.mrz.StringPosition]#com.innovatrics.dot.mrz.CheckDigit/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz.element/-date-element-with-check-digit/-date-element-with-check-digit.html
+$dokka.location:com.innovatrics.dot.mrz.element/DateElementWithCheckDigit/checkDigit/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz.element/-date-element-with-check-digit/check-digit.html
+$dokka.location:com.innovatrics.dot.mrz.element/DateElementWithCheckDigit/date/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz.element/-date-element-with-check-digit/date.html
+$dokka.location:com.innovatrics.dot.mrz.element/DateElementWithCheckDigit/positions/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz.element/-date-element-with-check-digit/positions.html
+$dokka.location:com.innovatrics.dot.mrz.element/DateElementWithCheckDigit/value/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz.element/-date-element-with-check-digit/value.html
+$dokka.location:com.innovatrics.dot.mrz.element/Element///PointingToDeclaration/dot-document/com.innovatrics.dot.mrz.element/-element/index.html
+$dokka.location:com.innovatrics.dot.mrz.element/Element/Element/#kotlin.String#kotlin.collections.List[com.innovatrics.dot.mrz.StringPosition]/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz.element/-element/-element.html
+$dokka.location:com.innovatrics.dot.mrz.element/Element/positions/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz.element/-element/positions.html
+$dokka.location:com.innovatrics.dot.mrz.element/Element/value/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz.element/-element/value.html
+$dokka.location:com.innovatrics.dot.mrz.element/ElementWithCheckDigit///PointingToDeclaration/dot-document/com.innovatrics.dot.mrz.element/-element-with-check-digit/index.html
+$dokka.location:com.innovatrics.dot.mrz.element/ElementWithCheckDigit/ElementWithCheckDigit/#kotlin.String#kotlin.collections.List[com.innovatrics.dot.mrz.StringPosition]#com.innovatrics.dot.mrz.CheckDigit/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz.element/-element-with-check-digit/-element-with-check-digit.html
+$dokka.location:com.innovatrics.dot.mrz.element/ElementWithCheckDigit/checkDigit/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz.element/-element-with-check-digit/check-digit.html
+$dokka.location:com.innovatrics.dot.mrz.element/ElementWithCheckDigit/positions/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz.element/-element-with-check-digit/positions.html
+$dokka.location:com.innovatrics.dot.mrz.element/ElementWithCheckDigit/value/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz.element/-element-with-check-digit/value.html
+$dokka.location:com.innovatrics.dot.mrz.element/NameElement///PointingToDeclaration/dot-document/com.innovatrics.dot.mrz.element/-name-element/index.html
+$dokka.location:com.innovatrics.dot.mrz.element/NameElement/NameElement/#com.innovatrics.dot.mrz.element.Element?#com.innovatrics.dot.mrz.element.Element?/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz.element/-name-element/-name-element.html
+$dokka.location:com.innovatrics.dot.mrz.element/NameElement/primaryIdentifier/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz.element/-name-element/primary-identifier.html
+$dokka.location:com.innovatrics.dot.mrz.element/NameElement/secondaryIdentifier/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz.element/-name-element/secondary-identifier.html
+$dokka.location:com.innovatrics.dot.mrz////PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/index.html
+$dokka.location:com.innovatrics.dot.mrz/CheckDigit///PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-check-digit/index.html
+$dokka.location:com.innovatrics.dot.mrz/CheckDigit/CheckDigit/#kotlin.Boolean#kotlin.Char/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-check-digit/-check-digit.html
+$dokka.location:com.innovatrics.dot.mrz/CheckDigit/isValid/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-check-digit/is-valid.html
+$dokka.location:com.innovatrics.dot.mrz/CheckDigit/value/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-check-digit/value.html
+$dokka.location:com.innovatrics.dot.mrz/Date///PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-date/index.html
+$dokka.location:com.innovatrics.dot.mrz/Date/Date/#kotlin.Int#kotlin.Int#kotlin.Int/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-date/-date.html
+$dokka.location:com.innovatrics.dot.mrz/Date/day/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-date/day.html
+$dokka.location:com.innovatrics.dot.mrz/Date/month/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-date/month.html
+$dokka.location:com.innovatrics.dot.mrz/Date/year/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-date/year.html
+$dokka.location:com.innovatrics.dot.mrz/MachineReadableZone///PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-machine-readable-zone/index.html
+$dokka.location:com.innovatrics.dot.mrz/MachineReadableZone/lines/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-machine-readable-zone/lines.html
+$dokka.location:com.innovatrics.dot.mrz/MachineReadableZone/td1/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-machine-readable-zone/td1.html
+$dokka.location:com.innovatrics.dot.mrz/MachineReadableZone/td2/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-machine-readable-zone/td2.html
+$dokka.location:com.innovatrics.dot.mrz/MachineReadableZone/td3/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-machine-readable-zone/td3.html
+$dokka.location:com.innovatrics.dot.mrz/StringPosition///PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-string-position/index.html
+$dokka.location:com.innovatrics.dot.mrz/StringPosition/StringPosition/#kotlin.Int#kotlin.Int#kotlin.Int/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-string-position/-string-position.html
+$dokka.location:com.innovatrics.dot.mrz/StringPosition/endIndex/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-string-position/end-index.html
+$dokka.location:com.innovatrics.dot.mrz/StringPosition/lineIndex/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-string-position/line-index.html
+$dokka.location:com.innovatrics.dot.mrz/StringPosition/startIndex/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-string-position/start-index.html
+$dokka.location:com.innovatrics.dot.mrz/Td1MachineReadableZone///PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-td1-machine-readable-zone/index.html
+$dokka.location:com.innovatrics.dot.mrz/Td1MachineReadableZone/Td1MachineReadableZone/#com.innovatrics.dot.mrz.element.Element#com.innovatrics.dot.mrz.element.Element#com.innovatrics.dot.mrz.element.ElementWithCheckDigit#com.innovatrics.dot.mrz.element.DateElementWithCheckDigit#com.innovatrics.dot.mrz.element.Element#com.innovatrics.dot.mrz.element.DateElementWithCheckDigit#com.innovatrics.dot.mrz.element.Element#com.innovatrics.dot.mrz.element.NameElement#kotlin.collections.List[com.innovatrics.dot.mrz.element.Element]#com.innovatrics.dot.mrz.CheckDigit/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-td1-machine-readable-zone/-td1-machine-readable-zone.html
+$dokka.location:com.innovatrics.dot.mrz/Td1MachineReadableZone/compositeCheckDigit/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-td1-machine-readable-zone/composite-check-digit.html
+$dokka.location:com.innovatrics.dot.mrz/Td1MachineReadableZone/dateOfBirth/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-td1-machine-readable-zone/date-of-birth.html
+$dokka.location:com.innovatrics.dot.mrz/Td1MachineReadableZone/dateOfExpiry/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-td1-machine-readable-zone/date-of-expiry.html
+$dokka.location:com.innovatrics.dot.mrz/Td1MachineReadableZone/documentCode/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-td1-machine-readable-zone/document-code.html
+$dokka.location:com.innovatrics.dot.mrz/Td1MachineReadableZone/documentNumber/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-td1-machine-readable-zone/document-number.html
+$dokka.location:com.innovatrics.dot.mrz/Td1MachineReadableZone/issuingStateOrOrganization/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-td1-machine-readable-zone/issuing-state-or-organization.html
+$dokka.location:com.innovatrics.dot.mrz/Td1MachineReadableZone/name/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-td1-machine-readable-zone/name.html
+$dokka.location:com.innovatrics.dot.mrz/Td1MachineReadableZone/nationality/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-td1-machine-readable-zone/nationality.html
+$dokka.location:com.innovatrics.dot.mrz/Td1MachineReadableZone/optionalData/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-td1-machine-readable-zone/optional-data.html
+$dokka.location:com.innovatrics.dot.mrz/Td1MachineReadableZone/sex/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-td1-machine-readable-zone/sex.html
+$dokka.location:com.innovatrics.dot.mrz/Td2MachineReadableZone///PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-td2-machine-readable-zone/index.html
+$dokka.location:com.innovatrics.dot.mrz/Td2MachineReadableZone/Td2MachineReadableZone/#com.innovatrics.dot.mrz.element.Element#com.innovatrics.dot.mrz.element.Element#com.innovatrics.dot.mrz.element.NameElement#com.innovatrics.dot.mrz.element.ElementWithCheckDigit#com.innovatrics.dot.mrz.element.Element#com.innovatrics.dot.mrz.element.DateElementWithCheckDigit#com.innovatrics.dot.mrz.element.Element#com.innovatrics.dot.mrz.element.DateElementWithCheckDigit#com.innovatrics.dot.mrz.element.Element?#com.innovatrics.dot.mrz.CheckDigit/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-td2-machine-readable-zone/-td2-machine-readable-zone.html
+$dokka.location:com.innovatrics.dot.mrz/Td2MachineReadableZone/compositeCheckDigit/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-td2-machine-readable-zone/composite-check-digit.html
+$dokka.location:com.innovatrics.dot.mrz/Td2MachineReadableZone/dateOfBirth/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-td2-machine-readable-zone/date-of-birth.html
+$dokka.location:com.innovatrics.dot.mrz/Td2MachineReadableZone/dateOfExpiry/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-td2-machine-readable-zone/date-of-expiry.html
+$dokka.location:com.innovatrics.dot.mrz/Td2MachineReadableZone/documentCode/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-td2-machine-readable-zone/document-code.html
+$dokka.location:com.innovatrics.dot.mrz/Td2MachineReadableZone/documentNumber/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-td2-machine-readable-zone/document-number.html
+$dokka.location:com.innovatrics.dot.mrz/Td2MachineReadableZone/issuingStateOrOrganization/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-td2-machine-readable-zone/issuing-state-or-organization.html
+$dokka.location:com.innovatrics.dot.mrz/Td2MachineReadableZone/name/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-td2-machine-readable-zone/name.html
+$dokka.location:com.innovatrics.dot.mrz/Td2MachineReadableZone/nationality/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-td2-machine-readable-zone/nationality.html
+$dokka.location:com.innovatrics.dot.mrz/Td2MachineReadableZone/optionalData/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-td2-machine-readable-zone/optional-data.html
+$dokka.location:com.innovatrics.dot.mrz/Td2MachineReadableZone/sex/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-td2-machine-readable-zone/sex.html
+$dokka.location:com.innovatrics.dot.mrz/Td3MachineReadableZone///PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-td3-machine-readable-zone/index.html
+$dokka.location:com.innovatrics.dot.mrz/Td3MachineReadableZone/Td3MachineReadableZone/#com.innovatrics.dot.mrz.element.Element#com.innovatrics.dot.mrz.element.Element#com.innovatrics.dot.mrz.element.NameElement#com.innovatrics.dot.mrz.element.ElementWithCheckDigit#com.innovatrics.dot.mrz.element.Element#com.innovatrics.dot.mrz.element.DateElementWithCheckDigit#com.innovatrics.dot.mrz.element.Element#com.innovatrics.dot.mrz.element.DateElementWithCheckDigit#com.innovatrics.dot.mrz.element.ElementWithCheckDigit#com.innovatrics.dot.mrz.CheckDigit/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-td3-machine-readable-zone/-td3-machine-readable-zone.html
+$dokka.location:com.innovatrics.dot.mrz/Td3MachineReadableZone/compositeCheckDigit/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-td3-machine-readable-zone/composite-check-digit.html
+$dokka.location:com.innovatrics.dot.mrz/Td3MachineReadableZone/dateOfBirth/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-td3-machine-readable-zone/date-of-birth.html
+$dokka.location:com.innovatrics.dot.mrz/Td3MachineReadableZone/dateOfExpiry/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-td3-machine-readable-zone/date-of-expiry.html
+$dokka.location:com.innovatrics.dot.mrz/Td3MachineReadableZone/documentCode/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-td3-machine-readable-zone/document-code.html
+$dokka.location:com.innovatrics.dot.mrz/Td3MachineReadableZone/issuingStateOrOrganization/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-td3-machine-readable-zone/issuing-state-or-organization.html
+$dokka.location:com.innovatrics.dot.mrz/Td3MachineReadableZone/name/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-td3-machine-readable-zone/name.html
+$dokka.location:com.innovatrics.dot.mrz/Td3MachineReadableZone/nationality/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-td3-machine-readable-zone/nationality.html
+$dokka.location:com.innovatrics.dot.mrz/Td3MachineReadableZone/passportNumber/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-td3-machine-readable-zone/passport-number.html
+$dokka.location:com.innovatrics.dot.mrz/Td3MachineReadableZone/personalNumberOrOtherOptionalData/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-td3-machine-readable-zone/personal-number-or-other-optional-data.html
+$dokka.location:com.innovatrics.dot.mrz/Td3MachineReadableZone/sex/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-td3-machine-readable-zone/sex.html
+$dokka.location:com.innovatrics.dot.mrz/TravelDocumentType.TD1///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-document/com.innovatrics.dot.mrz/-travel-document-type/-t-d1/index.html
+$dokka.location:com.innovatrics.dot.mrz/TravelDocumentType.TD2///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-document/com.innovatrics.dot.mrz/-travel-document-type/-t-d2/index.html
+$dokka.location:com.innovatrics.dot.mrz/TravelDocumentType.TD3///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-document/com.innovatrics.dot.mrz/-travel-document-type/-t-d3/index.html
+$dokka.location:com.innovatrics.dot.mrz/TravelDocumentType///PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-travel-document-type/index.html
+$dokka.location:com.innovatrics.dot.mrz/TravelDocumentType/countOfCharactersInLine/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-travel-document-type/count-of-characters-in-line.html
+$dokka.location:com.innovatrics.dot.mrz/TravelDocumentType/countOfLines/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-travel-document-type/count-of-lines.html
+$dokka.location:com.innovatrics.dot.mrz/TravelDocumentType/matchFormat/#kotlin.collections.List[kotlin.String]/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-travel-document-type/match-format.html
+$dokka.location:com.innovatrics.dot.mrz/TravelDocumentType/valueOf/#kotlin.String/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-travel-document-type/value-of.html
+$dokka.location:com.innovatrics.dot.mrz/TravelDocumentType/values/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-travel-document-type/values.html
 com.innovatrics.dot.camera
 com.innovatrics.dot.core
+com.innovatrics.dot.core.autocapture
 com.innovatrics.dot.core.geometry
 com.innovatrics.dot.core.validation
 com.innovatrics.dot.document
@@ -314,4 +436,6 @@ com.innovatrics.dot.document.detection
 com.innovatrics.dot.document.image
 com.innovatrics.dot.document.mrz
 com.innovatrics.dot.image
+com.innovatrics.dot.mrz
+com.innovatrics.dot.mrz.element
 

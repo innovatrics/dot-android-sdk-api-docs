@@ -1,5 +1,8 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
+$dokka.location:com.innovatrics.dot.camera.image////PointingToDeclaration/dot-document/com.innovatrics.dot.camera.image/index.html
+$dokka.location:com.innovatrics.dot.camera.image/BgraRawImageFactory///PointingToDeclaration/dot-document/com.innovatrics.dot.camera.image/-bgra-raw-image-factory/index.html
+$dokka.location:com.innovatrics.dot.camera.image/BgraRawImageFactory/create/#androidx.camera.core.ImageProxy/PointingToDeclaration/dot-document/com.innovatrics.dot.camera.image/-bgra-raw-image-factory/create.html
 $dokka.location:com.innovatrics.dot.camera////PointingToDeclaration/dot-document/com.innovatrics.dot.camera/index.html
 $dokka.location:com.innovatrics.dot.camera/CameraFacing.BACK///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-document/com.innovatrics.dot.camera/-camera-facing/-b-a-c-k/index.html
 $dokka.location:com.innovatrics.dot.camera/CameraFacing.FRONT///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-document/com.innovatrics.dot.camera/-camera-facing/-f-r-o-n-t/index.html
@@ -185,11 +188,12 @@ $dokka.location:com.innovatrics.dot.document.autocapture/DocumentAutoCaptureDete
 $dokka.location:com.innovatrics.dot.document.autocapture/DocumentAutoCaptureFragment.Companion///PointingToDeclaration/dot-document/com.innovatrics.dot.document.autocapture/-document-auto-capture-fragment/-companion/index.html
 $dokka.location:com.innovatrics.dot.document.autocapture/DocumentAutoCaptureFragment.Companion/CONFIGURATION/#/PointingToDeclaration/dot-document/com.innovatrics.dot.document.autocapture/-document-auto-capture-fragment/-companion/-c-o-n-f-i-g-u-r-a-t-i-o-n.html
 $dokka.location:com.innovatrics.dot.document.autocapture/DocumentAutoCaptureFragment.Configuration///PointingToDeclaration/dot-document/com.innovatrics.dot.document.autocapture/-document-auto-capture-fragment/-configuration/index.html
-$dokka.location:com.innovatrics.dot.document.autocapture/DocumentAutoCaptureFragment.Configuration/Configuration/#com.innovatrics.dot.camera.CameraFacing#com.innovatrics.dot.camera.CameraPreviewScaleType#kotlin.Boolean#com.innovatrics.dot.document.autocapture.ValidationMode#com.innovatrics.dot.document.autocapture.QualityAttributeThresholds#kotlin.Boolean#com.innovatrics.dot.document.autocapture.MrzValidation#kotlin.String?#com.innovatrics.dot.document.autocapture.PlaceholderType/PointingToDeclaration/dot-document/com.innovatrics.dot.document.autocapture/-document-auto-capture-fragment/-configuration/-configuration.html
+$dokka.location:com.innovatrics.dot.document.autocapture/DocumentAutoCaptureFragment.Configuration/Configuration/#com.innovatrics.dot.camera.CameraFacing#com.innovatrics.dot.camera.CameraPreviewScaleType#kotlin.Boolean#kotlin.Boolean#com.innovatrics.dot.document.autocapture.ValidationMode#com.innovatrics.dot.document.autocapture.QualityAttributeThresholds#kotlin.Boolean#com.innovatrics.dot.document.autocapture.MrzValidation#kotlin.String?#com.innovatrics.dot.document.autocapture.PlaceholderType/PointingToDeclaration/dot-document/com.innovatrics.dot.document.autocapture/-document-auto-capture-fragment/-configuration/-configuration.html
 $dokka.location:com.innovatrics.dot.document.autocapture/DocumentAutoCaptureFragment.Configuration/cameraFacing/#/PointingToDeclaration/dot-document/com.innovatrics.dot.document.autocapture/-document-auto-capture-fragment/-configuration/camera-facing.html
 $dokka.location:com.innovatrics.dot.document.autocapture/DocumentAutoCaptureFragment.Configuration/cameraPreviewScaleType/#/PointingToDeclaration/dot-document/com.innovatrics.dot.document.autocapture/-document-auto-capture-fragment/-configuration/camera-preview-scale-type.html
 $dokka.location:com.innovatrics.dot.document.autocapture/DocumentAutoCaptureFragment.Configuration/isDetectionLayerVisible/#/PointingToDeclaration/dot-document/com.innovatrics.dot.document.autocapture/-document-auto-capture-fragment/-configuration/is-detection-layer-visible.html
 $dokka.location:com.innovatrics.dot.document.autocapture/DocumentAutoCaptureFragment.Configuration/isTorchEnabled/#/PointingToDeclaration/dot-document/com.innovatrics.dot.document.autocapture/-document-auto-capture-fragment/-configuration/is-torch-enabled.html
+$dokka.location:com.innovatrics.dot.document.autocapture/DocumentAutoCaptureFragment.Configuration/isVideoCaptureEnabled/#/PointingToDeclaration/dot-document/com.innovatrics.dot.document.autocapture/-document-auto-capture-fragment/-configuration/is-video-capture-enabled.html
 $dokka.location:com.innovatrics.dot.document.autocapture/DocumentAutoCaptureFragment.Configuration/mrzValidation/#/PointingToDeclaration/dot-document/com.innovatrics.dot.document.autocapture/-document-auto-capture-fragment/-configuration/mrz-validation.html
 $dokka.location:com.innovatrics.dot.document.autocapture/DocumentAutoCaptureFragment.Configuration/placeholderType/#/PointingToDeclaration/dot-document/com.innovatrics.dot.document.autocapture/-document-auto-capture-fragment/-configuration/placeholder-type.html
 $dokka.location:com.innovatrics.dot.document.autocapture/DocumentAutoCaptureFragment.Configuration/qualityAttributeThresholds/#/PointingToDeclaration/dot-document/com.innovatrics.dot.document.autocapture/-document-auto-capture-fragment/-configuration/quality-attribute-thresholds.html
@@ -425,6 +429,7 @@ $dokka.location:com.innovatrics.dot.mrz/TravelDocumentType/matchFormat/#kotlin.c
 $dokka.location:com.innovatrics.dot.mrz/TravelDocumentType/valueOf/#kotlin.String/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-travel-document-type/value-of.html
 $dokka.location:com.innovatrics.dot.mrz/TravelDocumentType/values/#/PointingToDeclaration/dot-document/com.innovatrics.dot.mrz/-travel-document-type/values.html
 com.innovatrics.dot.camera
+com.innovatrics.dot.camera.image
 com.innovatrics.dot.core
 com.innovatrics.dot.core.autocapture
 com.innovatrics.dot.core.geometry

@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>QualityAttributeThresholds</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../index.html">
+                    <span>dot-face-core</span>
+            </a>
+    </div>
+    <div>
+8.8.0    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="dot-face-core::com.innovatrics.dot.face.autocapture/QualityAttributeThresholds///PointingToDeclaration//418330372">
+  <div class="breadcrumbs"><a href="../../../index.html">dot-face-core</a><span class="delimiter">/</span><a href="../index.html">com.innovatrics.dot.face.autocapture</a><span class="delimiter">/</span><span class="current">QualityAttributeThresholds</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Quality</span><wbr></wbr><span>Attribute</span><wbr></wbr><span><span>Thresholds</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="index.html">QualityAttributeThresholds</a> <span><span class="token annotation builtin">@</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin.jvm/-jvm-overloads/index.html"><span class="token annotation builtin">JvmOverloads</span></a> </span><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>minConfidence<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>maxDevicePitchAngle<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-float/index.html">Float</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>sizeInterval<span class="token operator">: </span><a href="../../com.innovatrics.dot.core.validation/-interval-double/index.html">IntervalDouble</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>pitchAngleInterval<span class="token operator">: </span><span data-unresolved-link="com.innovatrics.dot.core.validation/IntervalFloat///PointingToDeclaration/">IntervalFloat</span><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>yawAngleInterval<span class="token operator">: </span><span data-unresolved-link="com.innovatrics.dot.core.validation/IntervalFloat///PointingToDeclaration/">IntervalFloat</span><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>minSharpness<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>brightnessInterval<span class="token operator">: </span><a href="../../com.innovatrics.dot.core.validation/-interval-double/index.html">IntervalDouble</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>contrastInterval<span class="token operator">: </span><a href="../../com.innovatrics.dot.core.validation/-interval-double/index.html">IntervalDouble</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>minUniqueIntensityLevels<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>minBackgroundUniformity<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>maxGlassesPresenceScore<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>maxMaskPresenceScore<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>minMouthStatusScore<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>minEyesStatusScore<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>maxShadow<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span> : <a href="https://developer.android.com/reference/kotlin/java/io/Serializable.html">Serializable</a></div><p class="paragraph">Thresholds of quality attributes.</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Types">Types</button><button class="section-tab" data-togglable="Constructors">Constructors</button><button class="section-tab" data-togglable="Properties">Properties</button><button class="section-tab" data-togglable="Throws">Throws</button></div>
+    <div class="tabs-section-body">
+      <h4 class="">Throws</h4>
+      <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><div class="table" data-togglable="Throws"><div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-illegal-argument-exception/index.html"><span>Illegal</span><wbr></wbr><span>Argument</span><wbr></wbr><span><span>Exception</span></span></a></div></span></div><div><div class="title"><p class="paragraph">If any of the parameters is out of the interval.</p></div></div></div></div></div></div></div>
+      <h2 class="tabbedcontent">Constructors</h2>
+      <div class="table" data-togglable="Constructors"><a data-name="-566964707%2FConstructors%2F418330372" anchor-label="QualityAttributeThresholds" id="-566964707%2FConstructors%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue TabbedContent">
+            <div class=""><span class="inline-flex">
+                <div><a href="-quality-attribute-thresholds.html"><span>Quality</span><wbr></wbr><span>Attribute</span><wbr></wbr><span><span>Thresholds</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-566964707%2FConstructors%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin.jvm/-jvm-overloads/index.html"><span class="token annotation builtin">JvmOverloads</span></a></div></div><span class="token keyword"></span><span class="token keyword">fun </span><a href="-quality-attribute-thresholds.html"><span class="token function">QualityAttributeThresholds</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">minConfidence<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">maxDevicePitchAngle<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-float/index.html">Float</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">sizeInterval<span class="token operator">: </span><a href="../../com.innovatrics.dot.core.validation/-interval-double/index.html">IntervalDouble</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">pitchAngleInterval<span class="token operator">: </span><span data-unresolved-link="com.innovatrics.dot.core.validation/IntervalFloat///PointingToDeclaration/">IntervalFloat</span><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">yawAngleInterval<span class="token operator">: </span><span data-unresolved-link="com.innovatrics.dot.core.validation/IntervalFloat///PointingToDeclaration/">IntervalFloat</span><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">minSharpness<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">brightnessInterval<span class="token operator">: </span><a href="../../com.innovatrics.dot.core.validation/-interval-double/index.html">IntervalDouble</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">contrastInterval<span class="token operator">: </span><a href="../../com.innovatrics.dot.core.validation/-interval-double/index.html">IntervalDouble</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">minUniqueIntensityLevels<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">minBackgroundUniformity<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">maxGlassesPresenceScore<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">maxMaskPresenceScore<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">minMouthStatusScore<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">minEyesStatusScore<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">maxShadow<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Types</h2>
+      <div class="table" data-togglable="Types"><a data-name="591759436%2FClasslikes%2F418330372" anchor-label="Builder" id="591759436%2FClasslikes%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-builder/index.html"><span><span>Builder</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="591759436%2FClasslikes%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">class </span><a href="-builder/index.html"><strike>Builder</strike></a></div><div class="brief "><p class="paragraph">Configuration builder.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Properties</h2>
+      <div class="table" data-togglable="Properties"><a data-name="-705111376%2FProperties%2F418330372" anchor-label="brightnessInterval" id="-705111376%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="brightness-interval.html"><span>brightness</span><wbr></wbr><span><span>Interval</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-705111376%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="-705111376%2FProperties%2F418330372" anchor-label="brightnessInterval" id="-705111376%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="brightness-interval.html">brightnessInterval</a><span class="token operator">: </span><a href="../../com.innovatrics.dot.core.validation/-interval-double/index.html">IntervalDouble</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "><a data-name="-705111376%2FProperties%2F418330372" anchor-label="brightnessInterval" id="-705111376%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><p class="paragraph">Valid brightness interval. Values in interval <code class="lang-kotlin">[0.0, 1.0]</code>.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1564529759%2FProperties%2F418330372" anchor-label="contrastInterval" id="1564529759%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="contrast-interval.html"><span>contrast</span><wbr></wbr><span><span>Interval</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1564529759%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="1564529759%2FProperties%2F418330372" anchor-label="contrastInterval" id="1564529759%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="contrast-interval.html">contrastInterval</a><span class="token operator">: </span><a href="../../com.innovatrics.dot.core.validation/-interval-double/index.html">IntervalDouble</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "><a data-name="1564529759%2FProperties%2F418330372" anchor-label="contrastInterval" id="1564529759%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><p class="paragraph">Valid contrast interval. Values in interval <code class="lang-kotlin">[0.0, 1.0]</code>.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1610691289%2FProperties%2F418330372" anchor-label="maxDevicePitchAngle" id="-1610691289%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="max-device-pitch-angle.html"><span>max</span><wbr></wbr><span>Device</span><wbr></wbr><span>Pitch</span><wbr></wbr><span><span>Angle</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1610691289%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="-1610691289%2FProperties%2F418330372" anchor-label="maxDevicePitchAngle" id="-1610691289%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="max-device-pitch-angle.html">maxDevicePitchAngle</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-float/index.html">Float</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "><a data-name="-1610691289%2FProperties%2F418330372" anchor-label="maxDevicePitchAngle" id="-1610691289%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><p class="paragraph">Maximum device pitch angle. Degrees in interval <code class="lang-kotlin">[0.0, 90.0]</code>.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1959967933%2FProperties%2F418330372" anchor-label="maxGlassesPresenceScore" id="-1959967933%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="max-glasses-presence-score.html"><span>max</span><wbr></wbr><span>Glasses</span><wbr></wbr><span>Presence</span><wbr></wbr><span><span>Score</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1959967933%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="-1959967933%2FProperties%2F418330372" anchor-label="maxGlassesPresenceScore" id="-1959967933%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="max-glasses-presence-score.html">maxGlassesPresenceScore</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "><a data-name="-1959967933%2FProperties%2F418330372" anchor-label="maxGlassesPresenceScore" id="-1959967933%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><p class="paragraph">Maximum glass status. Value in interval <code class="lang-kotlin">[0.0, 1.0]</code>.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1285308417%2FProperties%2F418330372" anchor-label="maxMaskPresenceScore" id="-1285308417%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="max-mask-presence-score.html"><span>max</span><wbr></wbr><span>Mask</span><wbr></wbr><span>Presence</span><wbr></wbr><span><span>Score</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1285308417%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="-1285308417%2FProperties%2F418330372" anchor-label="maxMaskPresenceScore" id="-1285308417%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="max-mask-presence-score.html">maxMaskPresenceScore</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "><a data-name="-1285308417%2FProperties%2F418330372" anchor-label="maxMaskPresenceScore" id="-1285308417%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><p class="paragraph">Maximum mask status. Value in interval <code class="lang-kotlin">[0.0, 1.0]</code>.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="399214608%2FProperties%2F418330372" anchor-label="maxShadow" id="399214608%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="max-shadow.html"><span>max</span><wbr></wbr><span><span>Shadow</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="399214608%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="399214608%2FProperties%2F418330372" anchor-label="maxShadow" id="399214608%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="max-shadow.html">maxShadow</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "><a data-name="399214608%2FProperties%2F418330372" anchor-label="maxShadow" id="399214608%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><p class="paragraph">Maximum shadow. Value in interval <code class="lang-kotlin">[0.0, 1.0]</code>.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-749158278%2FProperties%2F418330372" anchor-label="minBackgroundUniformity" id="-749158278%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="min-background-uniformity.html"><span>min</span><wbr></wbr><span>Background</span><wbr></wbr><span><span>Uniformity</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-749158278%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="-749158278%2FProperties%2F418330372" anchor-label="minBackgroundUniformity" id="-749158278%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="min-background-uniformity.html">minBackgroundUniformity</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "><a data-name="-749158278%2FProperties%2F418330372" anchor-label="minBackgroundUniformity" id="-749158278%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><p class="paragraph">Minimum background uniformity. Value in interval <code class="lang-kotlin">[0.0, 1.0]</code>.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1583424696%2FProperties%2F418330372" anchor-label="minConfidence" id="1583424696%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="min-confidence.html"><span>min</span><wbr></wbr><span><span>Confidence</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1583424696%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="1583424696%2FProperties%2F418330372" anchor-label="minConfidence" id="1583424696%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="min-confidence.html">minConfidence</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "><a data-name="1583424696%2FProperties%2F418330372" anchor-label="minConfidence" id="1583424696%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><p class="paragraph">Minimum detection confidence. Value in interval <code class="lang-kotlin">[0.0, 1.0]</code>.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="194555994%2FProperties%2F418330372" anchor-label="minEyesStatusScore" id="194555994%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="min-eyes-status-score.html"><span>min</span><wbr></wbr><span>Eyes</span><wbr></wbr><span>Status</span><wbr></wbr><span><span>Score</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="194555994%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="194555994%2FProperties%2F418330372" anchor-label="minEyesStatusScore" id="194555994%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="min-eyes-status-score.html">minEyesStatusScore</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "><a data-name="194555994%2FProperties%2F418330372" anchor-label="minEyesStatusScore" id="194555994%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><p class="paragraph">Minimum eyes status. Value in interval <code class="lang-kotlin">[0.0, 1.0]</code>.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1622550551%2FProperties%2F418330372" anchor-label="minMouthStatusScore" id="-1622550551%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="min-mouth-status-score.html"><span>min</span><wbr></wbr><span>Mouth</span><wbr></wbr><span>Status</span><wbr></wbr><span><span>Score</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1622550551%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="-1622550551%2FProperties%2F418330372" anchor-label="minMouthStatusScore" id="-1622550551%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="min-mouth-status-score.html">minMouthStatusScore</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "><a data-name="-1622550551%2FProperties%2F418330372" anchor-label="minMouthStatusScore" id="-1622550551%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><p class="paragraph">Minimum mouth status. Value in interval <code class="lang-kotlin">[0.0, 1.0]</code>.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1349295287%2FProperties%2F418330372" anchor-label="minSharpness" id="1349295287%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="min-sharpness.html"><span>min</span><wbr></wbr><span><span>Sharpness</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1349295287%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="1349295287%2FProperties%2F418330372" anchor-label="minSharpness" id="1349295287%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="min-sharpness.html">minSharpness</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "><a data-name="1349295287%2FProperties%2F418330372" anchor-label="minSharpness" id="1349295287%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><p class="paragraph">Minimum sharpness. Value in interval <code class="lang-kotlin">[0.0, 1.0]</code>.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="965861383%2FProperties%2F418330372" anchor-label="minUniqueIntensityLevels" id="965861383%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="min-unique-intensity-levels.html"><span>min</span><wbr></wbr><span>Unique</span><wbr></wbr><span>Intensity</span><wbr></wbr><span><span>Levels</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="965861383%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="965861383%2FProperties%2F418330372" anchor-label="minUniqueIntensityLevels" id="965861383%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="min-unique-intensity-levels.html">minUniqueIntensityLevels</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-double/index.html">Double</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "><a data-name="965861383%2FProperties%2F418330372" anchor-label="minUniqueIntensityLevels" id="965861383%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><p class="paragraph">Minimum unique intensity levels. Value in interval <code class="lang-kotlin">[0.0, 1.0]</code>.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="684156366%2FProperties%2F418330372" anchor-label="pitchAngleInterval" id="684156366%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="pitch-angle-interval.html"><span>pitch</span><wbr></wbr><span>Angle</span><wbr></wbr><span><span>Interval</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="684156366%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="684156366%2FProperties%2F418330372" anchor-label="pitchAngleInterval" id="684156366%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="pitch-angle-interval.html">pitchAngleInterval</a><span class="token operator">: </span><span data-unresolved-link="com.innovatrics.dot.core.validation/IntervalFloat///PointingToDeclaration/">IntervalFloat</span><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "><a data-name="684156366%2FProperties%2F418330372" anchor-label="pitchAngleInterval" id="684156366%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><p class="paragraph">Valid pitch angle interval. Values in interval <code class="lang-kotlin">[-90.0, 90.0]</code>.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1123459008%2FProperties%2F418330372" anchor-label="sizeInterval" id="1123459008%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="size-interval.html"><span>size</span><wbr></wbr><span><span>Interval</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1123459008%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="1123459008%2FProperties%2F418330372" anchor-label="sizeInterval" id="1123459008%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="size-interval.html">sizeInterval</a><span class="token operator">: </span><a href="../../com.innovatrics.dot.core.validation/-interval-double/index.html">IntervalDouble</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "><a data-name="1123459008%2FProperties%2F418330372" anchor-label="sizeInterval" id="1123459008%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><p class="paragraph">Valid face size interval. Values greater than or equal to <code class="lang-kotlin">0.0</code>.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1661411325%2FProperties%2F418330372" anchor-label="yawAngleInterval" id="1661411325%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="yaw-angle-interval.html"><span>yaw</span><wbr></wbr><span>Angle</span><wbr></wbr><span><span>Interval</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1661411325%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="1661411325%2FProperties%2F418330372" anchor-label="yawAngleInterval" id="1661411325%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="yaw-angle-interval.html">yawAngleInterval</a><span class="token operator">: </span><span data-unresolved-link="com.innovatrics.dot.core.validation/IntervalFloat///PointingToDeclaration/">IntervalFloat</span><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "><a data-name="1661411325%2FProperties%2F418330372" anchor-label="yawAngleInterval" id="1661411325%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><p class="paragraph">Valid yaw angle interval. Values in interval <code class="lang-kotlin">[-90.0, 90.0]</code>.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2025 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>

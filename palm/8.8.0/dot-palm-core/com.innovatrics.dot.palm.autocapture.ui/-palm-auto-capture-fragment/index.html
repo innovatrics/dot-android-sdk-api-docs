@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>PalmAutoCaptureFragment</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../index.html">
+                    <span>dot-palm-core</span>
+            </a>
+    </div>
+    <div>
+8.8.0    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="dot-palm-core::com.innovatrics.dot.palm.autocapture.ui/PalmAutoCaptureFragment///PointingToDeclaration//-1624236135">
+  <div class="breadcrumbs"><a href="../../../index.html">dot-palm-core</a><span class="delimiter">/</span><a href="../index.html">com.innovatrics.dot.palm.autocapture.ui</a><span class="delimiter">/</span><span class="current">PalmAutoCaptureFragment</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Palm</span><wbr></wbr><span>Auto</span><wbr></wbr><span>Capture</span><wbr></wbr><span><span>Fragment</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-palm-core:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">class </span><a href="index.html">PalmAutoCaptureFragment</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/LayoutRes.html"><span class="token annotation builtin">LayoutRes</span></a> </span>contentLayoutId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span>R.layout.dot_palm_fragment_palm_auto_capture</span></span><span class="token punctuation">)</span> : <span data-unresolved-link="com.innovatrics.dot.camera.newarchitecture/CameraPreviewFragment///PointingToDeclaration/">CameraPreviewFragment</span></div><p class="paragraph">Palm Auto Capture UI component.</p><p class="paragraph">A visual component for capturing good quality palm images.</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Types">Types</button><button class="section-tab" data-togglable="Constructors">Constructors</button><button class="section-tab" data-togglable="Functions">Functions</button></div>
+    <div class="tabs-section-body">
+      <h2 class="tabbedcontent">Constructors</h2>
+      <div class="table" data-togglable="Constructors"><a data-name="266539230%2FConstructors%2F-1624236135" anchor-label="PalmAutoCaptureFragment" id="266539230%2FConstructors%2F-1624236135" data-filterable-set=":dot-palm-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-palm-core:dokkaHtml/publicApi" data-filterable-set=":dot-palm-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue TabbedContent">
+            <div class=""><span class="inline-flex">
+                <div><a href="-palm-auto-capture-fragment.html"><span>Palm</span><wbr></wbr><span>Auto</span><wbr></wbr><span>Capture</span><wbr></wbr><span><span>Fragment</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="266539230%2FConstructors%2F-1624236135"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-palm-core:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="-palm-auto-capture-fragment.html"><span class="token function">PalmAutoCaptureFragment</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/LayoutRes.html"><span class="token annotation builtin">LayoutRes</span></a> </span>contentLayoutId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span>R.layout.dot_palm_fragment_palm_auto_capture</span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Types</h2>
+      <div class="table" data-togglable="Types"><a data-name="1123627026%2FClasslikes%2F-1624236135" anchor-label="Configuration" id="1123627026%2FClasslikes%2F-1624236135" data-filterable-set=":dot-palm-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-palm-core:dokkaHtml/publicApi" data-filterable-set=":dot-palm-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-configuration/index.html"><span><span>Configuration</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1123627026%2FClasslikes%2F-1624236135"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-palm-core:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-configuration/index.html">Configuration</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>cameraFacing<span class="token operator">: </span><a href="../../com.innovatrics.dot.camera/-camera-facing/index.html">CameraFacing</a><span class="token operator"> = </span>CameraFacing.BACK<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>cameraPreviewScaleType<span class="token operator">: </span><a href="../../com.innovatrics.dot.camera/-camera-preview-scale-type/index.html">CameraPreviewScaleType</a><span class="token operator"> = </span>CameraPreviewScaleType.FIT<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>isTorchEnabled<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator"> = </span><span class="token boolean">false</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>isVideoCaptureEnabled<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator"> = </span><span class="token boolean">false</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>qualityAttributeThresholds<span class="token operator">: </span><a href="../../com.innovatrics.dot.palm.autocapture/-quality-attribute-thresholds/index.html">QualityAttributeThresholds</a><span class="token operator"> = </span>QualityAttributeThresholdPresets.standard<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>isDetectionLayerVisible<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator"> = </span><span class="token boolean">false</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>sessionToken<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Configuration for the Palm Auto Capture UI component.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Functions</h2>
+      <div class="table" data-togglable="Functions"><a data-name="262410659%2FFunctions%2F-1624236135" anchor-label="onCaptured" id="262410659%2FFunctions%2F-1624236135" data-filterable-set=":dot-palm-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-palm-core:dokkaHtml/publicApi" data-filterable-set=":dot-palm-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="on-captured.html"><span>on</span><wbr></wbr><span><span>Captured</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="262410659%2FFunctions%2F-1624236135"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-palm-core:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="on-captured.html"><span class="token function">onCaptured</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">result<span class="token operator">: </span><a href="../../com.innovatrics.dot.palm.autocapture/-palm-auto-capture-result/index.html">PalmAutoCaptureResult</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Called only once for the whole process, when the final palm image candidate has been chosen. Once this callback is called, the whole process is considered to be over.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1021507169%2FFunctions%2F-1624236135" anchor-label="onProcessed" id="-1021507169%2FFunctions%2F-1624236135" data-filterable-set=":dot-palm-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-palm-core:dokkaHtml/publicApi" data-filterable-set=":dot-palm-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="on-processed.html"><span>on</span><wbr></wbr><span><span>Processed</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1021507169%2FFunctions%2F-1624236135"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-palm-core:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="on-processed.html"><span class="token function">onProcessed</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">detection<span class="token operator">: </span><a href="../../com.innovatrics.dot.palm.autocapture/-palm-auto-capture-detection/index.html">PalmAutoCaptureDetection</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Called when a camera image is processed.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="633230731%2FFunctions%2F-1624236135" anchor-label="onViewCreated" id="633230731%2FFunctions%2F-1624236135" data-filterable-set=":dot-palm-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-palm-core:dokkaHtml/publicApi" data-filterable-set=":dot-palm-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="on-view-created.html"><span>on</span><wbr></wbr><span>View</span><wbr></wbr><span><span>Created</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="633230731%2FFunctions%2F-1624236135"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-palm-core:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-view-created.html"><span class="token function">onViewCreated</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">view<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/view/View.html">View</a><span class="token punctuation">, </span></span><span class="parameter ">savedInstanceState<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/os/Bundle.html">Bundle</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="563675472%2FFunctions%2F-1624236135" anchor-label="provideConfiguration" id="563675472%2FFunctions%2F-1624236135" data-filterable-set=":dot-palm-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-palm-core:dokkaHtml/publicApi" data-filterable-set=":dot-palm-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="provide-configuration.html"><span>provide</span><wbr></wbr><span><span>Configuration</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="563675472%2FFunctions%2F-1624236135"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-palm-core:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="provide-configuration.html"><span class="token function">provideConfiguration</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-configuration/index.html">PalmAutoCaptureFragment.Configuration</a></div><div class="brief "><p class="paragraph">Subclasses should override this method to provide <a href="-configuration/index.html">Configuration</a> for the Palm Auto Capture UI component.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1167319122%2FFunctions%2F-1624236135" anchor-label="requestCapture" id="-1167319122%2FFunctions%2F-1624236135" data-filterable-set=":dot-palm-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-palm-core:dokkaHtml/publicApi" data-filterable-set=":dot-palm-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="request-capture.html"><span>request</span><wbr></wbr><span><span>Capture</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1167319122%2FFunctions%2F-1624236135"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-palm-core:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="request-capture.html"><span class="token function">requestCapture</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Request capture event asynchronously (regardless of whether there is a palm detected or not).</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1310563629%2FFunctions%2F-1624236135" anchor-label="start" id="-1310563629%2FFunctions%2F-1624236135" data-filterable-set=":dot-palm-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-palm-core:dokkaHtml/publicApi" data-filterable-set=":dot-palm-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="start.html"><span><span>start</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1310563629%2FFunctions%2F-1624236135"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-palm-core:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="start.html"><span class="token function">start</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Start the process.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-270547189%2FFunctions%2F-1624236135" anchor-label="stopAsync" id="-270547189%2FFunctions%2F-1624236135" data-filterable-set=":dot-palm-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-palm-core:dokkaHtml/publicApi" data-filterable-set=":dot-palm-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="stop-async.html"><span>stop</span><wbr></wbr><span><span>Async</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-270547189%2FFunctions%2F-1624236135"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-palm-core:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="stop-async.html"><span class="token function">stopAsync</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">onStopped<span class="token operator">: </span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html">Unit</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Stop the process asynchronously.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2025 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>

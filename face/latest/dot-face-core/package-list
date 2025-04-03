@@ -430,12 +430,8 @@ $dokka.location:com.innovatrics.dot.face.similarity/FaceMatcher/match/#com.innov
 $dokka.location:com.innovatrics.dot.face.similarity/FaceMatcher/match/#kotlin.ByteArray#com.innovatrics.dot.face.image.FaceImage/PointingToDeclaration/dot-face-core/com.innovatrics.dot.face.similarity/-face-matcher/match.html
 $dokka.location:com.innovatrics.dot.face.similarity/FaceMatcherFactory///PointingToDeclaration/dot-face-core/com.innovatrics.dot.face.similarity/-face-matcher-factory/index.html
 $dokka.location:com.innovatrics.dot.face.similarity/FaceMatcherFactory/create/#/PointingToDeclaration/dot-face-core/com.innovatrics.dot.face.similarity/-face-matcher-factory/create.html
-$dokka.location:com.innovatrics.dot.face.similarity/Template.Version///PointingToDeclaration/dot-face-core/com.innovatrics.dot.face.similarity/-template/-version/index.html
-$dokka.location:com.innovatrics.dot.face.similarity/Template.Version/Version/#kotlin.Int#kotlin.Int/PointingToDeclaration/dot-face-core/com.innovatrics.dot.face.similarity/-template/-version/-version.html
-$dokka.location:com.innovatrics.dot.face.similarity/Template.Version/major/#/PointingToDeclaration/dot-face-core/com.innovatrics.dot.face.similarity/-template/-version/major.html
-$dokka.location:com.innovatrics.dot.face.similarity/Template.Version/minor/#/PointingToDeclaration/dot-face-core/com.innovatrics.dot.face.similarity/-template/-version/minor.html
 $dokka.location:com.innovatrics.dot.face.similarity/Template///PointingToDeclaration/dot-face-core/com.innovatrics.dot.face.similarity/-template/index.html
-$dokka.location:com.innovatrics.dot.face.similarity/Template/Template/#kotlin.ByteArray#com.innovatrics.dot.face.similarity.Template.Version/PointingToDeclaration/dot-face-core/com.innovatrics.dot.face.similarity/-template/-template.html
+$dokka.location:com.innovatrics.dot.face.similarity/Template/Template/#kotlin.ByteArray#kotlin.Int/PointingToDeclaration/dot-face-core/com.innovatrics.dot.face.similarity/-template/-template.html
 $dokka.location:com.innovatrics.dot.face.similarity/Template/bytes/#/PointingToDeclaration/dot-face-core/com.innovatrics.dot.face.similarity/-template/bytes.html
 $dokka.location:com.innovatrics.dot.face.similarity/Template/version/#/PointingToDeclaration/dot-face-core/com.innovatrics.dot.face.similarity/-template/version.html
 $dokka.location:com.innovatrics.dot.face.similarity/TemplateMatcher.MatchException.Error.CORRUPTED///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-face-core/com.innovatrics.dot.face.similarity/-template-matcher/-match-exception/-error/-c-o-r-r-u-p-t-e-d/index.html

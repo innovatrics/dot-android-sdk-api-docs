@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>Lds1eMrtdApplication</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../index.html">
+                    <span>dot-nfc</span>
+            </a>
+    </div>
+    <div>
+8.11.0    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="dot-nfc::com.innovatrics.dot.nfc.lds/Lds1eMrtdApplication///PointingToDeclaration//625561000">
+  <div class="breadcrumbs"><a href="../../../index.html">dot-nfc</a><span class="delimiter">/</span><a href="../index.html">com.innovatrics.dot.nfc.lds</a><span class="delimiter">/</span><span class="current">Lds1eMrtdApplication</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Lds1e</span><wbr></wbr><span>Mrtd</span><wbr></wbr><span><span>Application</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="index.html">Lds1eMrtdApplication</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>comHeaderAndDataGroupPresenceInformation<span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>sodDocumentSecurityObject<span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>dg1MachineReadableZoneInformation<span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>dg2EncodedIdentificationFeaturesFace<span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>dg3AdditionalIdentificationFeatureFingers<span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>dg4AdditionalIdentificationFeatureIrises<span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>dg5DisplayedPortrait<span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>dg7DisplayedSignatureOrUsualMark<span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>dg8DataFeatures<span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>dg9StructureFeatures<span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>dg10SubstanceFeatures<span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>dg11AdditionalPersonalDetails<span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>dg12AdditionalDocumentDetails<span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>dg13OptionalDetails<span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>dg14SecurityOptions<span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>dg15ActiveAuthenticationPublicKeyInfo<span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>dg16PersonsToNotify<span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div><p class="paragraph">Binary representation of the LDS1 eMRTD Application.</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Constructors">Constructors</button><button class="section-tab" data-togglable="Properties">Properties</button></div>
+    <div class="tabs-section-body">
+      <h2 class="tabbedcontent">Constructors</h2>
+      <div class="table" data-togglable="Constructors"><a data-name="-523113638%2FConstructors%2F625561000" anchor-label="Lds1eMrtdApplication" id="-523113638%2FConstructors%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue TabbedContent">
+            <div class=""><span class="inline-flex">
+                <div><a href="-lds1e-mrtd-application.html"><span>Lds1e</span><wbr></wbr><span>Mrtd</span><wbr></wbr><span><span>Application</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-523113638%2FConstructors%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="-lds1e-mrtd-application.html"><span class="token function">Lds1eMrtdApplication</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">comHeaderAndDataGroupPresenceInformation<span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token punctuation">, </span></span><span class="parameter ">sodDocumentSecurityObject<span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token punctuation">, </span></span><span class="parameter ">dg1MachineReadableZoneInformation<span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token punctuation">, </span></span><span class="parameter ">dg2EncodedIdentificationFeaturesFace<span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token punctuation">, </span></span><span class="parameter ">dg3AdditionalIdentificationFeatureFingers<span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">dg4AdditionalIdentificationFeatureIrises<span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">dg5DisplayedPortrait<span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">dg7DisplayedSignatureOrUsualMark<span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">dg8DataFeatures<span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">dg9StructureFeatures<span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">dg10SubstanceFeatures<span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">dg11AdditionalPersonalDetails<span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">dg12AdditionalDocumentDetails<span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">dg13OptionalDetails<span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">dg14SecurityOptions<span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">dg15ActiveAuthenticationPublicKeyInfo<span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">dg16PersonsToNotify<span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Properties</h2>
+      <div class="table" data-togglable="Properties"><a data-name="-1233179390%2FProperties%2F625561000" anchor-label="comHeaderAndDataGroupPresenceInformation" id="-1233179390%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="com-header-and-data-group-presence-information.html"><span>com</span><wbr></wbr><span>Header</span><wbr></wbr><span>And</span><wbr></wbr><span>Data</span><wbr></wbr><span>Group</span><wbr></wbr><span>Presence</span><wbr></wbr><span><span>Information</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1233179390%2FProperties%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><a data-name="-1233179390%2FProperties%2F625561000" anchor-label="comHeaderAndDataGroupPresenceInformation" id="-1233179390%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="com-header-and-data-group-presence-information.html">comHeaderAndDataGroupPresenceInformation</a><span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a></div><div class="brief "><a data-name="-1233179390%2FProperties%2F625561000" anchor-label="comHeaderAndDataGroupPresenceInformation" id="-1233179390%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><p class="paragraph">COM - Header and Data Group Presence Information.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1513375368%2FProperties%2F625561000" anchor-label="dg10SubstanceFeatures" id="1513375368%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="dg10-substance-features.html"><span>dg10Substance</span><wbr></wbr><span><span>Features</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1513375368%2FProperties%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><a data-name="1513375368%2FProperties%2F625561000" anchor-label="dg10SubstanceFeatures" id="1513375368%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="dg10-substance-features.html">dg10SubstanceFeatures</a><span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span></div><div class="brief "><a data-name="1513375368%2FProperties%2F625561000" anchor-label="dg10SubstanceFeatures" id="1513375368%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><p class="paragraph">DG10 - Substance Feature(s).</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-940463845%2FProperties%2F625561000" anchor-label="dg11AdditionalPersonalDetails" id="-940463845%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="dg11-additional-personal-details.html"><span>dg11Additional</span><wbr></wbr><span>Personal</span><wbr></wbr><span><span>Details</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-940463845%2FProperties%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><a data-name="-940463845%2FProperties%2F625561000" anchor-label="dg11AdditionalPersonalDetails" id="-940463845%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="dg11-additional-personal-details.html">dg11AdditionalPersonalDetails</a><span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span></div><div class="brief "><a data-name="-940463845%2FProperties%2F625561000" anchor-label="dg11AdditionalPersonalDetails" id="-940463845%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><p class="paragraph">DG11 - Additional Personal Detail(s).</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-959101513%2FProperties%2F625561000" anchor-label="dg12AdditionalDocumentDetails" id="-959101513%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="dg12-additional-document-details.html"><span>dg12Additional</span><wbr></wbr><span>Document</span><wbr></wbr><span><span>Details</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-959101513%2FProperties%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><a data-name="-959101513%2FProperties%2F625561000" anchor-label="dg12AdditionalDocumentDetails" id="-959101513%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="dg12-additional-document-details.html">dg12AdditionalDocumentDetails</a><span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span></div><div class="brief "><a data-name="-959101513%2FProperties%2F625561000" anchor-label="dg12AdditionalDocumentDetails" id="-959101513%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><p class="paragraph">DG12 - Additional Document Detail(s).</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1262461386%2FProperties%2F625561000" anchor-label="dg13OptionalDetails" id="-1262461386%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="dg13-optional-details.html"><span>dg13Optional</span><wbr></wbr><span><span>Details</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1262461386%2FProperties%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><a data-name="-1262461386%2FProperties%2F625561000" anchor-label="dg13OptionalDetails" id="-1262461386%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="dg13-optional-details.html">dg13OptionalDetails</a><span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span></div><div class="brief "><a data-name="-1262461386%2FProperties%2F625561000" anchor-label="dg13OptionalDetails" id="-1262461386%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><p class="paragraph">DG13 - Optional Details(s).</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-635699141%2FProperties%2F625561000" anchor-label="dg14SecurityOptions" id="-635699141%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="dg14-security-options.html"><span>dg14Security</span><wbr></wbr><span><span>Options</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-635699141%2FProperties%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><a data-name="-635699141%2FProperties%2F625561000" anchor-label="dg14SecurityOptions" id="-635699141%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="dg14-security-options.html">dg14SecurityOptions</a><span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span></div><div class="brief "><a data-name="-635699141%2FProperties%2F625561000" anchor-label="dg14SecurityOptions" id="-635699141%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><p class="paragraph">DG14 - Security Options.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-66190412%2FProperties%2F625561000" anchor-label="dg15ActiveAuthenticationPublicKeyInfo" id="-66190412%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="dg15-active-authentication-public-key-info.html"><span>dg15Active</span><wbr></wbr><span>Authentication</span><wbr></wbr><span>Public</span><wbr></wbr><span>Key</span><wbr></wbr><span><span>Info</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-66190412%2FProperties%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><a data-name="-66190412%2FProperties%2F625561000" anchor-label="dg15ActiveAuthenticationPublicKeyInfo" id="-66190412%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="dg15-active-authentication-public-key-info.html">dg15ActiveAuthenticationPublicKeyInfo</a><span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span></div><div class="brief "><a data-name="-66190412%2FProperties%2F625561000" anchor-label="dg15ActiveAuthenticationPublicKeyInfo" id="-66190412%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><p class="paragraph">DG15 - Active Authentication Public Key Info.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1351633529%2FProperties%2F625561000" anchor-label="dg16PersonsToNotify" id="1351633529%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="dg16-persons-to-notify.html"><span>dg16Persons</span><wbr></wbr><span>To</span><wbr></wbr><span><span>Notify</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1351633529%2FProperties%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><a data-name="1351633529%2FProperties%2F625561000" anchor-label="dg16PersonsToNotify" id="1351633529%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="dg16-persons-to-notify.html">dg16PersonsToNotify</a><span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span></div><div class="brief "><a data-name="1351633529%2FProperties%2F625561000" anchor-label="dg16PersonsToNotify" id="1351633529%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><p class="paragraph">DG16 - Person(s) to Notify.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="298580956%2FProperties%2F625561000" anchor-label="dg1MachineReadableZoneInformation" id="298580956%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="dg1-machine-readable-zone-information.html"><span>dg1Machine</span><wbr></wbr><span>Readable</span><wbr></wbr><span>Zone</span><wbr></wbr><span><span>Information</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="298580956%2FProperties%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><a data-name="298580956%2FProperties%2F625561000" anchor-label="dg1MachineReadableZoneInformation" id="298580956%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="dg1-machine-readable-zone-information.html">dg1MachineReadableZoneInformation</a><span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a></div><div class="brief "><a data-name="298580956%2FProperties%2F625561000" anchor-label="dg1MachineReadableZoneInformation" id="298580956%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><p class="paragraph">DG1 - Machine Readable Zone Information.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1217965248%2FProperties%2F625561000" anchor-label="dg2EncodedIdentificationFeaturesFace" id="-1217965248%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="dg2-encoded-identification-features-face.html"><span>dg2Encoded</span><wbr></wbr><span>Identification</span><wbr></wbr><span>Features</span><wbr></wbr><span><span>Face</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1217965248%2FProperties%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><a data-name="-1217965248%2FProperties%2F625561000" anchor-label="dg2EncodedIdentificationFeaturesFace" id="-1217965248%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="dg2-encoded-identification-features-face.html">dg2EncodedIdentificationFeaturesFace</a><span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a></div><div class="brief "><a data-name="-1217965248%2FProperties%2F625561000" anchor-label="dg2EncodedIdentificationFeaturesFace" id="-1217965248%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><p class="paragraph">DG2 - Encoded Identification Features — Face.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="340788986%2FProperties%2F625561000" anchor-label="dg3AdditionalIdentificationFeatureFingers" id="340788986%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="dg3-additional-identification-feature-fingers.html"><span>dg3Additional</span><wbr></wbr><span>Identification</span><wbr></wbr><span>Feature</span><wbr></wbr><span><span>Fingers</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="340788986%2FProperties%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><a data-name="340788986%2FProperties%2F625561000" anchor-label="dg3AdditionalIdentificationFeatureFingers" id="340788986%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="dg3-additional-identification-feature-fingers.html">dg3AdditionalIdentificationFeatureFingers</a><span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span></div><div class="brief "><a data-name="340788986%2FProperties%2F625561000" anchor-label="dg3AdditionalIdentificationFeatureFingers" id="340788986%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><p class="paragraph">DG3 - Additional Identification Feature — Finger(s).</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1290344426%2FProperties%2F625561000" anchor-label="dg4AdditionalIdentificationFeatureIrises" id="-1290344426%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="dg4-additional-identification-feature-irises.html"><span>dg4Additional</span><wbr></wbr><span>Identification</span><wbr></wbr><span>Feature</span><wbr></wbr><span><span>Irises</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1290344426%2FProperties%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><a data-name="-1290344426%2FProperties%2F625561000" anchor-label="dg4AdditionalIdentificationFeatureIrises" id="-1290344426%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="dg4-additional-identification-feature-irises.html">dg4AdditionalIdentificationFeatureIrises</a><span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span></div><div class="brief "><a data-name="-1290344426%2FProperties%2F625561000" anchor-label="dg4AdditionalIdentificationFeatureIrises" id="-1290344426%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><p class="paragraph">DG4 - Additional Identification Feature — Iris(es).</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="963023389%2FProperties%2F625561000" anchor-label="dg5DisplayedPortrait" id="963023389%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="dg5-displayed-portrait.html"><span>dg5Displayed</span><wbr></wbr><span><span>Portrait</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="963023389%2FProperties%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><a data-name="963023389%2FProperties%2F625561000" anchor-label="dg5DisplayedPortrait" id="963023389%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="dg5-displayed-portrait.html">dg5DisplayedPortrait</a><span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span></div><div class="brief "><a data-name="963023389%2FProperties%2F625561000" anchor-label="dg5DisplayedPortrait" id="963023389%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><p class="paragraph">DG5 - Displayed Portrait.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1772495258%2FProperties%2F625561000" anchor-label="dg7DisplayedSignatureOrUsualMark" id="-1772495258%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="dg7-displayed-signature-or-usual-mark.html"><span>dg7Displayed</span><wbr></wbr><span>Signature</span><wbr></wbr><span>Or</span><wbr></wbr><span>Usual</span><wbr></wbr><span><span>Mark</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1772495258%2FProperties%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><a data-name="-1772495258%2FProperties%2F625561000" anchor-label="dg7DisplayedSignatureOrUsualMark" id="-1772495258%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="dg7-displayed-signature-or-usual-mark.html">dg7DisplayedSignatureOrUsualMark</a><span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span></div><div class="brief "><a data-name="-1772495258%2FProperties%2F625561000" anchor-label="dg7DisplayedSignatureOrUsualMark" id="-1772495258%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><p class="paragraph">DG7 - Displayed Signature or Usual Mark.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-574791305%2FProperties%2F625561000" anchor-label="dg8DataFeatures" id="-574791305%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="dg8-data-features.html"><span>dg8Data</span><wbr></wbr><span><span>Features</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-574791305%2FProperties%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><a data-name="-574791305%2FProperties%2F625561000" anchor-label="dg8DataFeatures" id="-574791305%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="dg8-data-features.html">dg8DataFeatures</a><span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span></div><div class="brief "><a data-name="-574791305%2FProperties%2F625561000" anchor-label="dg8DataFeatures" id="-574791305%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><p class="paragraph">DG8 - Data Feature(s).</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="2143512685%2FProperties%2F625561000" anchor-label="dg9StructureFeatures" id="2143512685%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="dg9-structure-features.html"><span>dg9Structure</span><wbr></wbr><span><span>Features</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2143512685%2FProperties%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><a data-name="2143512685%2FProperties%2F625561000" anchor-label="dg9StructureFeatures" id="2143512685%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="dg9-structure-features.html">dg9StructureFeatures</a><span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a><span class="token operator">?</span></div><div class="brief "><a data-name="2143512685%2FProperties%2F625561000" anchor-label="dg9StructureFeatures" id="2143512685%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><p class="paragraph">DG9 - Structure Feature(s).</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="2120670001%2FProperties%2F625561000" anchor-label="sodDocumentSecurityObject" id="2120670001%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="sod-document-security-object.html"><span>sod</span><wbr></wbr><span>Document</span><wbr></wbr><span>Security</span><wbr></wbr><span><span>Object</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2120670001%2FProperties%2F625561000"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><a data-name="2120670001%2FProperties%2F625561000" anchor-label="sodDocumentSecurityObject" id="2120670001%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="sod-document-security-object.html">sodDocumentSecurityObject</a><span class="token operator">: </span><a href="../-lds1-elementary-file/index.html">Lds1ElementaryFile</a></div><div class="brief "><a data-name="2120670001%2FProperties%2F625561000" anchor-label="sodDocumentSecurityObject" id="2120670001%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><p class="paragraph">SOD - Document Security Object.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2025 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>

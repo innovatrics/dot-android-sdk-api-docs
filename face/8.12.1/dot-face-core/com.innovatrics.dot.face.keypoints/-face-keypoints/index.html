@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>FaceKeypoints</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../index.html">
+                    <span>dot-face-core</span>
+            </a>
+    </div>
+    <div>
+8.12.1    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="dot-face-core::com.innovatrics.dot.face.keypoints/FaceKeypoints///PointingToDeclaration//418330372">
+  <div class="breadcrumbs"><a href="../../../index.html">dot-face-core</a><span class="delimiter">/</span><a href="../index.html">com.innovatrics.dot.face.keypoints</a><span class="delimiter">/</span><span class="current">FaceKeypoints</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Face</span><wbr></wbr><span><span>Keypoints</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="index.html">FaceKeypoints</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>rightEyeOuterCorner<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>rightEyeCenter<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>rightEyeInnerCorner<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>leftEyeInnerCorner<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>leftEyeCenter<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>leftEyeOuterCorner<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>noseRoot<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>noseRightBottom<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>noseTip<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>noseLeftBottom<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>noseBottom<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>mouthRightCorner<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>mouthCenter<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>mouthLeftCorner<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>mouthUpperEdge<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>mouthLowerEdge<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>rightEyebrowOuterEnd<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>rightEyebrowInnerEnd<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>leftEyebrowInnerEnd<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>leftEyebrowOuterEnd<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>rightEdge<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>chinTip<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>leftEdge<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span></div><p class="paragraph">Data class that holds evaluated facial keypoints.</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Constructors">Constructors</button><button class="section-tab" data-togglable="Properties">Properties</button><button class="section-tab" data-togglable="Parameters">Parameters</button></div>
+    <div class="tabs-section-body">
+      <h4 class="">Parameters</h4>
+      <div data-togglable="Parameters">
+        <div class="platform-hinted WithExtraAttributes" data-platform-hinted="data-platform-hinted" data-togglable="Parameters"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><div data-togglable="Parameters"><div class="table" data-togglable="Parameters"><div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><u><span>right</span><wbr></wbr><span>Eye</span><wbr></wbr><span>Outer</span><wbr></wbr><span><span>Corner</span></span></u></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">Right eye outer corner.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><u><span>right</span><wbr></wbr><span>Eye</span><wbr></wbr><span><span>Center</span></span></u></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">Right eye center.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><u><span>right</span><wbr></wbr><span>Eye</span><wbr></wbr><span>Inner</span><wbr></wbr><span><span>Corner</span></span></u></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">Right eye inner corner.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><u><span>left</span><wbr></wbr><span>Eye</span><wbr></wbr><span>Inner</span><wbr></wbr><span><span>Corner</span></span></u></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">Left eye inner corner.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><u><span>left</span><wbr></wbr><span>Eye</span><wbr></wbr><span><span>Center</span></span></u></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">Left eye center.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><u><span>left</span><wbr></wbr><span>Eye</span><wbr></wbr><span>Outer</span><wbr></wbr><span><span>Corner</span></span></u></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">Left eye outer corner.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><u><span>nose</span><wbr></wbr><span><span>Root</span></span></u></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">Nose root.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><u><span>nose</span><wbr></wbr><span>Right</span><wbr></wbr><span><span>Bottom</span></span></u></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">Right bottom nose.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><u><span>nose</span><wbr></wbr><span><span>Tip</span></span></u></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">Nose tip.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><u><span>nose</span><wbr></wbr><span>Left</span><wbr></wbr><span><span>Bottom</span></span></u></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">Left bottom nose.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><u><span>nose</span><wbr></wbr><span><span>Bottom</span></span></u></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">Bottom nose.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><u><span>mouth</span><wbr></wbr><span>Right</span><wbr></wbr><span><span>Corner</span></span></u></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">Right corner of the mouth.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><u><span>mouth</span><wbr></wbr><span><span>Center</span></span></u></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">Mouth center.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><u><span>mouth</span><wbr></wbr><span>Left</span><wbr></wbr><span><span>Corner</span></span></u></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">Left corner of the mouth.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><u><span>mouth</span><wbr></wbr><span>Upper</span><wbr></wbr><span><span>Edge</span></span></u></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">Upper edge of the mouth.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><u><span>mouth</span><wbr></wbr><span>Lower</span><wbr></wbr><span><span>Edge</span></span></u></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">Lower edge of the mouth.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><u><span>right</span><wbr></wbr><span>Eyebrow</span><wbr></wbr><span>Outer</span><wbr></wbr><span><span>End</span></span></u></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">Right eyebrow outer end.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><u><span>right</span><wbr></wbr><span>Eyebrow</span><wbr></wbr><span>Inner</span><wbr></wbr><span><span>End</span></span></u></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">Right eyebrow inner end.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><u><span>left</span><wbr></wbr><span>Eyebrow</span><wbr></wbr><span>Inner</span><wbr></wbr><span><span>End</span></span></u></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">Left eyebrow inner end.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><u><span>left</span><wbr></wbr><span>Eyebrow</span><wbr></wbr><span>Outer</span><wbr></wbr><span><span>End</span></span></u></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">Left eyebrow outer end.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><u><span>right</span><wbr></wbr><span><span>Edge</span></span></u></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">Right edge of the face.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><u><span>chin</span><wbr></wbr><span><span>Tip</span></span></u></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">Chin tip.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><u><span>left</span><wbr></wbr><span><span>Edge</span></span></u></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">Left edge of the face.</p></div></div></div></div></div></div></div></div></div>
+      </div>
+      <h2 class="tabbedcontent">Constructors</h2>
+      <div class="table" data-togglable="Constructors"><a data-name="1963371168%2FConstructors%2F418330372" anchor-label="FaceKeypoints" id="1963371168%2FConstructors%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue TabbedContent">
+            <div class=""><span class="inline-flex">
+                <div><a href="-face-keypoints.html"><span>Face</span><wbr></wbr><span><span>Keypoints</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1963371168%2FConstructors%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="-face-keypoints.html"><span class="token function">FaceKeypoints</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">rightEyeOuterCorner<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">rightEyeCenter<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">rightEyeInnerCorner<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">leftEyeInnerCorner<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">leftEyeCenter<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">leftEyeOuterCorner<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">noseRoot<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">noseRightBottom<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">noseTip<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">noseLeftBottom<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">noseBottom<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">mouthRightCorner<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">mouthCenter<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">mouthLeftCorner<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">mouthUpperEdge<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">mouthLowerEdge<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">rightEyebrowOuterEnd<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">rightEyebrowInnerEnd<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">leftEyebrowInnerEnd<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">leftEyebrowOuterEnd<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">rightEdge<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">chinTip<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">leftEdge<span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Properties</h2>
+      <div class="table" data-togglable="Properties"><a data-name="218562174%2FProperties%2F418330372" anchor-label="chinTip" id="218562174%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="chin-tip.html"><span>chin</span><wbr></wbr><span><span>Tip</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="218562174%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="218562174%2FProperties%2F418330372" anchor-label="chinTip" id="218562174%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="chin-tip.html">chinTip</a><span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1292555911%2FProperties%2F418330372" anchor-label="leftEdge" id="1292555911%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="left-edge.html"><span>left</span><wbr></wbr><span><span>Edge</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1292555911%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="1292555911%2FProperties%2F418330372" anchor-label="leftEdge" id="1292555911%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="left-edge.html">leftEdge</a><span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-509221496%2FProperties%2F418330372" anchor-label="leftEyebrowInnerEnd" id="-509221496%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="left-eyebrow-inner-end.html"><span>left</span><wbr></wbr><span>Eyebrow</span><wbr></wbr><span>Inner</span><wbr></wbr><span><span>End</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-509221496%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="-509221496%2FProperties%2F418330372" anchor-label="leftEyebrowInnerEnd" id="-509221496%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="left-eyebrow-inner-end.html">leftEyebrowInnerEnd</a><span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="192593453%2FProperties%2F418330372" anchor-label="leftEyebrowOuterEnd" id="192593453%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="left-eyebrow-outer-end.html"><span>left</span><wbr></wbr><span>Eyebrow</span><wbr></wbr><span>Outer</span><wbr></wbr><span><span>End</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="192593453%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="192593453%2FProperties%2F418330372" anchor-label="leftEyebrowOuterEnd" id="192593453%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="left-eyebrow-outer-end.html">leftEyebrowOuterEnd</a><span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="937152272%2FProperties%2F418330372" anchor-label="leftEyeCenter" id="937152272%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="left-eye-center.html"><span>left</span><wbr></wbr><span>Eye</span><wbr></wbr><span><span>Center</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="937152272%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="937152272%2FProperties%2F418330372" anchor-label="leftEyeCenter" id="937152272%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="left-eye-center.html">leftEyeCenter</a><span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1099632842%2FProperties%2F418330372" anchor-label="leftEyeInnerCorner" id="1099632842%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="left-eye-inner-corner.html"><span>left</span><wbr></wbr><span>Eye</span><wbr></wbr><span>Inner</span><wbr></wbr><span><span>Corner</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1099632842%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="1099632842%2FProperties%2F418330372" anchor-label="leftEyeInnerCorner" id="1099632842%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="left-eye-inner-corner.html">leftEyeInnerCorner</a><span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="967981573%2FProperties%2F418330372" anchor-label="leftEyeOuterCorner" id="967981573%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="left-eye-outer-corner.html"><span>left</span><wbr></wbr><span>Eye</span><wbr></wbr><span>Outer</span><wbr></wbr><span><span>Corner</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="967981573%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="967981573%2FProperties%2F418330372" anchor-label="leftEyeOuterCorner" id="967981573%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="left-eye-outer-corner.html">leftEyeOuterCorner</a><span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-671822893%2FProperties%2F418330372" anchor-label="mouthCenter" id="-671822893%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="mouth-center.html"><span>mouth</span><wbr></wbr><span><span>Center</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-671822893%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="-671822893%2FProperties%2F418330372" anchor-label="mouthCenter" id="-671822893%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="mouth-center.html">mouthCenter</a><span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-345071796%2FProperties%2F418330372" anchor-label="mouthLeftCorner" id="-345071796%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="mouth-left-corner.html"><span>mouth</span><wbr></wbr><span>Left</span><wbr></wbr><span><span>Corner</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-345071796%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="-345071796%2FProperties%2F418330372" anchor-label="mouthLeftCorner" id="-345071796%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="mouth-left-corner.html">mouthLeftCorner</a><span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1356254604%2FProperties%2F418330372" anchor-label="mouthLowerEdge" id="-1356254604%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="mouth-lower-edge.html"><span>mouth</span><wbr></wbr><span>Lower</span><wbr></wbr><span><span>Edge</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1356254604%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="-1356254604%2FProperties%2F418330372" anchor-label="mouthLowerEdge" id="-1356254604%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="mouth-lower-edge.html">mouthLowerEdge</a><span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="880224609%2FProperties%2F418330372" anchor-label="mouthRightCorner" id="880224609%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="mouth-right-corner.html"><span>mouth</span><wbr></wbr><span>Right</span><wbr></wbr><span><span>Corner</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="880224609%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="880224609%2FProperties%2F418330372" anchor-label="mouthRightCorner" id="880224609%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="mouth-right-corner.html">mouthRightCorner</a><span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1714613133%2FProperties%2F418330372" anchor-label="mouthUpperEdge" id="-1714613133%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="mouth-upper-edge.html"><span>mouth</span><wbr></wbr><span>Upper</span><wbr></wbr><span><span>Edge</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1714613133%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="-1714613133%2FProperties%2F418330372" anchor-label="mouthUpperEdge" id="-1714613133%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="mouth-upper-edge.html">mouthUpperEdge</a><span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-2000225587%2FProperties%2F418330372" anchor-label="noseBottom" id="-2000225587%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="nose-bottom.html"><span>nose</span><wbr></wbr><span><span>Bottom</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2000225587%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="-2000225587%2FProperties%2F418330372" anchor-label="noseBottom" id="-2000225587%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="nose-bottom.html">noseBottom</a><span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-761648058%2FProperties%2F418330372" anchor-label="noseLeftBottom" id="-761648058%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="nose-left-bottom.html"><span>nose</span><wbr></wbr><span>Left</span><wbr></wbr><span><span>Bottom</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-761648058%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="-761648058%2FProperties%2F418330372" anchor-label="noseLeftBottom" id="-761648058%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="nose-left-bottom.html">noseLeftBottom</a><span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1901524933%2FProperties%2F418330372" anchor-label="noseRightBottom" id="-1901524933%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="nose-right-bottom.html"><span>nose</span><wbr></wbr><span>Right</span><wbr></wbr><span><span>Bottom</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1901524933%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="-1901524933%2FProperties%2F418330372" anchor-label="noseRightBottom" id="-1901524933%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="nose-right-bottom.html">noseRightBottom</a><span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-123782474%2FProperties%2F418330372" anchor-label="noseRoot" id="-123782474%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="nose-root.html"><span>nose</span><wbr></wbr><span><span>Root</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-123782474%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="-123782474%2FProperties%2F418330372" anchor-label="noseRoot" id="-123782474%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="nose-root.html">noseRoot</a><span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="208069255%2FProperties%2F418330372" anchor-label="noseTip" id="208069255%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="nose-tip.html"><span>nose</span><wbr></wbr><span><span>Tip</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="208069255%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="208069255%2FProperties%2F418330372" anchor-label="noseTip" id="208069255%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="nose-tip.html">noseTip</a><span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1247993078%2FProperties%2F418330372" anchor-label="rightEdge" id="1247993078%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="right-edge.html"><span>right</span><wbr></wbr><span><span>Edge</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1247993078%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="1247993078%2FProperties%2F418330372" anchor-label="rightEdge" id="1247993078%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="right-edge.html">rightEdge</a><span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="490001337%2FProperties%2F418330372" anchor-label="rightEyebrowInnerEnd" id="490001337%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="right-eyebrow-inner-end.html"><span>right</span><wbr></wbr><span>Eyebrow</span><wbr></wbr><span>Inner</span><wbr></wbr><span><span>End</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="490001337%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="490001337%2FProperties%2F418330372" anchor-label="rightEyebrowInnerEnd" id="490001337%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="right-eyebrow-inner-end.html">rightEyebrowInnerEnd</a><span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1191816286%2FProperties%2F418330372" anchor-label="rightEyebrowOuterEnd" id="1191816286%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="right-eyebrow-outer-end.html"><span>right</span><wbr></wbr><span>Eyebrow</span><wbr></wbr><span>Outer</span><wbr></wbr><span><span>End</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1191816286%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="1191816286%2FProperties%2F418330372" anchor-label="rightEyebrowOuterEnd" id="1191816286%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="right-eyebrow-outer-end.html">rightEyebrowOuterEnd</a><span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-872319487%2FProperties%2F418330372" anchor-label="rightEyeCenter" id="-872319487%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="right-eye-center.html"><span>right</span><wbr></wbr><span>Eye</span><wbr></wbr><span><span>Center</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-872319487%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="-872319487%2FProperties%2F418330372" anchor-label="rightEyeCenter" id="-872319487%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="right-eye-center.html">rightEyeCenter</a><span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1547507833%2FProperties%2F418330372" anchor-label="rightEyeInnerCorner" id="1547507833%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="right-eye-inner-corner.html"><span>right</span><wbr></wbr><span>Eye</span><wbr></wbr><span>Inner</span><wbr></wbr><span><span>Corner</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1547507833%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="1547507833%2FProperties%2F418330372" anchor-label="rightEyeInnerCorner" id="1547507833%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="right-eye-inner-corner.html">rightEyeInnerCorner</a><span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1415856564%2FProperties%2F418330372" anchor-label="rightEyeOuterCorner" id="1415856564%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="right-eye-outer-corner.html"><span>right</span><wbr></wbr><span>Eye</span><wbr></wbr><span>Outer</span><wbr></wbr><span><span>Corner</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1415856564%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="1415856564%2FProperties%2F418330372" anchor-label="rightEyeOuterCorner" id="1415856564%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="right-eye-outer-corner.html">rightEyeOuterCorner</a><span class="token operator">: </span><a href="../-face-keypoint/index.html">FaceKeypoint</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2025 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>

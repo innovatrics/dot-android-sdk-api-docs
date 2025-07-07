@@ -167,10 +167,11 @@ $dokka.location:com.innovatrics.dot.palm.autocapture/Phase/values/#/PointingToDe
 $dokka.location:com.innovatrics.dot.palm.autocapture/QualityAttributeThresholdPresets///PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.autocapture/-quality-attribute-threshold-presets/index.html
 $dokka.location:com.innovatrics.dot.palm.autocapture/QualityAttributeThresholdPresets/standard/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.autocapture/-quality-attribute-threshold-presets/standard.html
 $dokka.location:com.innovatrics.dot.palm.autocapture/QualityAttributeThresholds///PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.autocapture/-quality-attribute-thresholds/index.html
-$dokka.location:com.innovatrics.dot.palm.autocapture/QualityAttributeThresholds/QualityAttributeThresholds/#kotlin.Double?#com.innovatrics.dot.core.validation.IntervalDouble?#kotlin.Double?#com.innovatrics.dot.core.validation.IntervalDouble?/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.autocapture/-quality-attribute-thresholds/-quality-attribute-thresholds.html
+$dokka.location:com.innovatrics.dot.palm.autocapture/QualityAttributeThresholds/QualityAttributeThresholds/#kotlin.Double?#com.innovatrics.dot.core.validation.IntervalDouble?#kotlin.Double?#kotlin.Double?#com.innovatrics.dot.core.validation.IntervalDouble?/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.autocapture/-quality-attribute-thresholds/-quality-attribute-thresholds.html
 $dokka.location:com.innovatrics.dot.palm.autocapture/QualityAttributeThresholds/brightnessInterval/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.autocapture/-quality-attribute-thresholds/brightness-interval.html
 $dokka.location:com.innovatrics.dot.palm.autocapture/QualityAttributeThresholds/minConfidence/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.autocapture/-quality-attribute-thresholds/min-confidence.html
 $dokka.location:com.innovatrics.dot.palm.autocapture/QualityAttributeThresholds/minSharpness/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.autocapture/-quality-attribute-thresholds/min-sharpness.html
+$dokka.location:com.innovatrics.dot.palm.autocapture/QualityAttributeThresholds/minTemplateExtractionQuality/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.autocapture/-quality-attribute-thresholds/min-template-extraction-quality.html
 $dokka.location:com.innovatrics.dot.palm.autocapture/QualityAttributeThresholds/sizeInterval/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.autocapture/-quality-attribute-thresholds/size-interval.html
 $dokka.location:com.innovatrics.dot.palm.detection////PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.detection/index.html
 $dokka.location:com.innovatrics.dot.palm.detection/DetectionPosition.Companion///PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.detection/-detection-position/-companion/index.html
@@ -180,10 +181,23 @@ $dokka.location:com.innovatrics.dot.palm.detection/DetectionPosition/bottomLeft/
 $dokka.location:com.innovatrics.dot.palm.detection/DetectionPosition/bottomRight/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.detection/-detection-position/bottom-right.html
 $dokka.location:com.innovatrics.dot.palm.detection/DetectionPosition/topLeft/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.detection/-detection-position/top-left.html
 $dokka.location:com.innovatrics.dot.palm.detection/DetectionPosition/topRight/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.detection/-detection-position/top-right.html
+$dokka.location:com.innovatrics.dot.palm.detection/HandOrientation.DORSAL///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-palm-core/com.innovatrics.dot.palm.detection/-hand-orientation/-d-o-r-s-a-l/index.html
+$dokka.location:com.innovatrics.dot.palm.detection/HandOrientation.PALMAR///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-palm-core/com.innovatrics.dot.palm.detection/-hand-orientation/-p-a-l-m-a-r/index.html
+$dokka.location:com.innovatrics.dot.palm.detection/HandOrientation///PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.detection/-hand-orientation/index.html
+$dokka.location:com.innovatrics.dot.palm.detection/HandOrientation/valueOf/#kotlin.String/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.detection/-hand-orientation/value-of.html
+$dokka.location:com.innovatrics.dot.palm.detection/HandOrientation/values/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.detection/-hand-orientation/values.html
+$dokka.location:com.innovatrics.dot.palm.detection/HandPosition.LEFT///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-palm-core/com.innovatrics.dot.palm.detection/-hand-position/-l-e-f-t/index.html
+$dokka.location:com.innovatrics.dot.palm.detection/HandPosition.RIGHT///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-palm-core/com.innovatrics.dot.palm.detection/-hand-position/-r-i-g-h-t/index.html
+$dokka.location:com.innovatrics.dot.palm.detection/HandPosition///PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.detection/-hand-position/index.html
+$dokka.location:com.innovatrics.dot.palm.detection/HandPosition/valueOf/#kotlin.String/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.detection/-hand-position/value-of.html
+$dokka.location:com.innovatrics.dot.palm.detection/HandPosition/values/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.detection/-hand-position/values.html
 $dokka.location:com.innovatrics.dot.palm.detection/PalmDetector.Palm///PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.detection/-palm-detector/-palm/index.html
-$dokka.location:com.innovatrics.dot.palm.detection/PalmDetector.Palm/Palm/#com.innovatrics.dot.palm.detection.DetectionPosition#kotlin.Double#com.innovatrics.dot.palm.image.ImageParameters/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.detection/-palm-detector/-palm/-palm.html
+$dokka.location:com.innovatrics.dot.palm.detection/PalmDetector.Palm/Palm/#com.innovatrics.dot.palm.detection.DetectionPosition#kotlin.Double#com.innovatrics.dot.palm.detection.HandPosition#com.innovatrics.dot.palm.detection.HandOrientation#com.innovatrics.dot.palm.image.ImageParameters#com.innovatrics.dot.palm.quality.PalmQuality/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.detection/-palm-detector/-palm/-palm.html
 $dokka.location:com.innovatrics.dot.palm.detection/PalmDetector.Palm/confidence/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.detection/-palm-detector/-palm/confidence.html
+$dokka.location:com.innovatrics.dot.palm.detection/PalmDetector.Palm/handOrientation/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.detection/-palm-detector/-palm/hand-orientation.html
+$dokka.location:com.innovatrics.dot.palm.detection/PalmDetector.Palm/handPosition/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.detection/-palm-detector/-palm/hand-position.html
 $dokka.location:com.innovatrics.dot.palm.detection/PalmDetector.Palm/imageParameters/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.detection/-palm-detector/-palm/image-parameters.html
+$dokka.location:com.innovatrics.dot.palm.detection/PalmDetector.Palm/palmQuality/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.detection/-palm-detector/-palm/palm-quality.html
 $dokka.location:com.innovatrics.dot.palm.detection/PalmDetector.Palm/position/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.detection/-palm-detector/-palm/position.html
 $dokka.location:com.innovatrics.dot.palm.detection/PalmDetector///PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.detection/-palm-detector/index.html
 $dokka.location:com.innovatrics.dot.palm.detection/PalmDetector/detect/#com.innovatrics.dot.image.BgraRawImage#kotlin.Int/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.detection/-palm-detector/detect.html
@@ -233,6 +247,11 @@ $dokka.location:com.innovatrics.dot.palm.evaluate/SizeTooSmallValidator/SizeTooS
 $dokka.location:com.innovatrics.dot.palm.evaluate/SizeTooSmallValidator/dependencyIdentifiers/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.evaluate/-size-too-small-validator/dependency-identifiers.html
 $dokka.location:com.innovatrics.dot.palm.evaluate/SizeTooSmallValidator/identifier/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.evaluate/-size-too-small-validator/identifier.html
 $dokka.location:com.innovatrics.dot.palm.evaluate/SizeTooSmallValidator/validate/#com.innovatrics.dot.palm.evaluate.PalmAutoCaptureFrameParameters/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.evaluate/-size-too-small-validator/validate.html
+$dokka.location:com.innovatrics.dot.palm.evaluate/TemplateExtractionQualityTooLowValidator///PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.evaluate/-template-extraction-quality-too-low-validator/index.html
+$dokka.location:com.innovatrics.dot.palm.evaluate/TemplateExtractionQualityTooLowValidator/TemplateExtractionQualityTooLowValidator/#kotlin.Double/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.evaluate/-template-extraction-quality-too-low-validator/-template-extraction-quality-too-low-validator.html
+$dokka.location:com.innovatrics.dot.palm.evaluate/TemplateExtractionQualityTooLowValidator/dependencyIdentifiers/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.evaluate/-template-extraction-quality-too-low-validator/dependency-identifiers.html
+$dokka.location:com.innovatrics.dot.palm.evaluate/TemplateExtractionQualityTooLowValidator/identifier/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.evaluate/-template-extraction-quality-too-low-validator/identifier.html
+$dokka.location:com.innovatrics.dot.palm.evaluate/TemplateExtractionQualityTooLowValidator/validate/#com.innovatrics.dot.palm.evaluate.PalmAutoCaptureFrameParameters/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.evaluate/-template-extraction-quality-too-low-validator/validate.html
 $dokka.location:com.innovatrics.dot.palm.image////PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.image/index.html
 $dokka.location:com.innovatrics.dot.palm.image/BgraRawImageFactory///PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.image/-bgra-raw-image-factory/index.html
 $dokka.location:com.innovatrics.dot.palm.image/BgraRawImageFactory/create/#androidx.camera.core.ImageProxy/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.image/-bgra-raw-image-factory/create.html
@@ -243,6 +262,10 @@ $dokka.location:com.innovatrics.dot.palm.image/ImageParameters/brightness/#/Poin
 $dokka.location:com.innovatrics.dot.palm.image/ImageParameters/sharpness/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.image/-image-parameters/sharpness.html
 $dokka.location:com.innovatrics.dot.palm.modules////PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.modules/index.html
 $dokka.location:com.innovatrics.dot.palm.modules/DotPalmModule///PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.modules/-dot-palm-module/index.html
+$dokka.location:com.innovatrics.dot.palm.quality////PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.quality/index.html
+$dokka.location:com.innovatrics.dot.palm.quality/PalmQuality///PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.quality/-palm-quality/index.html
+$dokka.location:com.innovatrics.dot.palm.quality/PalmQuality/PalmQuality/#kotlin.Double/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.quality/-palm-quality/-palm-quality.html
+$dokka.location:com.innovatrics.dot.palm.quality/PalmQuality/templateExtractionQuality/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm.quality/-palm-quality/template-extraction-quality.html
 $dokka.location:com.innovatrics.dot.palm////PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm/index.html
 $dokka.location:com.innovatrics.dot.palm/DotPalmLibrary///PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm/-dot-palm-library/index.html
 $dokka.location:com.innovatrics.dot.palm/DotPalmLibrary/DotPalmLibrary/#com.innovatrics.dot.palm.DotPalmLibraryConfiguration/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.palm/-dot-palm-library/-dot-palm-library.html
@@ -263,4 +286,5 @@ com.innovatrics.dot.palm.detection
 com.innovatrics.dot.palm.evaluate
 com.innovatrics.dot.palm.image
 com.innovatrics.dot.palm.modules
+com.innovatrics.dot.palm.quality
 

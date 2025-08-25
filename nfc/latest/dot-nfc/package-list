@@ -40,10 +40,11 @@ $dokka.location:com.innovatrics.dot.core/DotSdk/initialize/#com.innovatrics.dot.
 $dokka.location:com.innovatrics.dot.core/DotSdk/isInitialized/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.core/-dot-sdk/is-initialized.html
 $dokka.location:com.innovatrics.dot.core/DotSdk/versionName/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.core/-dot-sdk/version-name.html
 $dokka.location:com.innovatrics.dot.core/DotSdkConfiguration///PointingToDeclaration/dot-nfc/com.innovatrics.dot.core/-dot-sdk-configuration/index.html
-$dokka.location:com.innovatrics.dot.core/DotSdkConfiguration/DotSdkConfiguration/#android.content.Context#kotlin.ByteArray#kotlin.collections.List[com.innovatrics.dot.core.DotLibrary]/PointingToDeclaration/dot-nfc/com.innovatrics.dot.core/-dot-sdk-configuration/-dot-sdk-configuration.html
+$dokka.location:com.innovatrics.dot.core/DotSdkConfiguration/DotSdkConfiguration/#android.content.Context#kotlin.ByteArray#kotlin.collections.List[com.innovatrics.dot.core.DotLibrary]#kotlin.String?/PointingToDeclaration/dot-nfc/com.innovatrics.dot.core/-dot-sdk-configuration/-dot-sdk-configuration.html
 $dokka.location:com.innovatrics.dot.core/DotSdkConfiguration/context/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.core/-dot-sdk-configuration/context.html
 $dokka.location:com.innovatrics.dot.core/DotSdkConfiguration/libraries/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.core/-dot-sdk-configuration/libraries.html
 $dokka.location:com.innovatrics.dot.core/DotSdkConfiguration/licenseBytes/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.core/-dot-sdk-configuration/license-bytes.html
+$dokka.location:com.innovatrics.dot.core/DotSdkConfiguration/transactionCountingToken/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.core/-dot-sdk-configuration/transaction-counting-token.html
 $dokka.location:com.innovatrics.dot.image////PointingToDeclaration/dot-nfc/com.innovatrics.dot.image/index.html
 $dokka.location:com.innovatrics.dot.image/BgrRawImage///PointingToDeclaration/dot-nfc/com.innovatrics.dot.image/-bgr-raw-image/index.html
 $dokka.location:com.innovatrics.dot.image/BgrRawImage/BgrRawImage/#com.innovatrics.dot.image.ImageSize#kotlin.ByteArray/PointingToDeclaration/dot-nfc/com.innovatrics.dot.image/-bgr-raw-image/-bgr-raw-image.html

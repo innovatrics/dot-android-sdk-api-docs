@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>Configuration</title>
+    <link href="../../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../../styles/style.css" rel="Stylesheet">
+<link href="../../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../../styles/main.css" rel="Stylesheet">
+<link href="../../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../../index.html">
+                    <span>dot-face-core</span>
+            </a>
+    </div>
+    <div>
+9.0.0    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="dot-face-core::com.innovatrics.dot.face.autocapture.ui/BaseFaceAutoCaptureFragment.Configuration///PointingToDeclaration//418330372">
+  <div class="breadcrumbs"><a href="../../../../index.html">dot-face-core</a><span class="delimiter">/</span><a href="../../index.html">com.innovatrics.dot.face.autocapture.ui</a><span class="delimiter">/</span><a href="../index.html">BaseFaceAutoCaptureFragment</a><span class="delimiter">/</span><span class="current">Configuration</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Configuration</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="index.html">Configuration</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>common<span class="token operator">: </span><a href="../../../com.innovatrics.dot.core.ui.configuration/-common-configuration/index.html">CommonConfiguration</a><span class="token operator"> = </span>CommonConfiguration()<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>camera<span class="token operator">: </span><a href="../../../com.innovatrics.dot.camera.ui.configuration/-camera-configuration/index.html">CameraConfiguration</a><span class="token operator"> = </span>CameraConfiguration(
+            facing = CameraFacing.FRONT,
+        )<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>autoCapture<span class="token operator">: </span><a href="../../../com.innovatrics.dot.core.ui.configuration/-auto-capture-configuration/index.html">AutoCaptureConfiguration</a><span class="token operator"> = </span>AutoCaptureConfiguration(
+            minValidSamplesInRowToStartCandidateSelection = FaceAutoCaptureController.Configuration.DEFAULT_MIN_VALID_SAMPLES_IN_ROW_TO_START_CANDIDATE_SELECTION,
+            candidateSelectionDurationMillis = FaceAutoCaptureController.Configuration.DEFAULT_CANDIDATE_SELECTION_DURATION_MILLIS,
+        )<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>faceLibraryComponent<span class="token operator">: </span><a href="../../../com.innovatrics.dot.face.ui.configuration/-face-library-component-configuration/index.html">FaceLibraryComponentConfiguration</a><span class="token operator"> = </span>FaceLibraryComponentConfiguration(
+            faceSizeRatioInterval = FaceAutoCaptureController.Configuration.DEFAULT_FACE_SIZE_RATIO_INTERVAL,
+        )<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>qualityAttributeThresholds<span class="token operator">: </span><a href="../../../com.innovatrics.dot.face.autocapture/-quality-attribute-thresholds/index.html">QualityAttributeThresholds</a><span class="token operator"> = </span>QualityAttributeThresholds.Presets.standard<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>captureMode<span class="token operator">: </span><a href="../../../com.innovatrics.dot.core.autocapture/-capture-mode/index.html">CaptureMode</a><span class="token operator"> = </span>CaptureMode.AUTO_CAPTURE</span></span><span class="token punctuation">)</span></div><p class="paragraph">Configuration for the UI Face Auto Capture component.</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Constructors">Constructors</button><button class="section-tab" data-togglable="Properties">Properties</button></div>
+    <div class="tabs-section-body">
+      <h2 class="tabbedcontent">Constructors</h2>
+      <div class="table" data-togglable="Constructors"><a data-name="-1304311565%2FConstructors%2F418330372" anchor-label="Configuration" id="-1304311565%2FConstructors%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue TabbedContent">
+            <div class=""><span class="inline-flex">
+                <div><a href="-configuration.html"><span><span>Configuration</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1304311565%2FConstructors%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="-configuration.html"><span class="token function">Configuration</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">common<span class="token operator">: </span><a href="../../../com.innovatrics.dot.core.ui.configuration/-common-configuration/index.html">CommonConfiguration</a><span class="token operator"> = </span>CommonConfiguration()<span class="token punctuation">, </span></span><span class="parameter ">camera<span class="token operator">: </span><a href="../../../com.innovatrics.dot.camera.ui.configuration/-camera-configuration/index.html">CameraConfiguration</a><span class="token operator"> = </span>CameraConfiguration(
+            facing = CameraFacing.FRONT,
+        )<span class="token punctuation">, </span></span><span class="parameter ">autoCapture<span class="token operator">: </span><a href="../../../com.innovatrics.dot.core.ui.configuration/-auto-capture-configuration/index.html">AutoCaptureConfiguration</a><span class="token operator"> = </span>AutoCaptureConfiguration(
+            minValidSamplesInRowToStartCandidateSelection = FaceAutoCaptureController.Configuration.DEFAULT_MIN_VALID_SAMPLES_IN_ROW_TO_START_CANDIDATE_SELECTION,
+            candidateSelectionDurationMillis = FaceAutoCaptureController.Configuration.DEFAULT_CANDIDATE_SELECTION_DURATION_MILLIS,
+        )<span class="token punctuation">, </span></span><span class="parameter ">faceLibraryComponent<span class="token operator">: </span><a href="../../../com.innovatrics.dot.face.ui.configuration/-face-library-component-configuration/index.html">FaceLibraryComponentConfiguration</a><span class="token operator"> = </span>FaceLibraryComponentConfiguration(
+            faceSizeRatioInterval = FaceAutoCaptureController.Configuration.DEFAULT_FACE_SIZE_RATIO_INTERVAL,
+        )<span class="token punctuation">, </span></span><span class="parameter ">qualityAttributeThresholds<span class="token operator">: </span><a href="../../../com.innovatrics.dot.face.autocapture/-quality-attribute-thresholds/index.html">QualityAttributeThresholds</a><span class="token operator"> = </span>QualityAttributeThresholds.Presets.standard<span class="token punctuation">, </span></span><span class="parameter ">captureMode<span class="token operator">: </span><a href="../../../com.innovatrics.dot.core.autocapture/-capture-mode/index.html">CaptureMode</a><span class="token operator"> = </span>CaptureMode.AUTO_CAPTURE</span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Properties</h2>
+      <div class="table" data-togglable="Properties"><a data-name="1795750301%2FProperties%2F418330372" anchor-label="autoCapture" id="1795750301%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="auto-capture.html"><span>auto</span><wbr></wbr><span><span>Capture</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1795750301%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="1795750301%2FProperties%2F418330372" anchor-label="autoCapture" id="1795750301%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="auto-capture.html">autoCapture</a><span class="token operator">: </span><a href="../../../com.innovatrics.dot.core.ui.configuration/-auto-capture-configuration/index.html">AutoCaptureConfiguration</a></div><div class="brief "><a data-name="1795750301%2FProperties%2F418330372" anchor-label="autoCapture" id="1795750301%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><p class="paragraph">Configuration for auto capture components. Default <code class="lang-kotlin">minValidSamplesInRowToStartCandidateSelection</code> is <code class="lang-kotlin">2</code>. Default <code class="lang-kotlin">candidateSelectionDurationMillis</code> is <code class="lang-kotlin">2_000</code>.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1051368127%2FProperties%2F418330372" anchor-label="camera" id="-1051368127%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="camera.html"><span><span>camera</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1051368127%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="-1051368127%2FProperties%2F418330372" anchor-label="camera" id="-1051368127%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="camera.html">camera</a><span class="token operator">: </span><a href="../../../com.innovatrics.dot.camera.ui.configuration/-camera-configuration/index.html">CameraConfiguration</a></div><div class="brief "><a data-name="-1051368127%2FProperties%2F418330372" anchor-label="camera" id="-1051368127%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><p class="paragraph">Configuration for components utilizing a camera. Default value is <a href="../../../com.innovatrics.dot.camera.ui.configuration/-camera-configuration/index.html">CameraConfiguration</a> with properties: Default <code class="lang-kotlin">facing</code> is <a href="../../../com.innovatrics.dot.camera/-camera-facing/-f-r-o-n-t/index.html">CameraFacing.FRONT</a>.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1371174293%2FProperties%2F418330372" anchor-label="captureMode" id="-1371174293%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="capture-mode.html"><span>capture</span><wbr></wbr><span><span>Mode</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1371174293%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="-1371174293%2FProperties%2F418330372" anchor-label="captureMode" id="-1371174293%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="capture-mode.html">captureMode</a><span class="token operator">: </span><a href="../../../com.innovatrics.dot.core.autocapture/-capture-mode/index.html">CaptureMode</a></div><div class="brief "><a data-name="-1371174293%2FProperties%2F418330372" anchor-label="captureMode" id="-1371174293%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><p class="paragraph">Capture mode. Default value is <a href="../../../com.innovatrics.dot.core.autocapture/-capture-mode/-a-u-t-o_-c-a-p-t-u-r-e/index.html">CaptureMode.AUTO_CAPTURE</a>.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1117451973%2FProperties%2F418330372" anchor-label="common" id="-1117451973%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="common.html"><span><span>common</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1117451973%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="-1117451973%2FProperties%2F418330372" anchor-label="common" id="-1117451973%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="common.html">common</a><span class="token operator">: </span><a href="../../../com.innovatrics.dot.core.ui.configuration/-common-configuration/index.html">CommonConfiguration</a></div><div class="brief "><a data-name="-1117451973%2FProperties%2F418330372" anchor-label="common" id="-1117451973%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><p class="paragraph">Common configuration for all components. Default value is <a href="../../../com.innovatrics.dot.core.ui.configuration/-common-configuration/index.html">CommonConfiguration</a>.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="719311591%2FProperties%2F418330372" anchor-label="faceLibraryComponent" id="719311591%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="face-library-component.html"><span>face</span><wbr></wbr><span>Library</span><wbr></wbr><span><span>Component</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="719311591%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="719311591%2FProperties%2F418330372" anchor-label="faceLibraryComponent" id="719311591%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="face-library-component.html">faceLibraryComponent</a><span class="token operator">: </span><a href="../../../com.innovatrics.dot.face.ui.configuration/-face-library-component-configuration/index.html">FaceLibraryComponentConfiguration</a></div><div class="brief "><a data-name="719311591%2FProperties%2F418330372" anchor-label="faceLibraryComponent" id="719311591%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><p class="paragraph">Configuration for face library components. Default value is <a href="../../../com.innovatrics.dot.face.ui.configuration/-face-library-component-configuration/index.html">FaceLibraryComponentConfiguration</a> with properties: Default <code class="lang-kotlin">faceSizeRatioInterval</code> is <code class="lang-kotlin">[0.1, 0.3]</code>.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-628757439%2FProperties%2F418330372" anchor-label="qualityAttributeThresholds" id="-628757439%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="quality-attribute-thresholds.html"><span>quality</span><wbr></wbr><span>Attribute</span><wbr></wbr><span><span>Thresholds</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-628757439%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="-628757439%2FProperties%2F418330372" anchor-label="qualityAttributeThresholds" id="-628757439%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="quality-attribute-thresholds.html">qualityAttributeThresholds</a><span class="token operator">: </span><a href="../../../com.innovatrics.dot.face.autocapture/-quality-attribute-thresholds/index.html">QualityAttributeThresholds</a></div><div class="brief "><a data-name="-628757439%2FProperties%2F418330372" anchor-label="qualityAttributeThresholds" id="-628757439%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><p class="paragraph">Quality attribute thresholds. Default value is <a href="../../../com.innovatrics.dot.face.autocapture/-quality-attribute-thresholds/-presets/standard.html">QualityAttributeThresholds.Presets.standard</a>.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2025 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>

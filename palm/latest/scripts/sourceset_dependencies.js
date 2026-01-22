@@ -1,1 +1,1 @@
-sourceset_dependencies='{":dot-palm-core:dokkaHtml/androidTestRelease":[],":dot-palm-core:dokkaHtml/debug":[],":dot-palm-core:dokkaHtml/publicApi":[],":dot-palm-core:dokkaHtml/release":[],":dot-palm-core:dokkaHtml/testFixtures":[],":dot-palm-core:dokkaHtml/testFixturesDebug":[],":dot-palm-core:dokkaHtml/testFixturesRelease":[]}'
+sourceset_dependencies='{":dot-palm-core:dokkaHtml/debug":[],":dot-palm-core:dokkaHtml/publicApi":[],":dot-palm-core:dokkaHtml/release":[]}'

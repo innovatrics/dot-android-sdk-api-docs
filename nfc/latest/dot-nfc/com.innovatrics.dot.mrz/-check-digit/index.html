@@ -40,8 +40,11 @@
             </a>
     </div>
     <div>
-9.0.1    </div>
+9.0.2    </div>
     <div class="pull-right d-flex">
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":dot-nfc:dokkaHtml/publicApi">publicApi</button>
+        </div>
         <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
         <div id="searchBar"></div>
     </div>
@@ -51,59 +54,63 @@
         <div id="sideMenu"></div>
     </div>
     <div id="main">
-<div class="main-content" id="content" pageIds="dot-nfc::com.innovatrics.dot.mrz/CheckDigit///PointingToDeclaration//625561000">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="dot-nfc::com.innovatrics.dot.mrz/CheckDigit///PointingToDeclaration//625561000">
   <div class="breadcrumbs"><a href="../../../index.html">dot-nfc</a><span class="delimiter">/</span><a href="../index.html">com.innovatrics.dot.mrz</a><span class="delimiter">/</span><span class="current">CheckDigit</span></div>
   <div class="cover ">
     <h1 class="cover"><span>Check</span><wbr></wbr><span><span>Digit</span></span></h1>
     <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="index.html">CheckDigit</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>isValid<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>value<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-char/index.html">Char</a></span></span><span class="token punctuation">)</span></div><p class="paragraph">Represents a single check digit extracted from a Machine Readable Zone (MRZ) according to the ICAO Doc 9303.</p><p class="paragraph">The check digit is used to verify the integrity of the data contained within the MRZ.</p></div></div>
   </div>
   <div class="tabbedcontent">
-    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Constructors">Constructors</button><button class="section-tab" data-togglable="Properties">Properties</button></div>
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
     <div class="tabs-section-body">
-      <h2 class="tabbedcontent">Constructors</h2>
-      <div class="table" data-togglable="Constructors"><a data-name="-1958669501%2FConstructors%2F625561000" anchor-label="CheckDigit" id="-1958669501%2FConstructors%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
-        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
-          <div class="main-subrow keyValue TabbedContent">
-            <div class=""><span class="inline-flex">
-                <div><a href="-check-digit.html"><span>Check</span><wbr></wbr><span><span>Digit</span></span></a></div>
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="-1958669501%2FConstructors%2F625561000" anchor-label="CheckDigit" id="-1958669501%2FConstructors%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-check-digit.html"><span>Check</span><wbr></wbr><span><span>Digit</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1958669501%2FConstructors%2F625561000"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="-check-digit.html"><span class="token function">CheckDigit</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">isValid<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token punctuation">, </span></span><span class="parameter ">value<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-char/index.html">Char</a></span></span><span class="token punctuation">)</span></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">isValid<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token punctuation">, </span></span><span class="parameter ">value<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-char/index.html">Char</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <h2 class="">Properties</h2>
-      <div class="table" data-togglable="Properties"><a data-name="787614533%2FProperties%2F625561000" anchor-label="isValid" id="787614533%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
-        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="is-valid.html"><span>is</span><wbr></wbr><span><span>Valid</span></span></a></div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="787614533%2FProperties%2F625561000" anchor-label="isValid" id="787614533%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
+          <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="is-valid.html"><span>is</span><wbr></wbr><span><span>Valid</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="787614533%2FProperties%2F625561000"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><a data-name="787614533%2FProperties%2F625561000" anchor-label="isValid" id="787614533%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="is-valid.html">isValid</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><a data-name="787614533%2FProperties%2F625561000" anchor-label="isValid" id="787614533%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><p class="paragraph">Indicates whether the check digit is valid or not. <code class="lang-kotlin">true</code> if valid, <code class="lang-kotlin">false</code> otherwise.</p></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="is-valid.html">isValid</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><p class="paragraph">Indicates whether the check digit is valid or not. <code class="lang-kotlin">true</code> if valid, <code class="lang-kotlin">false</code> otherwise.</p></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="-737396186%2FProperties%2F625561000" anchor-label="value" id="-737396186%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a>
-        <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="value.html"><span><span>value</span></span></a></div>
+          <div class="table-row" data-filterable-current=":dot-nfc:dokkaHtml/publicApi" data-filterable-set=":dot-nfc:dokkaHtml/publicApi">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="value.html"><span><span>value</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-737396186%2FProperties%2F625561000"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><a data-name="-737396186%2FProperties%2F625561000" anchor-label="value" id="-737396186%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="value.html">value</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-char/index.html">Char</a></div><div class="brief "><a data-name="-737396186%2FProperties%2F625561000" anchor-label="value" id="-737396186%2FProperties%2F625561000" data-filterable-set=":dot-nfc:dokkaHtml/publicApi"></a><p class="paragraph">The character value of the check digit.</p></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-nfc:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="value.html">value</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-char/index.html">Char</a></div><div class="brief "><p class="paragraph">The character value of the check digit.</p></div></div></div>
+                </div>
               </div>
             </div>
           </div>

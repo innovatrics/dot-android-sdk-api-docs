@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>DotSdk</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../index.html">
+                    <span>dot-document</span>
+            </a>
+    </div>
+    <div>
+9.0.1    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="dot-document::com.innovatrics.dot.core/DotSdk///PointingToDeclaration//-1161857762">
+  <div class="breadcrumbs"><a href="../../../index.html">dot-document</a><span class="delimiter">/</span><a href="../index.html">com.innovatrics.dot.core</a><span class="delimiter">/</span><span class="current">DotSdk</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Dot</span><wbr></wbr><span><span>Sdk</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">object </span><a href="index.html">DotSdk</a></div><p class="paragraph">DOT SDK main component.</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Types">Types</button><button class="section-tab" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="Properties">Properties</button></div>
+    <div class="tabs-section-body">
+      <h2 class="">Types</h2>
+      <div class="table" data-togglable="Types"><a data-name="-525857410%2FClasslikes%2F-1161857762" anchor-label="Configuration" id="-525857410%2FClasslikes%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-configuration/index.html"><span><span>Configuration</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-525857410%2FClasslikes%2F-1161857762"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-configuration/index.html">Configuration</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>licenseBytes<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-byte-array/index.html">ByteArray</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>libraries<span class="token operator">: </span><a href="../../com.innovatrics.dot.core.library/-libraries/index.html">Libraries</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>transactionCountingToken<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Configuration for the main DOT SDK component.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Functions</h2>
+      <div class="table" data-togglable="Functions"><a data-name="1090001640%2FFunctions%2F-1161857762" anchor-label="deinitialize" id="1090001640%2FFunctions%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="deinitialize.html"><span><span>deinitialize</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1090001640%2FFunctions%2F-1161857762"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="deinitialize.html"><span class="token function">deinitialize</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Deinitialize DOT SDK. This operation should be called on background thread. If no DOT UI components are processing camera images, deinitialization proceeds without waiting for UI work (note: deinitialization itself is synchronous and may still take some time). If UI components are actively processing images, this method blocks until that processing finishes and then completes deinitialization.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="372971363%2FFunctions%2F-1161857762" anchor-label="getApplicationId" id="372971363%2FFunctions%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-application-id.html"><span>get</span><wbr></wbr><span>Application</span><wbr></wbr><span><span>Id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="372971363%2FFunctions%2F-1161857762"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-application-id.html"><span class="token function">getApplicationId</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a></div><div class="brief "><p class="paragraph">Resolve Application ID.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-901432761%2FFunctions%2F-1161857762" anchor-label="initialize" id="-901432761%2FFunctions%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="initialize.html"><span><span>initialize</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-901432761%2FFunctions%2F-1161857762"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="initialize.html"><span class="token function">initialize</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">configuration<span class="token operator">: </span><a href="-configuration/index.html">DotSdk.Configuration</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Initialize DOT SDK. This operation should be called on background thread.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1852957097%2FFunctions%2F-1161857762" anchor-label="isInitialized" id="-1852957097%2FFunctions%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="is-initialized.html"><span>is</span><wbr></wbr><span><span>Initialized</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1852957097%2FFunctions%2F-1161857762"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="is-initialized.html"><span class="token function">isInitialized</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><p class="paragraph">Check if DOT SDK is initialized.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Properties</h2>
+      <div class="table" data-togglable="Properties"><a data-name="-392635074%2FProperties%2F-1161857762" anchor-label="versionName" id="-392635074%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="version-name.html"><span>version</span><wbr></wbr><span><span>Name</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-392635074%2FProperties%2F-1161857762"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><a data-name="-392635074%2FProperties%2F-1161857762" anchor-label="versionName" id="-392635074%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="version-name.html">versionName</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a></div><div class="brief "><a data-name="-392635074%2FProperties%2F-1161857762" anchor-label="versionName" id="-392635074%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a><p class="paragraph">Version name of DOT SDK.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2026 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>

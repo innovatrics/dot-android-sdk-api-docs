@@ -40,8 +40,11 @@
             </a>
     </div>
     <div>
-9.0.1    </div>
+9.0.2    </div>
     <div class="pull-right d-flex">
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":dot-document:dokkaHtml/publicApi">publicApi</button>
+        </div>
         <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
         <div id="searchBar"></div>
     </div>
@@ -51,179 +54,183 @@
         <div id="sideMenu"></div>
     </div>
     <div id="main">
-<div class="main-content" id="content" pageIds="dot-document::com.innovatrics.dot.mrz/Td2MachineReadableZone///PointingToDeclaration//-1161857762">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="dot-document::com.innovatrics.dot.mrz/Td2MachineReadableZone///PointingToDeclaration//-1161857762">
   <div class="breadcrumbs"><a href="../../../index.html">dot-document</a><span class="delimiter">/</span><a href="../index.html">com.innovatrics.dot.mrz</a><span class="delimiter">/</span><span class="current">Td2MachineReadableZone</span></div>
   <div class="cover ">
     <h1 class="cover"><span>Td2Machine</span><wbr></wbr><span>Readable</span><wbr></wbr><span><span>Zone</span></span></h1>
     <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="index.html">Td2MachineReadableZone</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>documentCode<span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-element/index.html">Element</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>issuingStateOrOrganization<span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-element/index.html">Element</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>name<span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-name-element/index.html">NameElement</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>documentNumber<span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-element-with-check-digit/index.html">ElementWithCheckDigit</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>nationality<span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-element/index.html">Element</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>dateOfBirth<span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-date-element-with-check-digit/index.html">DateElementWithCheckDigit</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>sex<span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-element/index.html">Element</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>dateOfExpiry<span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-date-element-with-check-digit/index.html">DateElementWithCheckDigit</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>optionalData<span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-element/index.html">Element</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>compositeCheckDigit<span class="token operator">: </span><a href="../-check-digit/index.html">CheckDigit</a></span></span><span class="token punctuation">)</span></div><p class="paragraph">Represents the Machine Readable Zone (MRZ) data extracted from a Travel Document Type 2 (TD2) according to the ICAO Doc 9303.</p></div></div>
   </div>
   <div class="tabbedcontent">
-    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Constructors">Constructors</button><button class="section-tab" data-togglable="Properties">Properties</button></div>
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
     <div class="tabs-section-body">
-      <h2 class="tabbedcontent">Constructors</h2>
-      <div class="table" data-togglable="Constructors"><a data-name="-538386377%2FConstructors%2F-1161857762" anchor-label="Td2MachineReadableZone" id="-538386377%2FConstructors%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a>
-        <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
-          <div class="main-subrow keyValue TabbedContent">
-            <div class=""><span class="inline-flex">
-                <div><a href="-td2-machine-readable-zone.html"><span>Td2Machine</span><wbr></wbr><span>Readable</span><wbr></wbr><span><span>Zone</span></span></a></div>
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="-538386377%2FConstructors%2F-1161857762" anchor-label="Td2MachineReadableZone" id="-538386377%2FConstructors%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-td2-machine-readable-zone.html"><span>Td2Machine</span><wbr></wbr><span>Readable</span><wbr></wbr><span><span>Zone</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-538386377%2FConstructors%2F-1161857762"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="-td2-machine-readable-zone.html"><span class="token function">Td2MachineReadableZone</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">documentCode<span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-element/index.html">Element</a><span class="token punctuation">, </span></span><span class="parameter ">issuingStateOrOrganization<span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-element/index.html">Element</a><span class="token punctuation">, </span></span><span class="parameter ">name<span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-name-element/index.html">NameElement</a><span class="token punctuation">, </span></span><span class="parameter ">documentNumber<span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-element-with-check-digit/index.html">ElementWithCheckDigit</a><span class="token punctuation">, </span></span><span class="parameter ">nationality<span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-element/index.html">Element</a><span class="token punctuation">, </span></span><span class="parameter ">dateOfBirth<span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-date-element-with-check-digit/index.html">DateElementWithCheckDigit</a><span class="token punctuation">, </span></span><span class="parameter ">sex<span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-element/index.html">Element</a><span class="token punctuation">, </span></span><span class="parameter ">dateOfExpiry<span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-date-element-with-check-digit/index.html">DateElementWithCheckDigit</a><span class="token punctuation">, </span></span><span class="parameter ">optionalData<span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-element/index.html">Element</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">compositeCheckDigit<span class="token operator">: </span><a href="../-check-digit/index.html">CheckDigit</a></span></span><span class="token punctuation">)</span></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">documentCode<span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-element/index.html">Element</a><span class="token punctuation">, </span></span><span class="parameter ">issuingStateOrOrganization<span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-element/index.html">Element</a><span class="token punctuation">, </span></span><span class="parameter ">name<span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-name-element/index.html">NameElement</a><span class="token punctuation">, </span></span><span class="parameter ">documentNumber<span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-element-with-check-digit/index.html">ElementWithCheckDigit</a><span class="token punctuation">, </span></span><span class="parameter ">nationality<span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-element/index.html">Element</a><span class="token punctuation">, </span></span><span class="parameter ">dateOfBirth<span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-date-element-with-check-digit/index.html">DateElementWithCheckDigit</a><span class="token punctuation">, </span></span><span class="parameter ">sex<span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-element/index.html">Element</a><span class="token punctuation">, </span></span><span class="parameter ">dateOfExpiry<span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-date-element-with-check-digit/index.html">DateElementWithCheckDigit</a><span class="token punctuation">, </span></span><span class="parameter ">optionalData<span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-element/index.html">Element</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">compositeCheckDigit<span class="token operator">: </span><a href="../-check-digit/index.html">CheckDigit</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <h2 class="">Properties</h2>
-      <div class="table" data-togglable="Properties"><a data-name="-134137969%2FProperties%2F-1161857762" anchor-label="compositeCheckDigit" id="-134137969%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a>
-        <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="composite-check-digit.html"><span>composite</span><wbr></wbr><span>Check</span><wbr></wbr><span><span>Digit</span></span></a></div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="-134137969%2FProperties%2F-1161857762" anchor-label="compositeCheckDigit" id="-134137969%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a>
+          <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="composite-check-digit.html"><span>composite</span><wbr></wbr><span>Check</span><wbr></wbr><span><span>Digit</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-134137969%2FProperties%2F-1161857762"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><a data-name="-134137969%2FProperties%2F-1161857762" anchor-label="compositeCheckDigit" id="-134137969%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="composite-check-digit.html">compositeCheckDigit</a><span class="token operator">: </span><a href="../-check-digit/index.html">CheckDigit</a></div><div class="brief "><a data-name="-134137969%2FProperties%2F-1161857762" anchor-label="compositeCheckDigit" id="-134137969%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a><p class="paragraph">The composite check digit associated with the TD2 MRZ.</p></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="composite-check-digit.html">compositeCheckDigit</a><span class="token operator">: </span><a href="../-check-digit/index.html">CheckDigit</a></div><div class="brief "><p class="paragraph">The composite check digit associated with the TD2 MRZ.</p></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="-2047090015%2FProperties%2F-1161857762" anchor-label="dateOfBirth" id="-2047090015%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a>
-        <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="date-of-birth.html"><span>date</span><wbr></wbr><span>Of</span><wbr></wbr><span><span>Birth</span></span></a></div>
+          <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="date-of-birth.html"><span>date</span><wbr></wbr><span>Of</span><wbr></wbr><span><span>Birth</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2047090015%2FProperties%2F-1161857762"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><a data-name="-2047090015%2FProperties%2F-1161857762" anchor-label="dateOfBirth" id="-2047090015%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="date-of-birth.html">dateOfBirth</a><span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-date-element-with-check-digit/index.html">DateElementWithCheckDigit</a></div><div class="brief "><a data-name="-2047090015%2FProperties%2F-1161857762" anchor-label="dateOfBirth" id="-2047090015%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a><p class="paragraph">The element representing the date of birth extracted from the MRZ.</p></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="date-of-birth.html">dateOfBirth</a><span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-date-element-with-check-digit/index.html">DateElementWithCheckDigit</a></div><div class="brief "><p class="paragraph">The element representing the date of birth extracted from the MRZ.</p></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="2086371207%2FProperties%2F-1161857762" anchor-label="dateOfExpiry" id="2086371207%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a>
-        <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="date-of-expiry.html"><span>date</span><wbr></wbr><span>Of</span><wbr></wbr><span><span>Expiry</span></span></a></div>
+          <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="date-of-expiry.html"><span>date</span><wbr></wbr><span>Of</span><wbr></wbr><span><span>Expiry</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2086371207%2FProperties%2F-1161857762"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><a data-name="2086371207%2FProperties%2F-1161857762" anchor-label="dateOfExpiry" id="2086371207%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="date-of-expiry.html">dateOfExpiry</a><span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-date-element-with-check-digit/index.html">DateElementWithCheckDigit</a></div><div class="brief "><a data-name="2086371207%2FProperties%2F-1161857762" anchor-label="dateOfExpiry" id="2086371207%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a><p class="paragraph">The element representing the date of expiry extracted from the MRZ.</p></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="date-of-expiry.html">dateOfExpiry</a><span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-date-element-with-check-digit/index.html">DateElementWithCheckDigit</a></div><div class="brief "><p class="paragraph">The element representing the date of expiry extracted from the MRZ.</p></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="2105991063%2FProperties%2F-1161857762" anchor-label="documentCode" id="2105991063%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a>
-        <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="document-code.html"><span>document</span><wbr></wbr><span><span>Code</span></span></a></div>
+          <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="document-code.html"><span>document</span><wbr></wbr><span><span>Code</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2105991063%2FProperties%2F-1161857762"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><a data-name="2105991063%2FProperties%2F-1161857762" anchor-label="documentCode" id="2105991063%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="document-code.html">documentCode</a><span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-element/index.html">Element</a></div><div class="brief "><a data-name="2105991063%2FProperties%2F-1161857762" anchor-label="documentCode" id="2105991063%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a><p class="paragraph">The element representing the document code extracted from the MRZ.</p></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="document-code.html">documentCode</a><span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-element/index.html">Element</a></div><div class="brief "><p class="paragraph">The element representing the document code extracted from the MRZ.</p></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="1238533115%2FProperties%2F-1161857762" anchor-label="documentNumber" id="1238533115%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a>
-        <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="document-number.html"><span>document</span><wbr></wbr><span><span>Number</span></span></a></div>
+          <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="document-number.html"><span>document</span><wbr></wbr><span><span>Number</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1238533115%2FProperties%2F-1161857762"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><a data-name="1238533115%2FProperties%2F-1161857762" anchor-label="documentNumber" id="1238533115%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="document-number.html">documentNumber</a><span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-element-with-check-digit/index.html">ElementWithCheckDigit</a></div><div class="brief "><a data-name="1238533115%2FProperties%2F-1161857762" anchor-label="documentNumber" id="1238533115%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a><p class="paragraph">The element representing the document number extracted from the MRZ.</p></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="document-number.html">documentNumber</a><span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-element-with-check-digit/index.html">ElementWithCheckDigit</a></div><div class="brief "><p class="paragraph">The element representing the document number extracted from the MRZ.</p></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="-1500038290%2FProperties%2F-1161857762" anchor-label="issuingStateOrOrganization" id="-1500038290%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a>
-        <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="issuing-state-or-organization.html"><span>issuing</span><wbr></wbr><span>State</span><wbr></wbr><span>Or</span><wbr></wbr><span><span>Organization</span></span></a></div>
+          <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="issuing-state-or-organization.html"><span>issuing</span><wbr></wbr><span>State</span><wbr></wbr><span>Or</span><wbr></wbr><span><span>Organization</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1500038290%2FProperties%2F-1161857762"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><a data-name="-1500038290%2FProperties%2F-1161857762" anchor-label="issuingStateOrOrganization" id="-1500038290%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="issuing-state-or-organization.html">issuingStateOrOrganization</a><span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-element/index.html">Element</a></div><div class="brief "><a data-name="-1500038290%2FProperties%2F-1161857762" anchor-label="issuingStateOrOrganization" id="-1500038290%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a><p class="paragraph">The element representing the issuing state or organization extracted from the MRZ.</p></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="issuing-state-or-organization.html">issuingStateOrOrganization</a><span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-element/index.html">Element</a></div><div class="brief "><p class="paragraph">The element representing the issuing state or organization extracted from the MRZ.</p></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="2091133460%2FProperties%2F-1161857762" anchor-label="name" id="2091133460%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a>
-        <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="name.html"><span><span>name</span></span></a></div>
+          <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="name.html"><span><span>name</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2091133460%2FProperties%2F-1161857762"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><a data-name="2091133460%2FProperties%2F-1161857762" anchor-label="name" id="2091133460%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="name.html">name</a><span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-name-element/index.html">NameElement</a></div><div class="brief "><a data-name="2091133460%2FProperties%2F-1161857762" anchor-label="name" id="2091133460%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a><p class="paragraph">The element representing the name extracted from the MRZ.</p></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="name.html">name</a><span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-name-element/index.html">NameElement</a></div><div class="brief "><p class="paragraph">The element representing the name extracted from the MRZ.</p></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="-301007681%2FProperties%2F-1161857762" anchor-label="nationality" id="-301007681%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a>
-        <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="nationality.html"><span><span>nationality</span></span></a></div>
+          <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="nationality.html"><span><span>nationality</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-301007681%2FProperties%2F-1161857762"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><a data-name="-301007681%2FProperties%2F-1161857762" anchor-label="nationality" id="-301007681%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="nationality.html">nationality</a><span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-element/index.html">Element</a></div><div class="brief "><a data-name="-301007681%2FProperties%2F-1161857762" anchor-label="nationality" id="-301007681%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a><p class="paragraph">The element representing the nationality extracted from the MRZ.</p></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="nationality.html">nationality</a><span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-element/index.html">Element</a></div><div class="brief "><p class="paragraph">The element representing the nationality extracted from the MRZ.</p></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="-56941483%2FProperties%2F-1161857762" anchor-label="optionalData" id="-56941483%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a>
-        <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="optional-data.html"><span>optional</span><wbr></wbr><span><span>Data</span></span></a></div>
+          <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="optional-data.html"><span>optional</span><wbr></wbr><span><span>Data</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-56941483%2FProperties%2F-1161857762"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><a data-name="-56941483%2FProperties%2F-1161857762" anchor-label="optionalData" id="-56941483%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="optional-data.html">optionalData</a><span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-element/index.html">Element</a><span class="token operator">?</span></div><div class="brief "><a data-name="-56941483%2FProperties%2F-1161857762" anchor-label="optionalData" id="-56941483%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a><p class="paragraph">The optional data element extracted from the MRZ, if present.</p></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="optional-data.html">optionalData</a><span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-element/index.html">Element</a><span class="token operator">?</span></div><div class="brief "><p class="paragraph">The optional data element extracted from the MRZ, if present.</p></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="728174421%2FProperties%2F-1161857762" anchor-label="sex" id="728174421%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a>
-        <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="sex.html"><span><span>sex</span></span></a></div>
+          <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="sex.html"><span><span>sex</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="728174421%2FProperties%2F-1161857762"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><a data-name="728174421%2FProperties%2F-1161857762" anchor-label="sex" id="728174421%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="sex.html">sex</a><span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-element/index.html">Element</a></div><div class="brief "><a data-name="728174421%2FProperties%2F-1161857762" anchor-label="sex" id="728174421%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a><p class="paragraph">The element representing the sex extracted from the MRZ.</p></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="sex.html">sex</a><span class="token operator">: </span><a href="../../com.innovatrics.dot.mrz.element/-element/index.html">Element</a></div><div class="brief "><p class="paragraph">The element representing the sex extracted from the MRZ.</p></div></div></div>
+                </div>
               </div>
             </div>
           </div>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>Running</title>
+    <link href="../../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../../styles/style.css" rel="Stylesheet">
+<link href="../../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../../styles/main.css" rel="Stylesheet">
+<link href="../../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../../index.html">
+                    <span>dot-document</span>
+            </a>
+    </div>
+    <div>
+9.0.1    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="dot-document::com.innovatrics.dot.document.autocapture.ui/UiState.Running///PointingToDeclaration//-1161857762">
+  <div class="breadcrumbs"><a href="../../../../index.html">dot-document</a><span class="delimiter">/</span><a href="../../index.html">com.innovatrics.dot.document.autocapture.ui</a><span class="delimiter">/</span><a href="../index.html">UiState</a><span class="delimiter">/</span><span class="current">Running</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Running</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="index.html">Running</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>preview<span class="token operator">: </span><a href="../../../com.innovatrics.dot.document.autocapture.ui.preview/-preview/index.html">Preview</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>phase<span class="token operator">: </span><a href="../../../com.innovatrics.dot.document.autocapture/-phase/index.html">Phase</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>detection<span class="token operator">: </span><a href="../../../com.innovatrics.dot.document.autocapture/-document-auto-capture-detection/index.html">DocumentAutoCaptureDetection</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>result<span class="token operator">: </span><a href="../../../com.innovatrics.dot.document.autocapture/-document-auto-capture-result/index.html">DocumentAutoCaptureResult</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">escalatedValidatorIdentifiers<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin.collections/-set/index.html">Set</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span><span class="token operator"> = </span>emptySet()</span></span><span class="token punctuation">)</span> : <a href="../index.html">UiState</a></div><p class="paragraph">Running state.</p><p class="paragraph">This state is active after the <a href="../../-base-document-auto-capture-fragment/start.html">BaseDocumentAutoCaptureFragment.start</a> method is called and before the process finishes.</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Constructors">Constructors</button><button class="section-tab" data-togglable="Properties">Properties</button></div>
+    <div class="tabs-section-body">
+      <h2 class="tabbedcontent">Constructors</h2>
+      <div class="table" data-togglable="Constructors"><a data-name="1828146016%2FConstructors%2F-1161857762" anchor-label="Running" id="1828146016%2FConstructors%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue TabbedContent">
+            <div class=""><span class="inline-flex">
+                <div><a href="-running.html"><span><span>Running</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1828146016%2FConstructors%2F-1161857762"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="-running.html"><span class="token function">Running</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">preview<span class="token operator">: </span><a href="../../../com.innovatrics.dot.document.autocapture.ui.preview/-preview/index.html">Preview</a><span class="token punctuation">, </span></span><span class="parameter ">phase<span class="token operator">: </span><a href="../../../com.innovatrics.dot.document.autocapture/-phase/index.html">Phase</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">detection<span class="token operator">: </span><a href="../../../com.innovatrics.dot.document.autocapture/-document-auto-capture-detection/index.html">DocumentAutoCaptureDetection</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">result<span class="token operator">: </span><a href="../../../com.innovatrics.dot.document.autocapture/-document-auto-capture-result/index.html">DocumentAutoCaptureResult</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">escalatedValidatorIdentifiers<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin.collections/-set/index.html">Set</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span><span class="token operator"> = </span>emptySet()</span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Properties</h2>
+      <div class="table" data-togglable="Properties"><a data-name="-328146816%2FProperties%2F-1161857762" anchor-label="detection" id="-328146816%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="detection.html"><span><span>detection</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-328146816%2FProperties%2F-1161857762"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><a data-name="-328146816%2FProperties%2F-1161857762" anchor-label="detection" id="-328146816%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="detection.html">detection</a><span class="token operator">: </span><a href="../../../com.innovatrics.dot.document.autocapture/-document-auto-capture-detection/index.html">DocumentAutoCaptureDetection</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "><a data-name="-328146816%2FProperties%2F-1161857762" anchor-label="detection" id="-328146816%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a><p class="paragraph">Detection information. If the process has just started and no camera image has been processed yet, this will be <code class="lang-kotlin">null</code>.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1407407690%2FProperties%2F-1161857762" anchor-label="phase" id="1407407690%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="phase.html"><span><span>phase</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1407407690%2FProperties%2F-1161857762"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><a data-name="1407407690%2FProperties%2F-1161857762" anchor-label="phase" id="1407407690%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="phase.html">phase</a><span class="token operator">: </span><a href="../../../com.innovatrics.dot.document.autocapture/-phase/index.html">Phase</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "><a data-name="1407407690%2FProperties%2F-1161857762" anchor-label="phase" id="1407407690%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a><p class="paragraph">Current phase of the process. If the process has just started and no camera image has been processed yet, this will be <code class="lang-kotlin">null</code>.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1950322019%2FProperties%2F-1161857762" anchor-label="preview" id="-1950322019%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="preview.html"><span><span>preview</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1950322019%2FProperties%2F-1161857762"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><a data-name="-1950322019%2FProperties%2F-1161857762" anchor-label="preview" id="-1950322019%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="preview.html">preview</a><span class="token operator">: </span><a href="../../../com.innovatrics.dot.document.autocapture.ui.preview/-preview/index.html">Preview</a></div><div class="brief "><a data-name="-1950322019%2FProperties%2F-1161857762" anchor-label="preview" id="-1950322019%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a><p class="paragraph">Preview information.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="167710616%2FProperties%2F-1161857762" anchor-label="result" id="167710616%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-document:dokkaHtml/publicApi" data-filterable-set=":dot-document:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="result.html"><span><span>result</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="167710616%2FProperties%2F-1161857762"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-document:dokkaHtml/publicApi"><a data-name="167710616%2FProperties%2F-1161857762" anchor-label="result" id="167710616%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="result.html">result</a><span class="token operator">: </span><a href="../../../com.innovatrics.dot.document.autocapture/-document-auto-capture-result/index.html">DocumentAutoCaptureResult</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "><a data-name="167710616%2FProperties%2F-1161857762" anchor-label="result" id="167710616%2FProperties%2F-1161857762" data-filterable-set=":dot-document:dokkaHtml/publicApi"></a><p class="paragraph">Result. If the process has not finished, this will be <code class="lang-kotlin">null</code>.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2026 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>

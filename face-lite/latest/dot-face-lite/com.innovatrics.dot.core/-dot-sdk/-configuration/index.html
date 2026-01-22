@@ -40,8 +40,11 @@
             </a>
     </div>
     <div>
-9.0.1    </div>
+9.0.2    </div>
     <div class="pull-right d-flex">
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":dot-face-lite:dokkaHtml/publicApi">publicApi</button>
+        </div>
         <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
         <div id="searchBar"></div>
     </div>
@@ -51,89 +54,93 @@
         <div id="sideMenu"></div>
     </div>
     <div id="main">
-<div class="main-content" id="content" pageIds="dot-face-lite::com.innovatrics.dot.core/DotSdk.Configuration///PointingToDeclaration//-1232715435">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="dot-face-lite::com.innovatrics.dot.core/DotSdk.Configuration///PointingToDeclaration//-1232715435">
   <div class="breadcrumbs"><a href="../../../../index.html">dot-face-lite</a><span class="delimiter">/</span><a href="../../index.html">com.innovatrics.dot.core</a><span class="delimiter">/</span><a href="../index.html">DotSdk</a><span class="delimiter">/</span><span class="current">Configuration</span></div>
   <div class="cover ">
     <h1 class="cover"><span><span>Configuration</span></span></h1>
     <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-lite:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="index.html">Configuration</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>licenseBytes<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-byte-array/index.html">ByteArray</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>libraries<span class="token operator">: </span><a href="../../../com.innovatrics.dot.core.library/-libraries/index.html">Libraries</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>transactionCountingToken<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span></div><p class="paragraph">Configuration for the main DOT SDK component.</p></div></div>
   </div>
   <div class="tabbedcontent">
-    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Constructors">Constructors</button><button class="section-tab" data-togglable="Properties">Properties</button></div>
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
     <div class="tabs-section-body">
-      <h2 class="tabbedcontent">Constructors</h2>
-      <div class="table" data-togglable="Constructors"><a data-name="-2146614109%2FConstructors%2F-1232715435" anchor-label="Configuration" id="-2146614109%2FConstructors%2F-1232715435" data-filterable-set=":dot-face-lite:dokkaHtml/publicApi"></a>
-        <div class="table-row" data-filterable-current=":dot-face-lite:dokkaHtml/publicApi" data-filterable-set=":dot-face-lite:dokkaHtml/publicApi">
-          <div class="main-subrow keyValue TabbedContent">
-            <div class=""><span class="inline-flex">
-                <div><a href="-configuration.html"><span><span>Configuration</span></span></a></div>
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="-2146614109%2FConstructors%2F-1232715435" anchor-label="Configuration" id="-2146614109%2FConstructors%2F-1232715435" data-filterable-set=":dot-face-lite:dokkaHtml/publicApi"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":dot-face-lite:dokkaHtml/publicApi" data-filterable-set=":dot-face-lite:dokkaHtml/publicApi">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-configuration.html"><span><span>Configuration</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2146614109%2FConstructors%2F-1232715435"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-lite:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="-configuration.html"><span class="token function">Configuration</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a><span class="token punctuation">, </span></span><span class="parameter ">licenseBytes<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-byte-array/index.html">ByteArray</a><span class="token punctuation">, </span></span><span class="parameter ">libraries<span class="token operator">: </span><a href="../../../com.innovatrics.dot.core.library/-libraries/index.html">Libraries</a><span class="token punctuation">, </span></span><span class="parameter ">transactionCountingToken<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-lite:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a><span class="token punctuation">, </span></span><span class="parameter ">licenseBytes<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-byte-array/index.html">ByteArray</a><span class="token punctuation">, </span></span><span class="parameter ">libraries<span class="token operator">: </span><a href="../../../com.innovatrics.dot.core.library/-libraries/index.html">Libraries</a><span class="token punctuation">, </span></span><span class="parameter ">transactionCountingToken<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <h2 class="">Properties</h2>
-      <div class="table" data-togglable="Properties"><a data-name="386760554%2FProperties%2F-1232715435" anchor-label="context" id="386760554%2FProperties%2F-1232715435" data-filterable-set=":dot-face-lite:dokkaHtml/publicApi"></a>
-        <div class="table-row" data-filterable-current=":dot-face-lite:dokkaHtml/publicApi" data-filterable-set=":dot-face-lite:dokkaHtml/publicApi">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="context.html"><span><span>context</span></span></a></div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="386760554%2FProperties%2F-1232715435" anchor-label="context" id="386760554%2FProperties%2F-1232715435" data-filterable-set=":dot-face-lite:dokkaHtml/publicApi"></a>
+          <div class="table-row" data-filterable-current=":dot-face-lite:dokkaHtml/publicApi" data-filterable-set=":dot-face-lite:dokkaHtml/publicApi">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="context.html"><span><span>context</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="386760554%2FProperties%2F-1232715435"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-lite:dokkaHtml/publicApi"><a data-name="386760554%2FProperties%2F-1232715435" anchor-label="context" id="386760554%2FProperties%2F-1232715435" data-filterable-set=":dot-face-lite:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="context.html">context</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a></div><div class="brief "><a data-name="386760554%2FProperties%2F-1232715435" anchor-label="context" id="386760554%2FProperties%2F-1232715435" data-filterable-set=":dot-face-lite:dokkaHtml/publicApi"></a><p class="paragraph">Android <a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a>.</p></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-lite:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="context.html">context</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a></div><div class="brief "><p class="paragraph">Android <a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a>.</p></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="1712246464%2FProperties%2F-1232715435" anchor-label="libraries" id="1712246464%2FProperties%2F-1232715435" data-filterable-set=":dot-face-lite:dokkaHtml/publicApi"></a>
-        <div class="table-row" data-filterable-current=":dot-face-lite:dokkaHtml/publicApi" data-filterable-set=":dot-face-lite:dokkaHtml/publicApi">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="libraries.html"><span><span>libraries</span></span></a></div>
+          <div class="table-row" data-filterable-current=":dot-face-lite:dokkaHtml/publicApi" data-filterable-set=":dot-face-lite:dokkaHtml/publicApi">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="libraries.html"><span><span>libraries</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1712246464%2FProperties%2F-1232715435"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-lite:dokkaHtml/publicApi"><a data-name="1712246464%2FProperties%2F-1232715435" anchor-label="libraries" id="1712246464%2FProperties%2F-1232715435" data-filterable-set=":dot-face-lite:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="libraries.html">libraries</a><span class="token operator">: </span><a href="../../../com.innovatrics.dot.core.library/-libraries/index.html">Libraries</a></div><div class="brief "><a data-name="1712246464%2FProperties%2F-1232715435" anchor-label="libraries" id="1712246464%2FProperties%2F-1232715435" data-filterable-set=":dot-face-lite:dokkaHtml/publicApi"></a><p class="paragraph">List of libraries, which should be activated.</p></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-lite:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="libraries.html">libraries</a><span class="token operator">: </span><a href="../../../com.innovatrics.dot.core.library/-libraries/index.html">Libraries</a></div><div class="brief "><p class="paragraph">List of libraries, which should be activated.</p></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="1193449815%2FProperties%2F-1232715435" anchor-label="licenseBytes" id="1193449815%2FProperties%2F-1232715435" data-filterable-set=":dot-face-lite:dokkaHtml/publicApi"></a>
-        <div class="table-row" data-filterable-current=":dot-face-lite:dokkaHtml/publicApi" data-filterable-set=":dot-face-lite:dokkaHtml/publicApi">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="license-bytes.html"><span>license</span><wbr></wbr><span><span>Bytes</span></span></a></div>
+          <div class="table-row" data-filterable-current=":dot-face-lite:dokkaHtml/publicApi" data-filterable-set=":dot-face-lite:dokkaHtml/publicApi">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="license-bytes.html"><span>license</span><wbr></wbr><span><span>Bytes</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1193449815%2FProperties%2F-1232715435"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-lite:dokkaHtml/publicApi"><a data-name="1193449815%2FProperties%2F-1232715435" anchor-label="licenseBytes" id="1193449815%2FProperties%2F-1232715435" data-filterable-set=":dot-face-lite:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="license-bytes.html">licenseBytes</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-byte-array/index.html">ByteArray</a></div><div class="brief "><a data-name="1193449815%2FProperties%2F-1232715435" anchor-label="licenseBytes" id="1193449815%2FProperties%2F-1232715435" data-filterable-set=":dot-face-lite:dokkaHtml/publicApi"></a><p class="paragraph">License as byte array.</p></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-lite:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="license-bytes.html">licenseBytes</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-byte-array/index.html">ByteArray</a></div><div class="brief "><p class="paragraph">License as byte array.</p></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="-1163219271%2FProperties%2F-1232715435" anchor-label="transactionCountingToken" id="-1163219271%2FProperties%2F-1232715435" data-filterable-set=":dot-face-lite:dokkaHtml/publicApi"></a>
-        <div class="table-row" data-filterable-current=":dot-face-lite:dokkaHtml/publicApi" data-filterable-set=":dot-face-lite:dokkaHtml/publicApi">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="transaction-counting-token.html"><span>transaction</span><wbr></wbr><span>Counting</span><wbr></wbr><span><span>Token</span></span></a></div>
+          <div class="table-row" data-filterable-current=":dot-face-lite:dokkaHtml/publicApi" data-filterable-set=":dot-face-lite:dokkaHtml/publicApi">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="transaction-counting-token.html"><span>transaction</span><wbr></wbr><span>Counting</span><wbr></wbr><span><span>Token</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1163219271%2FProperties%2F-1232715435"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-lite:dokkaHtml/publicApi"><a data-name="-1163219271%2FProperties%2F-1232715435" anchor-label="transactionCountingToken" id="-1163219271%2FProperties%2F-1232715435" data-filterable-set=":dot-face-lite:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="transaction-counting-token.html">transactionCountingToken</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "><a data-name="-1163219271%2FProperties%2F-1232715435" anchor-label="transactionCountingToken" id="-1163219271%2FProperties%2F-1232715435" data-filterable-set=":dot-face-lite:dokkaHtml/publicApi"></a><p class="paragraph">Transaction counting token.</p></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-lite:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="transaction-counting-token.html">transactionCountingToken</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "><p class="paragraph">Transaction counting token.</p></div></div></div>
+                </div>
               </div>
             </div>
           </div>

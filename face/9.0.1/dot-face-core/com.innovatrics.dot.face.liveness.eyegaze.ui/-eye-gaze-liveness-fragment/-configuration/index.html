@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>Configuration</title>
+    <link href="../../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../../styles/style.css" rel="Stylesheet">
+<link href="../../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../../styles/main.css" rel="Stylesheet">
+<link href="../../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../../index.html">
+                    <span>dot-face-core</span>
+            </a>
+    </div>
+    <div>
+9.0.1    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="dot-face-core::com.innovatrics.dot.face.liveness.eyegaze.ui/EyeGazeLivenessFragment.Configuration///PointingToDeclaration//418330372">
+  <div class="breadcrumbs"><a href="../../../../index.html">dot-face-core</a><span class="delimiter">/</span><a href="../../index.html">com.innovatrics.dot.face.liveness.eyegaze.ui</a><span class="delimiter">/</span><a href="../index.html">EyeGazeLivenessFragment</a><span class="delimiter">/</span><span class="current">Configuration</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Configuration</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="index.html">Configuration</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>corners<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="../../../com.innovatrics.dot.face.liveness.eyegaze/-corner/index.html">Corner</a><span class="token operator">&gt;</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>common<span class="token operator">: </span><a href="../../../com.innovatrics.dot.core.ui.configuration/-common-configuration/index.html">CommonConfiguration</a><span class="token operator"> = </span>CommonConfiguration()<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>camera<span class="token operator">: </span><a href="../../../com.innovatrics.dot.camera.ui.configuration/-camera-configuration/index.html">CameraConfiguration</a><span class="token operator"> = </span>CameraConfiguration(
+            facing = CameraFacing.FRONT,
+        )<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>faceLibraryComponent<span class="token operator">: </span><a href="../../../com.innovatrics.dot.face.ui.configuration/-face-library-component-configuration/index.html">FaceLibraryComponentConfiguration</a><span class="token operator"> = </span>FaceLibraryComponentConfiguration(
+            faceSizeRatioInterval = FaceAutoCaptureController.Configuration.DEFAULT_FACE_SIZE_RATIO_INTERVAL,
+        )<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>minValidSamplesCount<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">4</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>transitionType<span class="token operator">: </span><a href="-transition-type/index.html">EyeGazeLivenessFragment.Configuration.TransitionType</a><span class="token operator"> = </span>TransitionType.MOVE<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>transitionDurationMillis<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">800</span></span></span><span class="token punctuation">)</span></div><p class="paragraph">Configuration for the UI Eye Gaze Liveness component.</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Types">Types</button><button class="section-tab" data-togglable="Constructors">Constructors</button><button class="section-tab" data-togglable="Properties">Properties</button></div>
+    <div class="tabs-section-body">
+      <h2 class="tabbedcontent">Constructors</h2>
+      <div class="table" data-togglable="Constructors"><a data-name="-792499519%2FConstructors%2F418330372" anchor-label="Configuration" id="-792499519%2FConstructors%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue TabbedContent">
+            <div class=""><span class="inline-flex">
+                <div><a href="-configuration.html"><span><span>Configuration</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-792499519%2FConstructors%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="-configuration.html"><span class="token function">Configuration</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">corners<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="../../../com.innovatrics.dot.face.liveness.eyegaze/-corner/index.html">Corner</a><span class="token operator">&gt;</span><span class="token punctuation">, </span></span><span class="parameter ">common<span class="token operator">: </span><a href="../../../com.innovatrics.dot.core.ui.configuration/-common-configuration/index.html">CommonConfiguration</a><span class="token operator"> = </span>CommonConfiguration()<span class="token punctuation">, </span></span><span class="parameter ">camera<span class="token operator">: </span><a href="../../../com.innovatrics.dot.camera.ui.configuration/-camera-configuration/index.html">CameraConfiguration</a><span class="token operator"> = </span>CameraConfiguration(
+            facing = CameraFacing.FRONT,
+        )<span class="token punctuation">, </span></span><span class="parameter ">faceLibraryComponent<span class="token operator">: </span><a href="../../../com.innovatrics.dot.face.ui.configuration/-face-library-component-configuration/index.html">FaceLibraryComponentConfiguration</a><span class="token operator"> = </span>FaceLibraryComponentConfiguration(
+            faceSizeRatioInterval = FaceAutoCaptureController.Configuration.DEFAULT_FACE_SIZE_RATIO_INTERVAL,
+        )<span class="token punctuation">, </span></span><span class="parameter ">minValidSamplesCount<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">4</span><span class="token punctuation">, </span></span><span class="parameter ">transitionType<span class="token operator">: </span><a href="-transition-type/index.html">EyeGazeLivenessFragment.Configuration.TransitionType</a><span class="token operator"> = </span>TransitionType.MOVE<span class="token punctuation">, </span></span><span class="parameter ">transitionDurationMillis<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">800</span></span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Types</h2>
+      <div class="table" data-togglable="Types"><a data-name="-1282113390%2FClasslikes%2F418330372" anchor-label="TransitionType" id="-1282113390%2FClasslikes%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-transition-type/index.html"><span>Transition</span><wbr></wbr><span><span>Type</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1282113390%2FClasslikes%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><div class="symbol monospace"><span class="token keyword">enum </span><a href="-transition-type/index.html">TransitionType</a> : <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-enum/index.html">Enum</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="-transition-type/index.html">EyeGazeLivenessFragment.Configuration.TransitionType</a><span class="token operator">&gt; </span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Properties</h2>
+      <div class="table" data-togglable="Properties"><a data-name="-96525849%2FProperties%2F418330372" anchor-label="camera" id="-96525849%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="camera.html"><span><span>camera</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-96525849%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="-96525849%2FProperties%2F418330372" anchor-label="camera" id="-96525849%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="camera.html">camera</a><span class="token operator">: </span><a href="../../../com.innovatrics.dot.camera.ui.configuration/-camera-configuration/index.html">CameraConfiguration</a></div><div class="brief "><a data-name="-96525849%2FProperties%2F418330372" anchor-label="camera" id="-96525849%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><p class="paragraph">Configuration for components utilizing a camera. Default value is <a href="../../../com.innovatrics.dot.camera.ui.configuration/-camera-configuration/index.html">CameraConfiguration</a> with properties: Default <code class="lang-kotlin">facing</code> is <a href="../../../com.innovatrics.dot.camera/-camera-facing/-f-r-o-n-t/index.html">CameraFacing.FRONT</a>.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-162609695%2FProperties%2F418330372" anchor-label="common" id="-162609695%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="common.html"><span><span>common</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-162609695%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="-162609695%2FProperties%2F418330372" anchor-label="common" id="-162609695%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="common.html">common</a><span class="token operator">: </span><a href="../../../com.innovatrics.dot.core.ui.configuration/-common-configuration/index.html">CommonConfiguration</a></div><div class="brief "><a data-name="-162609695%2FProperties%2F418330372" anchor-label="common" id="-162609695%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><p class="paragraph">Common configuration for all components. Default value is <a href="../../../com.innovatrics.dot.core.ui.configuration/-common-configuration/index.html">CommonConfiguration</a>.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-626109200%2FProperties%2F418330372" anchor-label="corners" id="-626109200%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="corners.html"><span><span>corners</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-626109200%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="-626109200%2FProperties%2F418330372" anchor-label="corners" id="-626109200%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="corners.html">corners</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="../../../com.innovatrics.dot.face.liveness.eyegaze/-corner/index.html">Corner</a><span class="token operator">&gt;</span></div><div class="brief "><a data-name="-626109200%2FProperties%2F418330372" anchor-label="corners" id="-626109200%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><p class="paragraph">List of corners which defines where the user should look. Minimum allowed size of the list is equal to <code class="lang-kotlin">minValidSamplesCount</code>.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="2119660813%2FProperties%2F418330372" anchor-label="faceLibraryComponent" id="2119660813%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="face-library-component.html"><span>face</span><wbr></wbr><span>Library</span><wbr></wbr><span><span>Component</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2119660813%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="2119660813%2FProperties%2F418330372" anchor-label="faceLibraryComponent" id="2119660813%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="face-library-component.html">faceLibraryComponent</a><span class="token operator">: </span><a href="../../../com.innovatrics.dot.face.ui.configuration/-face-library-component-configuration/index.html">FaceLibraryComponentConfiguration</a></div><div class="brief "><a data-name="2119660813%2FProperties%2F418330372" anchor-label="faceLibraryComponent" id="2119660813%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><p class="paragraph">Configuration for face library components. Default value is <a href="../../../com.innovatrics.dot.face.ui.configuration/-face-library-component-configuration/index.html">FaceLibraryComponentConfiguration</a> with properties: Default <code class="lang-kotlin">faceSizeRatioInterval</code> is <code class="lang-kotlin">[0.1, 0.3]</code>.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1284411204%2FProperties%2F418330372" anchor-label="minValidSamplesCount" id="-1284411204%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="min-valid-samples-count.html"><span>min</span><wbr></wbr><span>Valid</span><wbr></wbr><span>Samples</span><wbr></wbr><span><span>Count</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1284411204%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="-1284411204%2FProperties%2F418330372" anchor-label="minValidSamplesCount" id="-1284411204%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="min-valid-samples-count.html">minValidSamplesCount</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">4</span></div><div class="brief "><a data-name="-1284411204%2FProperties%2F418330372" anchor-label="minValidSamplesCount" id="-1284411204%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><p class="paragraph">Minimum number of valid samples (images) required to finish the process. Allowed value is from interval <code class="lang-kotlin">[4, 7]</code>. Default value is <code class="lang-kotlin">4</code>.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="435253469%2FProperties%2F418330372" anchor-label="transitionDurationMillis" id="435253469%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="transition-duration-millis.html"><span>transition</span><wbr></wbr><span>Duration</span><wbr></wbr><span><span>Millis</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="435253469%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="435253469%2FProperties%2F418330372" anchor-label="transitionDurationMillis" id="435253469%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="transition-duration-millis.html">transitionDurationMillis</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">800</span></div><div class="brief "><a data-name="435253469%2FProperties%2F418330372" anchor-label="transitionDurationMillis" id="435253469%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><p class="paragraph">Duration of each transition in milliseconds. Default value is <code class="lang-kotlin">800</code>.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1522444061%2FProperties%2F418330372" anchor-label="transitionType" id="1522444061%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a>
+        <div class="table-row" data-filterable-current=":dot-face-core:dokkaHtml/publicApi" data-filterable-set=":dot-face-core:dokkaHtml/publicApi">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="transition-type.html"><span>transition</span><wbr></wbr><span><span>Type</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1522444061%2FProperties%2F418330372"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dot-face-core:dokkaHtml/publicApi"><a data-name="1522444061%2FProperties%2F418330372" anchor-label="transitionType" id="1522444061%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="transition-type.html">transitionType</a><span class="token operator">: </span><a href="-transition-type/index.html">EyeGazeLivenessFragment.Configuration.TransitionType</a></div><div class="brief "><a data-name="1522444061%2FProperties%2F418330372" anchor-label="transitionType" id="1522444061%2FProperties%2F418330372" data-filterable-set=":dot-face-core:dokkaHtml/publicApi"></a><p class="paragraph">Transition type between segments. Default value is <a href="-transition-type/-m-o-v-e/index.html">TransitionType.MOVE</a>.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2026 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>

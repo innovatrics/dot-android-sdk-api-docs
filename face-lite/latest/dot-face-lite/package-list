@@ -16,6 +16,17 @@ $dokka.location:com.innovatrics.dot.camera.ui.configuration/CameraConfiguration/
 $dokka.location:com.innovatrics.dot.camera.ui.configuration/CameraConfiguration/isVideoCaptureEnabled/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.camera.ui.configuration/-camera-configuration/is-video-capture-enabled.html
 $dokka.location:com.innovatrics.dot.camera.ui.configuration/CameraConfiguration/previewScaleType/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.camera.ui.configuration/-camera-configuration/preview-scale-type.html
 $dokka.location:com.innovatrics.dot.camera////PointingToDeclaration/dot-face-lite/com.innovatrics.dot.camera/index.html
+$dokka.location:com.innovatrics.dot.camera/Camera.Frame///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.camera/-camera/-frame/index.html
+$dokka.location:com.innovatrics.dot.camera/Camera.Frame/Frame/#kotlin.Double#kotlin.Double/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.camera/-camera/-frame/-frame.html
+$dokka.location:com.innovatrics.dot.camera/Camera.Frame/focalLengthMillimeters/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.camera/-camera/-frame/focal-length-millimeters.html
+$dokka.location:com.innovatrics.dot.camera/Camera.Frame/focusDistance/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.camera/-camera/-frame/focus-distance.html
+$dokka.location:com.innovatrics.dot.camera/Camera.Sensor///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.camera/-camera/-sensor/index.html
+$dokka.location:com.innovatrics.dot.camera/Camera.Sensor/Sensor/#com.innovatrics.dot.image.ImageSizeDouble/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.camera/-camera/-sensor/-sensor.html
+$dokka.location:com.innovatrics.dot.camera/Camera.Sensor/physicalSizeMillimeters/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.camera/-camera/-sensor/physical-size-millimeters.html
+$dokka.location:com.innovatrics.dot.camera/Camera///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.camera/-camera/index.html
+$dokka.location:com.innovatrics.dot.camera/Camera/Camera/#com.innovatrics.dot.camera.Camera.Sensor#com.innovatrics.dot.camera.Camera.Frame/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.camera/-camera/-camera.html
+$dokka.location:com.innovatrics.dot.camera/Camera/frame/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.camera/-camera/frame.html
+$dokka.location:com.innovatrics.dot.camera/Camera/sensor/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.camera/-camera/sensor.html
 $dokka.location:com.innovatrics.dot.camera/CameraFacing.BACK///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-face-lite/com.innovatrics.dot.camera/-camera-facing/-b-a-c-k/index.html
 $dokka.location:com.innovatrics.dot.camera/CameraFacing.FRONT///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-face-lite/com.innovatrics.dot.camera/-camera-facing/-f-r-o-n-t/index.html
 $dokka.location:com.innovatrics.dot.camera/CameraFacing///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.camera/-camera-facing/index.html
@@ -66,6 +77,9 @@ $dokka.location:com.innovatrics.dot.core.library.face/DotFaceExpressionNeutralMo
 $dokka.location:com.innovatrics.dot.core.library.face/DotFaceEyeGazeLivenessModuleConfiguration///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.library.face/-dot-face-eye-gaze-liveness-module-configuration/index.html
 $dokka.location:com.innovatrics.dot.core.library.face/DotFacePassiveLivenessModuleConfiguration///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.library.face/-dot-face-passive-liveness-module-configuration/index.html
 $dokka.location:com.innovatrics.dot.core.library.face/DotFaceVerificationModuleConfiguration///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.library.face/-dot-face-verification-module-configuration/index.html
+$dokka.location:com.innovatrics.dot.core.library.fingers////PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.library.fingers/index.html
+$dokka.location:com.innovatrics.dot.core.library.fingers/DotFingersDetectionModuleConfiguration///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.library.fingers/-dot-fingers-detection-module-configuration/index.html
+$dokka.location:com.innovatrics.dot.core.library.fingers/DotFingersTransformationModuleConfiguration///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.library.fingers/-dot-fingers-transformation-module-configuration/index.html
 $dokka.location:com.innovatrics.dot.core.library.palm////PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.library.palm/index.html
 $dokka.location:com.innovatrics.dot.core.library.palm/DotPalmDetectionModuleConfiguration///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.library.palm/-dot-palm-detection-module-configuration/index.html
 $dokka.location:com.innovatrics.dot.core.library////PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.library/index.html
@@ -83,6 +97,13 @@ $dokka.location:com.innovatrics.dot.core.library/DotFaceLibraryConfiguration/Dot
 $dokka.location:com.innovatrics.dot.core.library/DotFaceLibraryConfiguration/faceDetectionConfidenceThreshold/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.library/-dot-face-library-configuration/face-detection-confidence-threshold.html
 $dokka.location:com.innovatrics.dot.core.library/DotFaceLibraryConfiguration/modules/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.library/-dot-face-library-configuration/modules.html
 $dokka.location:com.innovatrics.dot.core.library/DotFaceLiteLibraryConfiguration///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.library/-dot-face-lite-library-configuration/index.html
+$dokka.location:com.innovatrics.dot.core.library/DotFingersLibraryConfiguration.Modules///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.library/-dot-fingers-library-configuration/-modules/index.html
+$dokka.location:com.innovatrics.dot.core.library/DotFingersLibraryConfiguration.Modules/Modules/#com.innovatrics.dot.core.library.fingers.DotFingersDetectionModuleConfiguration#com.innovatrics.dot.core.library.fingers.DotFingersTransformationModuleConfiguration?/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.library/-dot-fingers-library-configuration/-modules/-modules.html
+$dokka.location:com.innovatrics.dot.core.library/DotFingersLibraryConfiguration.Modules/detection/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.library/-dot-fingers-library-configuration/-modules/detection.html
+$dokka.location:com.innovatrics.dot.core.library/DotFingersLibraryConfiguration.Modules/transformation/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.library/-dot-fingers-library-configuration/-modules/transformation.html
+$dokka.location:com.innovatrics.dot.core.library/DotFingersLibraryConfiguration///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.library/-dot-fingers-library-configuration/index.html
+$dokka.location:com.innovatrics.dot.core.library/DotFingersLibraryConfiguration/DotFingersLibraryConfiguration/#com.innovatrics.dot.core.library.DotFingersLibraryConfiguration.Modules/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.library/-dot-fingers-library-configuration/-dot-fingers-library-configuration.html
+$dokka.location:com.innovatrics.dot.core.library/DotFingersLibraryConfiguration/modules/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.library/-dot-fingers-library-configuration/modules.html
 $dokka.location:com.innovatrics.dot.core.library/DotNfcLibraryConfiguration///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.library/-dot-nfc-library-configuration/index.html
 $dokka.location:com.innovatrics.dot.core.library/DotPalmLibraryConfiguration.Modules///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.library/-dot-palm-library-configuration/-modules/index.html
 $dokka.location:com.innovatrics.dot.core.library/DotPalmLibraryConfiguration.Modules/Modules/#com.innovatrics.dot.core.library.palm.DotPalmDetectionModuleConfiguration/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.library/-dot-palm-library-configuration/-modules/-modules.html
@@ -91,7 +112,7 @@ $dokka.location:com.innovatrics.dot.core.library/DotPalmLibraryConfiguration///P
 $dokka.location:com.innovatrics.dot.core.library/DotPalmLibraryConfiguration/DotPalmLibraryConfiguration/#com.innovatrics.dot.core.library.DotPalmLibraryConfiguration.Modules/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.library/-dot-palm-library-configuration/-dot-palm-library-configuration.html
 $dokka.location:com.innovatrics.dot.core.library/DotPalmLibraryConfiguration/modules/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.library/-dot-palm-library-configuration/modules.html
 $dokka.location:com.innovatrics.dot.core.library/Libraries///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.library/-libraries/index.html
-$dokka.location:com.innovatrics.dot.core.library/Libraries/Libraries/#com.innovatrics.dot.core.library.DotDocumentLibraryConfiguration?#com.innovatrics.dot.core.library.DotFaceLibraryConfiguration?#com.innovatrics.dot.core.library.DotFaceLiteLibraryConfiguration?#com.innovatrics.dot.core.library.DotNfcLibraryConfiguration?#com.innovatrics.dot.core.library.DotPalmLibraryConfiguration?/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.library/-libraries/-libraries.html
+$dokka.location:com.innovatrics.dot.core.library/Libraries/Libraries/#com.innovatrics.dot.core.library.DotDocumentLibraryConfiguration?#com.innovatrics.dot.core.library.DotFaceLibraryConfiguration?#com.innovatrics.dot.core.library.DotFaceLiteLibraryConfiguration?#com.innovatrics.dot.core.library.DotFingersLibraryConfiguration?#com.innovatrics.dot.core.library.DotNfcLibraryConfiguration?#com.innovatrics.dot.core.library.DotPalmLibraryConfiguration?/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.library/-libraries/-libraries.html
 $dokka.location:com.innovatrics.dot.core.library/Libraries/document/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.library/-libraries/document.html
 $dokka.location:com.innovatrics.dot.core.library/Libraries/face/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.library/-libraries/face.html
 $dokka.location:com.innovatrics.dot.core.library/Libraries/faceLite/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.core.library/-libraries/face-lite.html
@@ -288,6 +309,9 @@ $dokka.location:com.innovatrics.dot.face.lite.autocapture/QualityAttributeThresh
 $dokka.location:com.innovatrics.dot.face.lite.autocapture/QualityAttributeThresholds.Presets/standard/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.autocapture/-quality-attribute-thresholds/-presets/standard.html
 $dokka.location:com.innovatrics.dot.face.lite.autocapture/QualityAttributeThresholds///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.autocapture/-quality-attribute-thresholds/index.html
 $dokka.location:com.innovatrics.dot.face.lite.autocapture/QualityAttributeThresholds/QualityAttributeThresholds/#kotlin.Double?#kotlin.Float?#com.innovatrics.dot.core.math.IntervalDouble?/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.autocapture/-quality-attribute-thresholds/-quality-attribute-thresholds.html
+$dokka.location:com.innovatrics.dot.face.lite.autocapture/QualityAttributeThresholds/maxDevicePitchAngle/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.autocapture/-quality-attribute-thresholds/max-device-pitch-angle.html
+$dokka.location:com.innovatrics.dot.face.lite.autocapture/QualityAttributeThresholds/minConfidence/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.autocapture/-quality-attribute-thresholds/min-confidence.html
+$dokka.location:com.innovatrics.dot.face.lite.autocapture/QualityAttributeThresholds/sizeInterval/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.autocapture/-quality-attribute-thresholds/size-interval.html
 $dokka.location:com.innovatrics.dot.face.lite.detection////PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.detection/index.html
 $dokka.location:com.innovatrics.dot.face.lite.detection/FaceDetector.Face///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.detection/-face-detector/-face/index.html
 $dokka.location:com.innovatrics.dot.face.lite.detection/FaceDetector.Face/Face/#kotlin.Double#com.innovatrics.dot.face.commons.detection.DetectionPosition#com.innovatrics.dot.face.lite.quality.FaceQuality/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.face.lite.detection/-face-detector/-face/-face.html
@@ -365,6 +389,10 @@ $dokka.location:com.innovatrics.dot.image/ImageSize///PointingToDeclaration/dot
 $dokka.location:com.innovatrics.dot.image/ImageSize/ImageSize/#kotlin.Int#kotlin.Int/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.image/-image-size/-image-size.html
 $dokka.location:com.innovatrics.dot.image/ImageSize/height/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.image/-image-size/height.html
 $dokka.location:com.innovatrics.dot.image/ImageSize/width/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.image/-image-size/width.html
+$dokka.location:com.innovatrics.dot.image/ImageSizeDouble///PointingToDeclaration/dot-face-lite/com.innovatrics.dot.image/-image-size-double/index.html
+$dokka.location:com.innovatrics.dot.image/ImageSizeDouble/ImageSizeDouble/#kotlin.Double#kotlin.Double/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.image/-image-size-double/-image-size-double.html
+$dokka.location:com.innovatrics.dot.image/ImageSizeDouble/height/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.image/-image-size-double/height.html
+$dokka.location:com.innovatrics.dot.image/ImageSizeDouble/width/#/PointingToDeclaration/dot-face-lite/com.innovatrics.dot.image/-image-size-double/width.html
 com.innovatrics.dot.camera
 com.innovatrics.dot.camera.image
 com.innovatrics.dot.camera.newarchitecture
@@ -374,6 +402,7 @@ com.innovatrics.dot.core.autocapture
 com.innovatrics.dot.core.geometry
 com.innovatrics.dot.core.library
 com.innovatrics.dot.core.library.face
+com.innovatrics.dot.core.library.fingers
 com.innovatrics.dot.core.library.palm
 com.innovatrics.dot.core.math
 com.innovatrics.dot.core.ui.configuration

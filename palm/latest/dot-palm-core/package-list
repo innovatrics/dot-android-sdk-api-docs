@@ -68,6 +68,8 @@ $dokka.location:com.innovatrics.dot.core.geometry/RectangleInt/bottom/#/Pointing
 $dokka.location:com.innovatrics.dot.core.geometry/RectangleInt/left/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.geometry/-rectangle-int/left.html
 $dokka.location:com.innovatrics.dot.core.geometry/RectangleInt/right/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.geometry/-rectangle-int/right.html
 $dokka.location:com.innovatrics.dot.core.geometry/RectangleInt/top/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.geometry/-rectangle-int/top.html
+$dokka.location:com.innovatrics.dot.core.library.document////PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.library.document/index.html
+$dokka.location:com.innovatrics.dot.core.library.document/DotDocumentBarcodeModuleConfiguration///PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.library.document/-dot-document-barcode-module-configuration/index.html
 $dokka.location:com.innovatrics.dot.core.library.face////PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.library.face/index.html
 $dokka.location:com.innovatrics.dot.core.library.face/DotFaceBackgroundUniformityModuleConfiguration///PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.library.face/-dot-face-background-uniformity-module-configuration/index.html
 $dokka.location:com.innovatrics.dot.core.library.face/DotFaceDetectionModuleConfiguration.Balanced///PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.library.face/-dot-face-detection-module-configuration/-balanced/index.html
@@ -83,7 +85,12 @@ $dokka.location:com.innovatrics.dot.core.library.fingers/DotFingersTransformatio
 $dokka.location:com.innovatrics.dot.core.library.palm////PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.library.palm/index.html
 $dokka.location:com.innovatrics.dot.core.library.palm/DotPalmDetectionModuleConfiguration///PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.library.palm/-dot-palm-detection-module-configuration/index.html
 $dokka.location:com.innovatrics.dot.core.library////PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.library/index.html
+$dokka.location:com.innovatrics.dot.core.library/DotDocumentLibraryConfiguration.Modules///PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.library/-dot-document-library-configuration/-modules/index.html
+$dokka.location:com.innovatrics.dot.core.library/DotDocumentLibraryConfiguration.Modules/Modules/#com.innovatrics.dot.core.library.document.DotDocumentBarcodeModuleConfiguration?/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.library/-dot-document-library-configuration/-modules/-modules.html
+$dokka.location:com.innovatrics.dot.core.library/DotDocumentLibraryConfiguration.Modules/barcode/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.library/-dot-document-library-configuration/-modules/barcode.html
 $dokka.location:com.innovatrics.dot.core.library/DotDocumentLibraryConfiguration///PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.library/-dot-document-library-configuration/index.html
+$dokka.location:com.innovatrics.dot.core.library/DotDocumentLibraryConfiguration/DotDocumentLibraryConfiguration/#com.innovatrics.dot.core.library.DotDocumentLibraryConfiguration.Modules/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.library/-dot-document-library-configuration/-dot-document-library-configuration.html
+$dokka.location:com.innovatrics.dot.core.library/DotDocumentLibraryConfiguration/modules/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.library/-dot-document-library-configuration/modules.html
 $dokka.location:com.innovatrics.dot.core.library/DotFaceLibraryConfiguration.Modules///PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.library/-dot-face-library-configuration/-modules/index.html
 $dokka.location:com.innovatrics.dot.core.library/DotFaceLibraryConfiguration.Modules/Modules/#com.innovatrics.dot.core.library.face.DotFaceDetectionModuleConfiguration#com.innovatrics.dot.core.library.face.DotFaceExpressionNeutralModuleConfiguration?#com.innovatrics.dot.core.library.face.DotFaceBackgroundUniformityModuleConfiguration?#com.innovatrics.dot.core.library.face.DotFaceEyeGazeLivenessModuleConfiguration?#com.innovatrics.dot.core.library.face.DotFacePassiveLivenessModuleConfiguration?#com.innovatrics.dot.core.library.face.DotFaceVerificationModuleConfiguration?/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.library/-dot-face-library-configuration/-modules/-modules.html
 $dokka.location:com.innovatrics.dot.core.library/DotFaceLibraryConfiguration.Modules/backgroundUniformity/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.library/-dot-face-library-configuration/-modules/background-uniformity.html
@@ -97,6 +104,7 @@ $dokka.location:com.innovatrics.dot.core.library/DotFaceLibraryConfiguration/Dot
 $dokka.location:com.innovatrics.dot.core.library/DotFaceLibraryConfiguration/faceDetectionConfidenceThreshold/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.library/-dot-face-library-configuration/face-detection-confidence-threshold.html
 $dokka.location:com.innovatrics.dot.core.library/DotFaceLibraryConfiguration/modules/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.library/-dot-face-library-configuration/modules.html
 $dokka.location:com.innovatrics.dot.core.library/DotFaceLiteLibraryConfiguration///PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.library/-dot-face-lite-library-configuration/index.html
+$dokka.location:com.innovatrics.dot.core.library/DotFaceLiteLibraryConfiguration/DotFaceLiteLibraryConfiguration/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.library/-dot-face-lite-library-configuration/-dot-face-lite-library-configuration.html
 $dokka.location:com.innovatrics.dot.core.library/DotFingersLibraryConfiguration.Modules///PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.library/-dot-fingers-library-configuration/-modules/index.html
 $dokka.location:com.innovatrics.dot.core.library/DotFingersLibraryConfiguration.Modules/Modules/#com.innovatrics.dot.core.library.fingers.DotFingersDetectionModuleConfiguration#com.innovatrics.dot.core.library.fingers.DotFingersTransformationModuleConfiguration?/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.library/-dot-fingers-library-configuration/-modules/-modules.html
 $dokka.location:com.innovatrics.dot.core.library/DotFingersLibraryConfiguration.Modules/detection/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.library/-dot-fingers-library-configuration/-modules/detection.html
@@ -105,6 +113,7 @@ $dokka.location:com.innovatrics.dot.core.library/DotFingersLibraryConfiguration/
 $dokka.location:com.innovatrics.dot.core.library/DotFingersLibraryConfiguration/DotFingersLibraryConfiguration/#com.innovatrics.dot.core.library.DotFingersLibraryConfiguration.Modules/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.library/-dot-fingers-library-configuration/-dot-fingers-library-configuration.html
 $dokka.location:com.innovatrics.dot.core.library/DotFingersLibraryConfiguration/modules/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.library/-dot-fingers-library-configuration/modules.html
 $dokka.location:com.innovatrics.dot.core.library/DotNfcLibraryConfiguration///PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.library/-dot-nfc-library-configuration/index.html
+$dokka.location:com.innovatrics.dot.core.library/DotNfcLibraryConfiguration/DotNfcLibraryConfiguration/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.library/-dot-nfc-library-configuration/-dot-nfc-library-configuration.html
 $dokka.location:com.innovatrics.dot.core.library/DotPalmLibraryConfiguration.Modules///PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.library/-dot-palm-library-configuration/-modules/index.html
 $dokka.location:com.innovatrics.dot.core.library/DotPalmLibraryConfiguration.Modules/Modules/#com.innovatrics.dot.core.library.palm.DotPalmDetectionModuleConfiguration/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.library/-dot-palm-library-configuration/-modules/-modules.html
 $dokka.location:com.innovatrics.dot.core.library/DotPalmLibraryConfiguration.Modules/detection/#/PointingToDeclaration/dot-palm-core/com.innovatrics.dot.core.library/-dot-palm-library-configuration/-modules/detection.html
@@ -357,6 +366,7 @@ com.innovatrics.dot.core
 com.innovatrics.dot.core.autocapture
 com.innovatrics.dot.core.geometry
 com.innovatrics.dot.core.library
+com.innovatrics.dot.core.library.document
 com.innovatrics.dot.core.library.face
 com.innovatrics.dot.core.library.fingers
 com.innovatrics.dot.core.library.palm

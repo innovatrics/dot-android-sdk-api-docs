@@ -162,7 +162,7 @@ $dokka.location:com.innovatrics.dot.mrz/CheckDigit/CheckDigit/#kotlin.Boolean#ko
 $dokka.location:com.innovatrics.dot.mrz/CheckDigit/isValid/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.mrz/-check-digit/is-valid.html
 $dokka.location:com.innovatrics.dot.mrz/CheckDigit/value/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.mrz/-check-digit/value.html
 $dokka.location:com.innovatrics.dot.mrz/Date///PointingToDeclaration/dot-nfc/com.innovatrics.dot.mrz/-date/index.html
-$dokka.location:com.innovatrics.dot.mrz/Date/Date/#kotlin.Int#kotlin.Int#kotlin.Int/PointingToDeclaration/dot-nfc/com.innovatrics.dot.mrz/-date/-date.html
+$dokka.location:com.innovatrics.dot.mrz/Date/Date/#kotlin.Int?#kotlin.Int?#kotlin.Int?/PointingToDeclaration/dot-nfc/com.innovatrics.dot.mrz/-date/-date.html
 $dokka.location:com.innovatrics.dot.mrz/Date/day/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.mrz/-date/day.html
 $dokka.location:com.innovatrics.dot.mrz/Date/month/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.mrz/-date/month.html
 $dokka.location:com.innovatrics.dot.mrz/Date/year/#/PointingToDeclaration/dot-nfc/com.innovatrics.dot.mrz/-date/year.html

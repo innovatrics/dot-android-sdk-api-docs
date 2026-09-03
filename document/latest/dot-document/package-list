@@ -35,9 +35,6 @@ $dokka.location:com.innovatrics.dot.camera/CameraFacing.FRONT///PointingToDeclar
 $dokka.location:com.innovatrics.dot.camera/CameraFacing///PointingToDeclaration/dot-document/com.innovatrics.dot.camera/-camera-facing/index.html
 $dokka.location:com.innovatrics.dot.camera/CameraFacing/valueOf/#kotlin.String/PointingToDeclaration/dot-document/com.innovatrics.dot.camera/-camera-facing/value-of.html
 $dokka.location:com.innovatrics.dot.camera/CameraFacing/values/#/PointingToDeclaration/dot-document/com.innovatrics.dot.camera/-camera-facing/values.html
-$dokka.location:com.innovatrics.dot.camera/CameraPreviewFragment///PointingToDeclaration/dot-document/com.innovatrics.dot.camera/-camera-preview-fragment/index.html
-$dokka.location:com.innovatrics.dot.camera/CameraPreviewFragment/CameraPreviewFragment/#/PointingToDeclaration/dot-document/com.innovatrics.dot.camera/-camera-preview-fragment/-camera-preview-fragment.html
-$dokka.location:com.innovatrics.dot.camera/CameraPreviewFragment/onNoCameraPermission/#/PointingToDeclaration/dot-document/com.innovatrics.dot.camera/-camera-preview-fragment/on-no-camera-permission.html
 $dokka.location:com.innovatrics.dot.camera/CameraPreviewScaleType.FILL///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-document/com.innovatrics.dot.camera/-camera-preview-scale-type/-f-i-l-l/index.html
 $dokka.location:com.innovatrics.dot.camera/CameraPreviewScaleType.FIT///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}dot-document/com.innovatrics.dot.camera/-camera-preview-scale-type/-f-i-t/index.html
 $dokka.location:com.innovatrics.dot.camera/CameraPreviewScaleType///PointingToDeclaration/dot-document/com.innovatrics.dot.camera/-camera-preview-scale-type/index.html
